@@ -1,7 +1,7 @@
 ﻿
 namespace LMA_project
 {
-    partial class Form2
+    partial class Opmerkingen
     {
         /// <summary>
         /// Required designer variable.
@@ -113,7 +113,7 @@ namespace LMA_project
             this.label1.TabIndex = 10;
             this.label1.Text = "Opmerkingen:";
             // 
-            // Form2
+            // Opmerkingen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -124,8 +124,8 @@ namespace LMA_project
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "Opmerkingen";
+            this.Text = "opmerkingen";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

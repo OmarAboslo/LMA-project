@@ -28,109 +28,118 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonhooikoorts = new System.Windows.Forms.Button();
-            this.buttondepressie = new System.Windows.Forms.Button();
-            this.buttonAlzheimer = new System.Windows.Forms.Button();
-            this.buttonKeelontsteking = new System.Windows.Forms.Button();
-            this.buttonAids = new System.Windows.Forms.Button();
-            this.buttonAdhd = new System.Windows.Forms.Button();
-            this.buttonGriep = new System.Windows.Forms.Button();
-            this.buttonAstma = new System.Windows.Forms.Button();
+            this.Buttonhooikoorts = new System.Windows.Forms.Button();
+            this.Buttondepressie = new System.Windows.Forms.Button();
+            this.ButtonAlzheimer = new System.Windows.Forms.Button();
+            this.ButtonKeelontsteking = new System.Windows.Forms.Button();
+            this.ButtonAids = new System.Windows.Forms.Button();
+            this.ButtonAdhd = new System.Windows.Forms.Button();
+            this.ButtonGriep = new System.Windows.Forms.Button();
+            this.ButtonAstma = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // buttonhooikoorts
+            // Buttonhooikoorts
             // 
-            this.buttonhooikoorts.Location = new System.Drawing.Point(438, 334);
-            this.buttonhooikoorts.Name = "buttonhooikoorts";
-            this.buttonhooikoorts.Size = new System.Drawing.Size(344, 36);
-            this.buttonhooikoorts.TabIndex = 15;
-            this.buttonhooikoorts.Text = "hooikoorts";
-            this.buttonhooikoorts.UseVisualStyleBackColor = true;
-            this.buttonhooikoorts.Click += new System.EventHandler(this.buttonhooikoorts_Click);
+            this.Buttonhooikoorts.Location = new System.Drawing.Point(328, 271);
+            this.Buttonhooikoorts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Buttonhooikoorts.Name = "Buttonhooikoorts";
+            this.Buttonhooikoorts.Size = new System.Drawing.Size(258, 29);
+            this.Buttonhooikoorts.TabIndex = 15;
+            this.Buttonhooikoorts.Text = "hooikoorts";
+            this.Buttonhooikoorts.UseVisualStyleBackColor = true;
+            this.Buttonhooikoorts.Click += new System.EventHandler(this.Buttonhooikoorts_Click);
             // 
-            // buttondepressie
+            // Buttondepressie
             // 
-            this.buttondepressie.Location = new System.Drawing.Point(438, 245);
-            this.buttondepressie.Name = "buttondepressie";
-            this.buttondepressie.Size = new System.Drawing.Size(344, 36);
-            this.buttondepressie.TabIndex = 14;
-            this.buttondepressie.Text = "Depressie";
-            this.buttondepressie.UseVisualStyleBackColor = true;
-            this.buttondepressie.Click += new System.EventHandler(this.buttondepressie_Click);
+            this.Buttondepressie.Location = new System.Drawing.Point(328, 199);
+            this.Buttondepressie.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Buttondepressie.Name = "Buttondepressie";
+            this.Buttondepressie.Size = new System.Drawing.Size(258, 29);
+            this.Buttondepressie.TabIndex = 14;
+            this.Buttondepressie.Text = "Depressie";
+            this.Buttondepressie.UseVisualStyleBackColor = true;
+            this.Buttondepressie.Click += new System.EventHandler(this.Buttondepressie_Click);
             // 
-            // buttonAlzheimer
+            // ButtonAlzheimer
             // 
-            this.buttonAlzheimer.Location = new System.Drawing.Point(438, 171);
-            this.buttonAlzheimer.Name = "buttonAlzheimer";
-            this.buttonAlzheimer.Size = new System.Drawing.Size(344, 36);
-            this.buttonAlzheimer.TabIndex = 13;
-            this.buttonAlzheimer.Text = "Alzheimer";
-            this.buttonAlzheimer.UseVisualStyleBackColor = true;
-            this.buttonAlzheimer.Click += new System.EventHandler(this.buttonAlzheimer_Click);
+            this.ButtonAlzheimer.Location = new System.Drawing.Point(328, 139);
+            this.ButtonAlzheimer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonAlzheimer.Name = "ButtonAlzheimer";
+            this.ButtonAlzheimer.Size = new System.Drawing.Size(258, 29);
+            this.ButtonAlzheimer.TabIndex = 13;
+            this.ButtonAlzheimer.Text = "Alzheimer";
+            this.ButtonAlzheimer.UseVisualStyleBackColor = true;
+            this.ButtonAlzheimer.Click += new System.EventHandler(this.ButtonAlzheimer_Click);
             // 
-            // buttonKeelontsteking
+            // ButtonKeelontsteking
             // 
-            this.buttonKeelontsteking.Location = new System.Drawing.Point(438, 81);
-            this.buttonKeelontsteking.Name = "buttonKeelontsteking";
-            this.buttonKeelontsteking.Size = new System.Drawing.Size(344, 36);
-            this.buttonKeelontsteking.TabIndex = 12;
-            this.buttonKeelontsteking.Text = "keelontsteking";
-            this.buttonKeelontsteking.UseVisualStyleBackColor = true;
-            this.buttonKeelontsteking.Click += new System.EventHandler(this.buttonKeelontsteking_Click);
+            this.ButtonKeelontsteking.Location = new System.Drawing.Point(328, 66);
+            this.ButtonKeelontsteking.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonKeelontsteking.Name = "ButtonKeelontsteking";
+            this.ButtonKeelontsteking.Size = new System.Drawing.Size(258, 29);
+            this.ButtonKeelontsteking.TabIndex = 12;
+            this.ButtonKeelontsteking.Text = "keelontsteking";
+            this.ButtonKeelontsteking.UseVisualStyleBackColor = true;
+            this.ButtonKeelontsteking.Click += new System.EventHandler(this.ButtonKeelontsteking_Click);
             // 
-            // buttonAids
+            // ButtonAids
             // 
-            this.buttonAids.Location = new System.Drawing.Point(19, 334);
-            this.buttonAids.Name = "buttonAids";
-            this.buttonAids.Size = new System.Drawing.Size(344, 36);
-            this.buttonAids.TabIndex = 11;
-            this.buttonAids.Text = "Aids";
-            this.buttonAids.UseVisualStyleBackColor = true;
-            this.buttonAids.Click += new System.EventHandler(this.buttonAids_Click);
+            this.ButtonAids.Location = new System.Drawing.Point(14, 271);
+            this.ButtonAids.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonAids.Name = "ButtonAids";
+            this.ButtonAids.Size = new System.Drawing.Size(258, 29);
+            this.ButtonAids.TabIndex = 11;
+            this.ButtonAids.Text = "Aids";
+            this.ButtonAids.UseVisualStyleBackColor = true;
+            this.ButtonAids.Click += new System.EventHandler(this.ButtonAids_Click);
             // 
-            // buttonAdhd
+            // ButtonAdhd
             // 
-            this.buttonAdhd.Location = new System.Drawing.Point(19, 245);
-            this.buttonAdhd.Name = "buttonAdhd";
-            this.buttonAdhd.Size = new System.Drawing.Size(344, 36);
-            this.buttonAdhd.TabIndex = 10;
-            this.buttonAdhd.Text = "ADHD";
-            this.buttonAdhd.UseVisualStyleBackColor = true;
-            this.buttonAdhd.Click += new System.EventHandler(this.buttonAdhd_Click);
+            this.ButtonAdhd.Location = new System.Drawing.Point(14, 199);
+            this.ButtonAdhd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonAdhd.Name = "ButtonAdhd";
+            this.ButtonAdhd.Size = new System.Drawing.Size(258, 29);
+            this.ButtonAdhd.TabIndex = 10;
+            this.ButtonAdhd.Text = "ADHD";
+            this.ButtonAdhd.UseVisualStyleBackColor = true;
+            this.ButtonAdhd.Click += new System.EventHandler(this.ButtonAdhd_Click);
             // 
-            // buttonGriep
+            // ButtonGriep
             // 
-            this.buttonGriep.Location = new System.Drawing.Point(19, 171);
-            this.buttonGriep.Name = "buttonGriep";
-            this.buttonGriep.Size = new System.Drawing.Size(344, 36);
-            this.buttonGriep.TabIndex = 9;
-            this.buttonGriep.Text = "Griep";
-            this.buttonGriep.UseVisualStyleBackColor = true;
-            this.buttonGriep.Click += new System.EventHandler(this.buttonGriep_Click);
+            this.ButtonGriep.Location = new System.Drawing.Point(14, 139);
+            this.ButtonGriep.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonGriep.Name = "ButtonGriep";
+            this.ButtonGriep.Size = new System.Drawing.Size(258, 29);
+            this.ButtonGriep.TabIndex = 9;
+            this.ButtonGriep.Text = "Griep";
+            this.ButtonGriep.UseVisualStyleBackColor = true;
+            this.ButtonGriep.Click += new System.EventHandler(this.ButtonGriep_Click);
             // 
-            // buttonAstma
+            // ButtonAstma
             // 
-            this.buttonAstma.Location = new System.Drawing.Point(19, 81);
-            this.buttonAstma.Name = "buttonAstma";
-            this.buttonAstma.Size = new System.Drawing.Size(344, 36);
-            this.buttonAstma.TabIndex = 8;
-            this.buttonAstma.Text = "Astma";
-            this.buttonAstma.UseVisualStyleBackColor = true;
-            this.buttonAstma.Click += new System.EventHandler(this.buttonAstma_Click);
+            this.ButtonAstma.Location = new System.Drawing.Point(14, 66);
+            this.ButtonAstma.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonAstma.Name = "ButtonAstma";
+            this.ButtonAstma.Size = new System.Drawing.Size(258, 29);
+            this.ButtonAstma.TabIndex = 8;
+            this.ButtonAstma.Text = "Astma";
+            this.ButtonAstma.UseVisualStyleBackColor = true;
+            this.ButtonAstma.Click += new System.EventHandler(this.ButtonAstma_Click);
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.buttonhooikoorts);
-            this.Controls.Add(this.buttondepressie);
-            this.Controls.Add(this.buttonAlzheimer);
-            this.Controls.Add(this.buttonKeelontsteking);
-            this.Controls.Add(this.buttonAids);
-            this.Controls.Add(this.buttonAdhd);
-            this.Controls.Add(this.buttonGriep);
-            this.Controls.Add(this.buttonAstma);
+            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.Buttonhooikoorts);
+            this.Controls.Add(this.Buttondepressie);
+            this.Controls.Add(this.ButtonAlzheimer);
+            this.Controls.Add(this.ButtonKeelontsteking);
+            this.Controls.Add(this.ButtonAids);
+            this.Controls.Add(this.ButtonAdhd);
+            this.Controls.Add(this.ButtonGriep);
+            this.Controls.Add(this.ButtonAstma);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form4";
             this.Text = "Form4";
             this.Load += new System.EventHandler(this.Form4_Load);
@@ -140,13 +149,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button buttonhooikoorts;
-        private System.Windows.Forms.Button buttondepressie;
-        private System.Windows.Forms.Button buttonAlzheimer;
-        private System.Windows.Forms.Button buttonKeelontsteking;
-        private System.Windows.Forms.Button buttonAids;
-        private System.Windows.Forms.Button buttonAdhd;
-        private System.Windows.Forms.Button buttonGriep;
-        private System.Windows.Forms.Button buttonAstma;
+        private System.Windows.Forms.Button Buttonhooikoorts;
+        private System.Windows.Forms.Button Buttondepressie;
+        private System.Windows.Forms.Button ButtonAlzheimer;
+        private System.Windows.Forms.Button ButtonKeelontsteking;
+        private System.Windows.Forms.Button ButtonAids;
+        private System.Windows.Forms.Button ButtonAdhd;
+        private System.Windows.Forms.Button ButtonGriep;
+        private System.Windows.Forms.Button ButtonAstma;
     }
 }

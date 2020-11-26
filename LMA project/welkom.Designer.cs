@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -51,17 +51,17 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Welkom";
             // 
-            // button1
+            // Button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(484, 240);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(312, 49);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Ik heb symptomen";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Button1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button1.Location = new System.Drawing.Point(484, 240);
+            this.Button1.Name = "Button1";
+            this.Button1.Size = new System.Drawing.Size(312, 49);
+            this.Button1.TabIndex = 1;
+            this.Button1.Text = "Ik heb symptomen";
+            this.Button1.UseVisualStyleBackColor = false;
+ 
             // 
             // button2
             // 
@@ -148,7 +148,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Button1);
             this.Controls.Add(this.label1);
             this.Name = "welkom";
             this.Text = "Welkom";
@@ -164,7 +164,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label2;
