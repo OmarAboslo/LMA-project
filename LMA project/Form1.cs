@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace LMA_project
 {
-    public partial class Form1 : Form
+    public partial class welkom : Form
     {
-        public Form1()
+        public welkom()
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }
