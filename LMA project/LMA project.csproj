@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="welkom.cs">
+    <Compile Include="Hallo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="welkom.Designer.cs">
-      <DependentUpon>welkom.cs</DependentUpon>
+    <Compile Include="Hallo.Designer.cs">
+      <DependentUpon>Hallo.cs</DependentUpon>
     </Compile>
     <Compile Include="opmerkingen.cs">
       <SubType>Form</SubType>
@@ -66,8 +66,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="welkom.resx">
-      <DependentUpon>welkom.cs</DependentUpon>
+    <EmbeddedResource Include="Hallo.resx">
+      <DependentUpon>Hallo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="opmerkingen.resx">
       <DependentUpon>opmerkingen.cs</DependentUpon>

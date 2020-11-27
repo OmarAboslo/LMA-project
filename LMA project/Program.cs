@@ -16,7 +16,7 @@ namespace LMA_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new welkom());
+            Application.Run(new Hallo());
         }
     }
 }

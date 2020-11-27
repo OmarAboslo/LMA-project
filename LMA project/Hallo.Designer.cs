@@ -1,6 +1,6 @@
 ﻿namespace LMA_project
 {
-    partial class welkom
+    partial class Hallo
     {
         /// <summary>
         /// Required designer variable.
@@ -61,7 +61,7 @@
             this.Button1.TabIndex = 1;
             this.Button1.Text = "Ik heb symptomen";
             this.Button1.UseVisualStyleBackColor = false;
- 
+            this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
@@ -137,7 +137,7 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // welkom
+            // Hallo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -150,8 +150,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.label1);
-            this.Name = "welkom";
-            this.Text = "Welkom";
+            this.Name = "Hallo";
+            this.Text = "Hallo";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
