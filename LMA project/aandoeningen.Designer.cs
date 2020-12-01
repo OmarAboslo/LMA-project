@@ -1,6 +1,6 @@
 ﻿namespace LMA_project
 {
-    partial class Form4
+    partial class aandoeningen
     {
         /// <summary>
         /// Required designer variable.

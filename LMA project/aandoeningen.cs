@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LMA_project
 {
-    public partial class Form4 : Form
+    public partial class aandoeningen : Form
     {
-        public Form4()
+        public aandoeningen()
         {
             InitializeComponent();
         }
