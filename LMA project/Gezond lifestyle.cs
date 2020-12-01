@@ -69,5 +69,34 @@ namespace LMA_project
         {
 
         }
+
+        private void butOk_Click(object sender, EventArgs e)
+        {
+            double gewicht = Convert.ToDouble(TextbGewicht.Text);
+            double lengte  = Convert.ToDouble(TextbLengte.Text);
+            
+            double result = gewicht / (lengte * lengte);
+            int leeftijd= Convert.ToInt32(textbGeboortedatm.Text);
+
+            if (result <= 18.5 && leeftijd >= 18 )
+            {
+                Te_licht Telicht = new Te_licht();
+                this.Hide();
+                Telicht.ShowDialog();
+            }
+            else if (result >= 18.5 && result <= 24.9 && leeftijd >= 18)
+            {
+                Normaal normaal = new Normaal();
+                this.Hide();
+                normaal.ShowDialog();
+            }
+            else if (result >= 24.9 && leeftijd >= 18)
+            {
+                Te_zwaar tezwaar = new Te_zwaar();
+                this.Hide();
+                tezwaar.ShowDialog();
+            }
+
+        }
     }
 }
