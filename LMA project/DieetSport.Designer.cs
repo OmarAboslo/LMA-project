@@ -34,30 +34,33 @@
             // 
             // buttonDieet
             // 
-            this.buttonDieet.Location = new System.Drawing.Point(442, 162);
+            this.buttonDieet.Location = new System.Drawing.Point(341, 132);
+            this.buttonDieet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonDieet.Name = "buttonDieet";
             this.buttonDieet.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.buttonDieet.Size = new System.Drawing.Size(303, 98);
+            this.buttonDieet.Size = new System.Drawing.Size(227, 80);
             this.buttonDieet.TabIndex = 10;
             this.buttonDieet.Text = "Dieet samenstellen";
             this.buttonDieet.UseVisualStyleBackColor = true;
             // 
             // buttonTraining
             // 
-            this.buttonTraining.Location = new System.Drawing.Point(63, 162);
+            this.buttonTraining.Location = new System.Drawing.Point(47, 132);
+            this.buttonTraining.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonTraining.Name = "buttonTraining";
-            this.buttonTraining.Size = new System.Drawing.Size(297, 98);
+            this.buttonTraining.Size = new System.Drawing.Size(223, 80);
             this.buttonTraining.TabIndex = 9;
             this.buttonTraining.Text = "Training samenstellen";
             this.buttonTraining.UseVisualStyleBackColor = true;
             // 
             // DieetSport
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.buttonDieet);
             this.Controls.Add(this.buttonTraining);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "DieetSport";
             this.Text = "DieetSport";
             this.ResumeLayout(false);
