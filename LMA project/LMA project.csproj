@@ -47,29 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database.cs" />
-    <Compile Include="Hallo.cs">
+    <Compile Include="DieetSport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Hallo.Designer.cs">
-      <DependentUpon>Hallo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Normaal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Normaal.Designer.cs">
-      <DependentUpon>Normaal.cs</DependentUpon>
-    </Compile>
-    <Compile Include="opmerkingen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="opmerkingen.Designer.cs">
-      <DependentUpon>opmerkingen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="aandoenigen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="aandoenigen.Designer.cs">
-      <DependentUpon>aandoenigen.cs</DependentUpon>
+    <Compile Include="DieetSport.Designer.cs">
+      <DependentUpon>DieetSport.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,26 +61,14 @@
     <Compile Include="Gezond lifestyle.Designer.cs">
       <DependentUpon>Gezond lifestyle.cs</DependentUpon>
     </Compile>
-    <Compile Include="Te licht.cs">
+    <Compile Include="Vragen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Te licht.Designer.cs">
-      <DependentUpon>Te licht.cs</DependentUpon>
+    <Compile Include="Vragen.Designer.cs">
+      <DependentUpon>Vragen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Te zwaar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Te zwaar.Designer.cs">
-      <DependentUpon>Te zwaar.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Hallo.resx">
-      <DependentUpon>Hallo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="opmerkingen.resx">
-      <DependentUpon>opmerkingen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="aandoenigen.resx">
-      <DependentUpon>aandoenigen.cs</DependentUpon>
+    <EmbeddedResource Include="DieetSport.resx">
+      <DependentUpon>DieetSport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -107,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gezond lifestyle.resx">
       <DependentUpon>Gezond lifestyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vragen.resx">
+      <DependentUpon>Vragen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

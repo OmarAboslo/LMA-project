@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace LMA_project
 {
-    public partial class Normaal : Form
+    public partial class Vragen : Form
     {
-        public Normaal()
+        public Vragen()
         {
             InitializeComponent();
+        }
+
+        private void Vragen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

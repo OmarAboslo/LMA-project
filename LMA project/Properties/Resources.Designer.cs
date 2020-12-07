@@ -63,6 +63,37 @@ namespace LMA_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap e64bb39b1638bdfe7baea24844e1a574 {
+            get {
+                object obj = ResourceManager.GetObject("e64bb39b1638bdfe7baea24844e1a574", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_0015_depression_icon_jpg_mediaclass_list_image_e236162578feb619104a8b70b221afe1aa6b7c0d_ {
+            get {
+                object obj = ResourceManager.GetObject("icon_0015_depression_icon.jpg(mediaclass-list-image.e236162578feb619104a8b70b221a" +
+                        "fe1aa6b7c0d)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_934791642_1024x1024 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-934791642-1024x1024", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap soso {
             get {
                 object obj = ResourceManager.GetObject("soso", resourceCulture);

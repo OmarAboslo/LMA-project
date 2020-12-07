@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace LMA_project
 {
-    public partial class Opmerkingen : Form
+    public partial class DieetSport : Form
     {
-        public Opmerkingen()
+        public DieetSport()
         {
             InitializeComponent();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

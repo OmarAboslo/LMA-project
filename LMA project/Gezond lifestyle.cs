@@ -72,9 +72,8 @@ namespace LMA_project
 
         private void butOk_Click(object sender, EventArgs e)
         {
-            double gewicht = Convert.ToDouble(TextbGewicht.Text);
+           /* double gewicht = Convert.ToDouble(TextbGewicht.Text);
             double lengte  = Convert.ToDouble(TextbLengte.Text);
-            
             double result = gewicht / (lengte * lengte);
             int leeftijd= Convert.ToInt32(textbGeboortedatm.Text);
 
@@ -94,8 +93,8 @@ namespace LMA_project
             {
                 Te_zwaar tezwaar = new Te_zwaar();
                 this.Hide();
-                tezwaar.ShowDialog();
-            }
+                tezwaar.ShowDialog(); 
+           }*/
 
         }
     }

@@ -118,7 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="e64bb39b1638bdfe7baea24844e1a574" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e64bb39b1638bdfe7baea24844e1a574.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-934791642-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-934791642-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="soso" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\soso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_0015_depression_icon.jpg(mediaclass-list-image.e236162578feb619104a8b70b221afe1aa6b7c0d)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_0015_depression_icon.jpg(mediaclass-list-image.e236162578feb619104a8b70b221afe1aa6b7c0d).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
