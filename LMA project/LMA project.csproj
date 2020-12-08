@@ -73,12 +73,6 @@
     <Compile Include="Gezond lifestyle.Designer.cs">
       <DependentUpon>Gezond lifestyle.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vragen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vragen.Designer.cs">
-      <DependentUpon>Vragen.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="DieetSport.resx">
       <DependentUpon>DieetSport.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,9 +89,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gezond lifestyle.resx">
       <DependentUpon>Gezond lifestyle.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Vragen.resx">
-      <DependentUpon>Vragen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -76,7 +76,7 @@ namespace LMA_project
             int Lengte = Convert.ToInt32(TextbLengte.Text);
             int Gewenstegewicht= Convert.ToInt32(textBoxGewensteGewicht.Text);
             int leeftijd= Convert.ToInt32(textbGeboortedatm.Text);
-            string
+            
 
 
 
