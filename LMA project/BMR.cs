@@ -8,34 +8,26 @@ namespace LMA_project
 {
     class BMR
     {
-       
-        private double Gewicht ;
-        private double Lengte;
-     private double Leeftijd ;
-     private double Bmr;
+     private double Gewicht;
+     private double Lengte;
+     private int Leeftijd ;
 
-        public BMR(double weight,double length, double age)
+        public BMR(double weight,double length, int age)
         {
-            Sport get = new Sport();
-
-            weight = Gewicht;
-            length = Lengte;
-            age = Leeftijd;
+           this.Gewicht=weight;
+            this.Lengte = length;
+            this.Leeftijd = age;
         }
         public double BMRMan ()
         {
-            Bmr = 66 + (13.7 * Gewicht) + (5 * Lengte) - (6.8 * Leeftijd);
+            double Bmr = 66 + (13.7 * Gewicht) + (5 * Lengte) - (6.8 * Leeftijd);
             return Bmr;
         }
 
         public double BMRvrouw()
         {
-            Bmr = 655 + (9.6 * Gewicht) + (1.8 * Lengte) - (4.7 * Leeftijd);
+            double Bmr = 655 + (9.6 * Gewicht) + (1.8 * Lengte) - (4.7 * Leeftijd);
             return Bmr;
         }
-
-
-
-
     }
 }

@@ -47,18 +47,17 @@ namespace LMA_project
             {
                 if (RBNormaal.Checked == true)
                 {
-                   // BMR = BMR - 250;
-                    
+                    result.Text = Convert.ToString(uitslag - 250);
+
                 }
                 else if (RBSnel.Checked == true)
                 {
-                  // BMR = BMR - 500;
+                    result.Text = Convert.ToString(uitslag - 500);
 
                 }
                 else if (RBZosnelmogelijk.Checked == true)
                 {
-                   // BMR = BMR - 1000;
-
+                    result.Text = Convert.ToString(uitslag - 1000);
                 }
                 else
                 {
@@ -74,7 +73,11 @@ namespace LMA_project
 
             double Gewicht = Convert.ToDouble(TextbGewicht.Text);
             double Lengte = Convert.ToDouble(TextbLengte.Text);
-            double leeftijd = Convert.ToDouble(textbLeeftijd.Text);
+            int leeftijd = Convert.ToInt32(textbLeeftijd.Text);
+            if (RBJa.Checked== true)
+            {
+                MessageBox.Show("Overleg met jouw huisarts,voordat je gaat beginnen");
+            }
            //man of vrouw
             if (RBMan.Checked == true)
             {
