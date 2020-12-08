@@ -45,6 +45,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.RBJa = new System.Windows.Forms.RadioButton();
             this.RBNee = new System.Windows.Forms.RadioButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.RBMan = new System.Windows.Forms.RadioButton();
+            this.RBVrouw = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -155,7 +158,7 @@
             // RBNormaal
             // 
             this.RBNormaal.AutoSize = true;
-            this.RBNormaal.Location = new System.Drawing.Point(132, 351);
+            this.RBNormaal.Location = new System.Drawing.Point(124, 323);
             this.RBNormaal.Name = "RBNormaal";
             this.RBNormaal.Size = new System.Drawing.Size(82, 21);
             this.RBNormaal.TabIndex = 18;
@@ -166,7 +169,7 @@
             // RBSnel
             // 
             this.RBSnel.AutoSize = true;
-            this.RBSnel.Location = new System.Drawing.Point(373, 351);
+            this.RBSnel.Location = new System.Drawing.Point(369, 323);
             this.RBSnel.Name = "RBSnel";
             this.RBSnel.Size = new System.Drawing.Size(57, 21);
             this.RBSnel.TabIndex = 19;
@@ -177,7 +180,7 @@
             // RBZosnelmogelijk
             // 
             this.RBZosnelmogelijk.AutoSize = true;
-            this.RBZosnelmogelijk.Location = new System.Drawing.Point(611, 362);
+            this.RBZosnelmogelijk.Location = new System.Drawing.Point(609, 323);
             this.RBZosnelmogelijk.Name = "RBZosnelmogelijk";
             this.RBZosnelmogelijk.Size = new System.Drawing.Size(131, 21);
             this.RBZosnelmogelijk.TabIndex = 20;
@@ -189,7 +192,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(85, 408);
+            this.label4.Location = new System.Drawing.Point(85, 357);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(632, 29);
             this.label4.TabIndex = 21;
@@ -198,7 +201,7 @@
             // RBJa
             // 
             this.RBJa.AutoSize = true;
-            this.RBJa.Location = new System.Drawing.Point(232, 466);
+            this.RBJa.Location = new System.Drawing.Point(209, 405);
             this.RBJa.Name = "RBJa";
             this.RBJa.Size = new System.Drawing.Size(44, 21);
             this.RBJa.TabIndex = 22;
@@ -209,7 +212,7 @@
             // RBNee
             // 
             this.RBNee.AutoSize = true;
-            this.RBNee.Location = new System.Drawing.Point(475, 466);
+            this.RBNee.Location = new System.Drawing.Point(430, 405);
             this.RBNee.Name = "RBNee";
             this.RBNee.Size = new System.Drawing.Size(55, 21);
             this.RBNee.TabIndex = 23;
@@ -217,12 +220,47 @@
             this.RBNee.Text = "Nee";
             this.RBNee.UseVisualStyleBackColor = true;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(95, 441);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(243, 29);
+            this.label5.TabIndex = 24;
+            this.label5.Text = "Wat is jouw geslacht?";
+            // 
+            // RBMan
+            // 
+            this.RBMan.AutoSize = true;
+            this.RBMan.Location = new System.Drawing.Point(209, 482);
+            this.RBMan.Name = "RBMan";
+            this.RBMan.Size = new System.Drawing.Size(56, 21);
+            this.RBMan.TabIndex = 25;
+            this.RBMan.TabStop = true;
+            this.RBMan.Text = "Man";
+            this.RBMan.UseVisualStyleBackColor = true;
+            // 
+            // RBVrouw
+            // 
+            this.RBVrouw.AutoSize = true;
+            this.RBVrouw.Location = new System.Drawing.Point(430, 482);
+            this.RBVrouw.Name = "RBVrouw";
+            this.RBVrouw.Size = new System.Drawing.Size(68, 21);
+            this.RBVrouw.TabIndex = 26;
+            this.RBVrouw.TabStop = true;
+            this.RBVrouw.Text = "Vrouw";
+            this.RBVrouw.UseVisualStyleBackColor = true;
+            // 
             // Sport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(813, 556);
+            this.Controls.Add(this.RBVrouw);
+            this.Controls.Add(this.RBMan);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.RBNee);
             this.Controls.Add(this.RBJa);
             this.Controls.Add(this.label4);
@@ -268,5 +306,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RadioButton RBJa;
         private System.Windows.Forms.RadioButton RBNee;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.RadioButton RBMan;
+        private System.Windows.Forms.RadioButton RBVrouw;
     }
 }
