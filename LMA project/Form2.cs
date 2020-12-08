@@ -47,7 +47,7 @@ namespace LMA_project
                 vragen.Show();
                 this.Hide();
             }
-
+            
             else
                 MessageBox.Show("De gebruikersnaam/wachtwoord is incorrect");
 
