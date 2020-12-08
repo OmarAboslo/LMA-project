@@ -76,6 +76,8 @@ namespace LMA_project
             int Lengte = Convert.ToInt32(TextbLengte.Text);
             int Gewenstegewicht= Convert.ToInt32(textBoxGewensteGewicht.Text);
             int leeftijd= Convert.ToInt32(textbGeboortedatm.Text);
+
+
             
 
 
@@ -114,6 +116,11 @@ namespace LMA_project
                  this.Hide();
                  tezwaar.ShowDialog(); 
             }*/
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
 
         }
     }
