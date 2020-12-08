@@ -15,70 +15,88 @@ namespace LMA_project
         public Sport()
         {
             InitializeComponent();
-        }
-
-        private void Sport_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void butVoetballen_Click(object sender, EventArgs e)
-        {
             
-            Panel panel1 = new Panel();
-            TextBox textBox1 = new TextBox();
-            Label label1 = new Label();
-
-            // Initialize the Panel control.
-            panel1.Location = new Point();
-            panel1.Size = new Size(831, 603);
-            // Set the Borderstyle for the Panel to three-dimensional.
-            panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-
-            // Initialize the Label and TextBox controls.
-            label1.Location = new Point(16, 16);
-            label1.Text = "hoe veel uur sport jij?";
-            label1.Size = new Size(104, 16);
-            textBox1.Location = new Point(16, 32);
-            textBox1.Text = "";
-            textBox1.Size = new Size(152, 20);
-
-            // Add the Panel control to the form.
-            this.Controls.Add(panel1);
-            // Add the Label and TextBox controls to the Panel.
-            panel1.Controls.Add(label1);
-            panel1.Controls.Add(textBox1);
         }
 
-        private void butVoetballen_Click_1(object sender, EventArgs e)
+        public void Snelheid(double uitslag)
         {
+            double Gewicht = Convert.ToDouble(TextbGewicht.Text);
+            double Gewenstegewicht = Convert.ToDouble(textBoxGewensteGewicht.Text);
+            
+            if (Gewicht < Gewenstegewicht)
+            {
+                if (RBNormaal.Checked == true)
+                {
+                   
+                    result.Text = Convert.ToString(uitslag + 250);
+                }
+                else if (RBSnel.Checked == true)
+                {
+                   
+                    result.Text = Convert.ToString(uitslag +500);
 
+                }
+                else if (RBZosnelmogelijk.Checked == true)
+                {
+                  
+                    result.Text = Convert.ToString(uitslag + 1000);
+
+                }
+            }
+            else if (Gewicht > Gewenstegewicht)
+            {
+                if (RBNormaal.Checked == true)
+                {
+                   // BMR = BMR - 250;
+                    
+                }
+                else if (RBSnel.Checked == true)
+                {
+                  // BMR = BMR - 500;
+
+                }
+                else if (RBZosnelmogelijk.Checked == true)
+                {
+                   // BMR = BMR - 1000;
+
+                }
+                else
+                {
+                    MessageBox.Show("Er zijn vragen die nog niet beantwoord zijn, conntroleer alle vragen en probeer opnieuw");
+                }
+            }
         }
 
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void butOk_Click(object sender, EventArgs e)
         {
-            int Gewicht = Convert.ToInt32(TextbGewicht.Text);
-            int Lengte = Convert.ToInt32(TextbLengte.Text);
-            int Gewenstegewicht= Convert.ToInt32(textBoxGewensteGewicht.Text);
-            int leeftijd= Convert.ToInt32(textbGeboortedatm.Text);
+            // gegevens van de gebruiker ophalen
+
+            double Gewicht = Convert.ToDouble(TextbGewicht.Text);
+            double Lengte = Convert.ToDouble(TextbLengte.Text);
+            double leeftijd = Convert.ToDouble(textbLeeftijd.Text);
+           //man of vrouw
+            if (RBMan.Checked == true)
+            {
+                //class BMR aanroepen
+               BMR man = new BMR(Gewicht,Lengte,leeftijd);
+                // method snelheid aanroepen
+                Snelheid(man.BMRMan());
+
+            }
+            else if (RBVrouw.Checked == true)
+            {
+                //class BMR aanroepen
+                BMR vrouw = new BMR(Gewicht, Lengte, leeftijd);
+                //// method snelheid aanroepen
+                Snelheid(vrouw.BMRvrouw());
+            } 
+
+            }
+
+     
 
 
-            
 
 
 
@@ -93,35 +111,36 @@ namespace LMA_project
 
 
 
-            /* double gewicht = Convert.ToDouble(TextbGewicht.Text);
-             double lengte  = Convert.ToDouble(TextbLengte.Text);
-             double result = gewicht / (lengte * lengte);
-             int leeftijd= Convert.ToInt32(textbGeboortedatm.Text);
 
-             if (result <= 18.5 && leeftijd >= 18 )
-             {
-                 Te_licht Telicht = new Te_licht();
-                 this.Hide();
-                 Telicht.ShowDialog();
-             }
-             else if (result >= 18.5 && result <= 24.9 && leeftijd >= 18)
-             {
-                 Normaal normaal = new Normaal();
-                 this.Hide();
-                 normaal.ShowDialog();
-             }
-             else if (result >= 24.9 && leeftijd >= 18)
-             {
-                 Te_zwaar tezwaar = new Te_zwaar();
-                 this.Hide();
-                 tezwaar.ShowDialog(); 
-            }*/
 
-        }
 
-        private void label9_Click(object sender, EventArgs e)
-        {
 
-        }
+        /* double gewicht = Convert.ToDouble(TextbGewicht.Text);
+         double lengte  = Convert.ToDouble(TextbLengte.Text);
+         double result = gewicht / (lengte * lengte);
+         int leeftijd= Convert.ToInt32(textbGeboortedatm.Text);
+
+         if (result <= 18.5 && leeftijd >= 18 )
+         {
+             Te_licht Telicht = new Te_licht();
+             this.Hide();
+             Telicht.ShowDialog();
+         }
+         else if (result >= 18.5 && result <= 24.9 && leeftijd >= 18)
+         {
+             Normaal normaal = new Normaal();
+             this.Hide();
+             normaal.ShowDialog();
+         }
+         else if (result >= 24.9 && leeftijd >= 18)
+         {
+             Te_zwaar tezwaar = new Te_zwaar();
+             this.Hide();
+             tezwaar.ShowDialog(); 
+        }*/
+
+
+
+
     }
 }

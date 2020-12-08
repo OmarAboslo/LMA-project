@@ -33,7 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.TextbGewicht = new System.Windows.Forms.TextBox();
             this.TextbLengte = new System.Windows.Forms.TextBox();
-            this.textbGeboortedatm = new System.Windows.Forms.TextBox();
+            this.textbLeeftijd = new System.Windows.Forms.TextBox();
             this.butOk = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBoxGewensteGewicht = new System.Windows.Forms.TextBox();
@@ -53,7 +53,16 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.result = new System.Windows.Forms.Label();
+            this.pnlSnelheid = new System.Windows.Forms.Panel();
+            this.pnlActief = new System.Windows.Forms.Panel();
+            this.pnlZiekte = new System.Windows.Forms.Panel();
+            this.pnlGeslacht = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnlSnelheid.SuspendLayout();
+            this.pnlActief.SuspendLayout();
+            this.pnlZiekte.SuspendLayout();
+            this.pnlGeslacht.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -65,7 +74,6 @@
             this.label1.Size = new System.Drawing.Size(150, 50);
             this.label1.TabIndex = 0;
             this.label1.Text = "Gewicht:";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // label2
             // 
@@ -86,7 +94,6 @@
             this.label3.Size = new System.Drawing.Size(136, 50);
             this.label3.TabIndex = 2;
             this.label3.Text = "Leeftijd:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // TextbGewicht
             // 
@@ -104,19 +111,19 @@
             this.TextbLengte.Size = new System.Drawing.Size(124, 40);
             this.TextbLengte.TabIndex = 4;
             // 
-            // textbGeboortedatm
+            // textbLeeftijd
             // 
-            this.textbGeboortedatm.Location = new System.Drawing.Point(693, 92);
-            this.textbGeboortedatm.Multiline = true;
-            this.textbGeboortedatm.Name = "textbGeboortedatm";
-            this.textbGeboortedatm.Size = new System.Drawing.Size(108, 40);
-            this.textbGeboortedatm.TabIndex = 5;
+            this.textbLeeftijd.Location = new System.Drawing.Point(693, 92);
+            this.textbLeeftijd.Multiline = true;
+            this.textbLeeftijd.Name = "textbLeeftijd";
+            this.textbLeeftijd.Size = new System.Drawing.Size(108, 40);
+            this.textbLeeftijd.TabIndex = 5;
             // 
             // butOk
             // 
-            this.butOk.Location = new System.Drawing.Point(680, 516);
+            this.butOk.Location = new System.Drawing.Point(680, 497);
             this.butOk.Name = "butOk";
-            this.butOk.Size = new System.Drawing.Size(121, 28);
+            this.butOk.Size = new System.Drawing.Size(121, 47);
             this.butOk.TabIndex = 6;
             this.butOk.Text = "Ok";
             this.butOk.UseVisualStyleBackColor = true;
@@ -163,7 +170,7 @@
             // RBNormaal
             // 
             this.RBNormaal.AutoSize = true;
-            this.RBNormaal.Location = new System.Drawing.Point(442, 273);
+            this.RBNormaal.Location = new System.Drawing.Point(11, 8);
             this.RBNormaal.Name = "RBNormaal";
             this.RBNormaal.Size = new System.Drawing.Size(82, 21);
             this.RBNormaal.TabIndex = 18;
@@ -174,7 +181,7 @@
             // RBSnel
             // 
             this.RBSnel.AutoSize = true;
-            this.RBSnel.Location = new System.Drawing.Point(549, 273);
+            this.RBSnel.Location = new System.Drawing.Point(118, 8);
             this.RBSnel.Name = "RBSnel";
             this.RBSnel.Size = new System.Drawing.Size(57, 21);
             this.RBSnel.TabIndex = 19;
@@ -185,7 +192,7 @@
             // RBZosnelmogelijk
             // 
             this.RBZosnelmogelijk.AutoSize = true;
-            this.RBZosnelmogelijk.Location = new System.Drawing.Point(636, 273);
+            this.RBZosnelmogelijk.Location = new System.Drawing.Point(207, 8);
             this.RBZosnelmogelijk.Name = "RBZosnelmogelijk";
             this.RBZosnelmogelijk.Size = new System.Drawing.Size(131, 21);
             this.RBZosnelmogelijk.TabIndex = 20;
@@ -206,7 +213,7 @@
             // RBJa
             // 
             this.RBJa.AutoSize = true;
-            this.RBJa.Location = new System.Drawing.Point(648, 359);
+            this.RBJa.Location = new System.Drawing.Point(24, 8);
             this.RBJa.Name = "RBJa";
             this.RBJa.Size = new System.Drawing.Size(44, 21);
             this.RBJa.TabIndex = 22;
@@ -217,7 +224,7 @@
             // RBNee
             // 
             this.RBNee.AutoSize = true;
-            this.RBNee.Location = new System.Drawing.Point(732, 359);
+            this.RBNee.Location = new System.Drawing.Point(110, 8);
             this.RBNee.Name = "RBNee";
             this.RBNee.Size = new System.Drawing.Size(55, 21);
             this.RBNee.TabIndex = 23;
@@ -238,7 +245,7 @@
             // RBMan
             // 
             this.RBMan.AutoSize = true;
-            this.RBMan.Location = new System.Drawing.Point(271, 425);
+            this.RBMan.Location = new System.Drawing.Point(10, 13);
             this.RBMan.Name = "RBMan";
             this.RBMan.Size = new System.Drawing.Size(56, 21);
             this.RBMan.TabIndex = 25;
@@ -249,7 +256,7 @@
             // RBVrouw
             // 
             this.RBVrouw.AutoSize = true;
-            this.RBVrouw.Location = new System.Drawing.Point(387, 425);
+            this.RBVrouw.Location = new System.Drawing.Point(126, 13);
             this.RBVrouw.Name = "RBVrouw";
             this.RBVrouw.Size = new System.Drawing.Size(68, 21);
             this.RBVrouw.TabIndex = 26;
@@ -266,12 +273,11 @@
             this.label9.Size = new System.Drawing.Size(204, 29);
             this.label9.TabIndex = 28;
             this.label9.Text = "Hoe actief ben jij?";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(510, 325);
+            this.radioButton1.Location = new System.Drawing.Point(276, 8);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(96, 21);
             this.radioButton1.TabIndex = 31;
@@ -282,7 +288,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(387, 325);
+            this.radioButton2.Location = new System.Drawing.Point(153, 8);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(117, 21);
             this.radioButton2.TabIndex = 30;
@@ -293,7 +299,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(253, 325);
+            this.radioButton3.Location = new System.Drawing.Point(19, 8);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(111, 21);
             this.radioButton3.TabIndex = 29;
@@ -304,7 +310,7 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(627, 325);
+            this.radioButton4.Location = new System.Drawing.Point(393, 8);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(99, 21);
             this.radioButton4.TabIndex = 32;
@@ -312,32 +318,73 @@
             this.radioButton4.Text = "Extra actief";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
+            // result
+            // 
+            this.result.AutoSize = true;
+            this.result.Location = new System.Drawing.Point(115, 497);
+            this.result.Name = "result";
+            this.result.Size = new System.Drawing.Size(0, 17);
+            this.result.TabIndex = 33;
+            // 
+            // pnlSnelheid
+            // 
+            this.pnlSnelheid.Controls.Add(this.RBZosnelmogelijk);
+            this.pnlSnelheid.Controls.Add(this.RBNormaal);
+            this.pnlSnelheid.Controls.Add(this.RBSnel);
+            this.pnlSnelheid.Location = new System.Drawing.Point(419, 258);
+            this.pnlSnelheid.Name = "pnlSnelheid";
+            this.pnlSnelheid.Size = new System.Drawing.Size(341, 36);
+            this.pnlSnelheid.TabIndex = 34;
+            // 
+            // pnlActief
+            // 
+            this.pnlActief.Controls.Add(this.radioButton4);
+            this.pnlActief.Controls.Add(this.radioButton3);
+            this.pnlActief.Controls.Add(this.radioButton2);
+            this.pnlActief.Controls.Add(this.radioButton1);
+            this.pnlActief.Location = new System.Drawing.Point(222, 317);
+            this.pnlActief.Name = "pnlActief";
+            this.pnlActief.Size = new System.Drawing.Size(514, 47);
+            this.pnlActief.TabIndex = 35;
+            // 
+            // pnlZiekte
+            // 
+            this.pnlZiekte.Controls.Add(this.RBJa);
+            this.pnlZiekte.Controls.Add(this.RBNee);
+            this.pnlZiekte.Location = new System.Drawing.Point(626, 370);
+            this.pnlZiekte.Name = "pnlZiekte";
+            this.pnlZiekte.Size = new System.Drawing.Size(200, 47);
+            this.pnlZiekte.TabIndex = 36;
+            // 
+            // pnlGeslacht
+            // 
+            this.pnlGeslacht.Controls.Add(this.RBVrouw);
+            this.pnlGeslacht.Controls.Add(this.RBMan);
+            this.pnlGeslacht.Location = new System.Drawing.Point(250, 416);
+            this.pnlGeslacht.Name = "pnlGeslacht";
+            this.pnlGeslacht.Size = new System.Drawing.Size(200, 47);
+            this.pnlGeslacht.TabIndex = 37;
+            // 
             // Sport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(813, 556);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton3);
+            this.Controls.Add(this.pnlGeslacht);
+            this.Controls.Add(this.pnlZiekte);
+            this.Controls.Add(this.pnlActief);
+            this.Controls.Add(this.pnlSnelheid);
+            this.Controls.Add(this.result);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.RBVrouw);
-            this.Controls.Add(this.RBMan);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.RBNee);
-            this.Controls.Add(this.RBJa);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.RBZosnelmogelijk);
-            this.Controls.Add(this.RBSnel);
-            this.Controls.Add(this.RBNormaal);
             this.Controls.Add(this.textBoxGewensteGewicht);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.butOk);
-            this.Controls.Add(this.textbGeboortedatm);
+            this.Controls.Add(this.textbLeeftijd);
             this.Controls.Add(this.TextbLengte);
             this.Controls.Add(this.TextbGewicht);
             this.Controls.Add(this.label3);
@@ -345,8 +392,15 @@
             this.Controls.Add(this.label1);
             this.Name = "Sport";
             this.Text = "Sport";
-            this.Load += new System.EventHandler(this.Sport_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnlSnelheid.ResumeLayout(false);
+            this.pnlSnelheid.PerformLayout();
+            this.pnlActief.ResumeLayout(false);
+            this.pnlActief.PerformLayout();
+            this.pnlZiekte.ResumeLayout(false);
+            this.pnlZiekte.PerformLayout();
+            this.pnlGeslacht.ResumeLayout(false);
+            this.pnlGeslacht.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -357,9 +411,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox TextbGewicht;
-        private System.Windows.Forms.TextBox TextbLengte;
-        private System.Windows.Forms.TextBox textbGeboortedatm;
+        public System.Windows.Forms.TextBox TextbGewicht;
+        public System.Windows.Forms.TextBox TextbLengte;
+        public System.Windows.Forms.TextBox textbLeeftijd;
         private System.Windows.Forms.Button butOk;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBoxGewensteGewicht;
@@ -379,5 +433,10 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.Label result;
+        private System.Windows.Forms.Panel pnlSnelheid;
+        private System.Windows.Forms.Panel pnlActief;
+        private System.Windows.Forms.Panel pnlZiekte;
+        private System.Windows.Forms.Panel pnlGeslacht;
     }
 }
