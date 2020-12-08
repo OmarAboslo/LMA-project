@@ -1,7 +1,7 @@
 ﻿
 namespace LMA_project
 {
-    partial class Form1
+    partial class FormAccountAanmaken
     {
         /// <summary>
         /// Required designer variable.
@@ -44,101 +44,100 @@ namespace LMA_project
             // LAccount_aanmaken
             // 
             this.LAccount_aanmaken.AutoSize = true;
-            this.LAccount_aanmaken.Location = new System.Drawing.Point(309, 52);
-            this.LAccount_aanmaken.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LAccount_aanmaken.Location = new System.Drawing.Point(541, 94);
+            this.LAccount_aanmaken.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LAccount_aanmaken.Name = "LAccount_aanmaken";
-            this.LAccount_aanmaken.Size = new System.Drawing.Size(129, 17);
+            this.LAccount_aanmaken.Size = new System.Drawing.Size(215, 29);
             this.LAccount_aanmaken.TabIndex = 0;
             this.LAccount_aanmaken.Text = "Account aanmaken";
             // 
             // LNaam
             // 
             this.LNaam.AutoSize = true;
-            this.LNaam.Location = new System.Drawing.Point(264, 155);
-            this.LNaam.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LNaam.Location = new System.Drawing.Point(462, 281);
+            this.LNaam.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LNaam.Name = "LNaam";
-            this.LNaam.Size = new System.Drawing.Size(49, 17);
+            this.LNaam.Size = new System.Drawing.Size(83, 29);
             this.LNaam.TabIndex = 1;
             this.LNaam.Text = "Naam:";
             // 
             // LEmail
             // 
             this.LEmail.AutoSize = true;
-            this.LEmail.Location = new System.Drawing.Point(272, 204);
-            this.LEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LEmail.Location = new System.Drawing.Point(476, 370);
+            this.LEmail.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LEmail.Name = "LEmail";
-            this.LEmail.Size = new System.Drawing.Size(42, 17);
+            this.LEmail.Size = new System.Drawing.Size(74, 29);
             this.LEmail.TabIndex = 2;
             this.LEmail.Text = "Email";
             // 
             // LWachtwoord
             // 
             this.LWachtwoord.AutoSize = true;
-            this.LWachtwoord.Location = new System.Drawing.Point(264, 268);
-            this.LWachtwoord.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LWachtwoord.Location = new System.Drawing.Point(462, 486);
+            this.LWachtwoord.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LWachtwoord.Name = "LWachtwoord";
-            this.LWachtwoord.Size = new System.Drawing.Size(90, 17);
+            this.LWachtwoord.Size = new System.Drawing.Size(153, 29);
             this.LWachtwoord.TabIndex = 3;
             this.LWachtwoord.Text = "Wachtwoord:";
             // 
             // LWachtwoord_bevestigen
             // 
             this.LWachtwoord_bevestigen.AutoSize = true;
-            this.LWachtwoord_bevestigen.Location = new System.Drawing.Point(264, 330);
-            this.LWachtwoord_bevestigen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LWachtwoord_bevestigen.Location = new System.Drawing.Point(462, 598);
+            this.LWachtwoord_bevestigen.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LWachtwoord_bevestigen.Name = "LWachtwoord_bevestigen";
-            this.LWachtwoord_bevestigen.Size = new System.Drawing.Size(159, 17);
+            this.LWachtwoord_bevestigen.Size = new System.Drawing.Size(271, 29);
             this.LWachtwoord_bevestigen.TabIndex = 4;
             this.LWachtwoord_bevestigen.Text = "Wachtwoord bevestigen";
             // 
             // TNaam
             // 
-            this.TNaam.Location = new System.Drawing.Point(468, 155);
-            this.TNaam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TNaam.Location = new System.Drawing.Point(819, 281);
+            this.TNaam.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.TNaam.Name = "TNaam";
-            this.TNaam.Size = new System.Drawing.Size(132, 22);
+            this.TNaam.Size = new System.Drawing.Size(228, 35);
             this.TNaam.TabIndex = 5;
-            this.TNaam.Text = "f";
             // 
             // TWachtwoord
             // 
-            this.TWachtwoord.Location = new System.Drawing.Point(455, 265);
-            this.TWachtwoord.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TWachtwoord.Location = new System.Drawing.Point(819, 480);
+            this.TWachtwoord.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.TWachtwoord.Name = "TWachtwoord";
-            this.TWachtwoord.Size = new System.Drawing.Size(132, 22);
+            this.TWachtwoord.Size = new System.Drawing.Size(228, 35);
             this.TWachtwoord.TabIndex = 6;
             // 
             // TEmail
             // 
-            this.TEmail.Location = new System.Drawing.Point(468, 204);
-            this.TEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TEmail.Location = new System.Drawing.Point(819, 370);
+            this.TEmail.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.TEmail.Name = "TEmail";
-            this.TEmail.Size = new System.Drawing.Size(132, 22);
+            this.TEmail.Size = new System.Drawing.Size(228, 35);
             this.TEmail.TabIndex = 7;
             // 
             // TWachtwoord_bevestigen
             // 
-            this.TWachtwoord_bevestigen.Location = new System.Drawing.Point(468, 321);
-            this.TWachtwoord_bevestigen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TWachtwoord_bevestigen.Location = new System.Drawing.Point(819, 582);
+            this.TWachtwoord_bevestigen.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.TWachtwoord_bevestigen.Name = "TWachtwoord_bevestigen";
-            this.TWachtwoord_bevestigen.Size = new System.Drawing.Size(132, 22);
+            this.TWachtwoord_bevestigen.Size = new System.Drawing.Size(228, 35);
             this.TWachtwoord_bevestigen.TabIndex = 8;
             // 
             // BOk
             // 
-            this.BOk.Location = new System.Drawing.Point(684, 410);
-            this.BOk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BOk.Location = new System.Drawing.Point(1197, 743);
+            this.BOk.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.BOk.Name = "BOk";
-            this.BOk.Size = new System.Drawing.Size(133, 69);
+            this.BOk.Size = new System.Drawing.Size(233, 125);
             this.BOk.TabIndex = 9;
             this.BOk.Text = "OK";
             this.BOk.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // FormAccountAanmaken
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(1867, 1004);
             this.Controls.Add(this.BOk);
             this.Controls.Add(this.TWachtwoord_bevestigen);
             this.Controls.Add(this.TEmail);
@@ -149,8 +148,8 @@ namespace LMA_project
             this.Controls.Add(this.LEmail);
             this.Controls.Add(this.LNaam);
             this.Controls.Add(this.LAccount_aanmaken);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.Name = "FormAccountAanmaken";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
