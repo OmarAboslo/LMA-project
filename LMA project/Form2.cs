@@ -18,8 +18,8 @@ namespace LMA_project
             InitializeComponent();
         }
 
-        string[] gebruikersnamen = { "gebruikersnaam1", "gebruikersnaam2" };
-        string[] wachtwoorden = { "wachtwoord1", "wachtwoord2" };
+        string[] gebruikersnamen = { "1", "2" };
+        string[] wachtwoorden = { "1", "2" };
         List<string> gebruikers = new List<string>();
         List<string> wachtwoord = new List<string>();
 
