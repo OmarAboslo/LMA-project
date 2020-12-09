@@ -14,8 +14,7 @@ namespace LMA_project
     {
         public Sport()
         {
-            InitializeComponent();
-            
+            InitializeComponent(); 
         }
 
         public void Snelheid(double uitslag)
@@ -27,64 +26,93 @@ namespace LMA_project
             {
                 if (RBNormaal.Checked == true)
                 {
-                   
-                    result.Text = Convert.ToString(uitslag + 250);
+
+     // result.Text = Convert.ToString("Jij moet deze hoeveelheid KCl per dag verkrijgen: " + (uitslag + 250));
                 }
                 else if (RBSnel.Checked == true)
                 {
-                   
-                    result.Text = Convert.ToString(uitslag +500);
-
+     // result.Text = Convert.ToString("Jij moet deze hoeveelheid KCl per dag verkrijgen: " + (uitslag +500));
                 }
                 else if (RBZosnelmogelijk.Checked == true)
                 {
-                  
+
                     result.Text = Convert.ToString(uitslag + 1000);
 
                 }
             }
             else if (Gewicht > Gewenstegewicht)
-            {
+            { 
                 if (RBNormaal.Checked == true)
                 {
-                    result.Text = Convert.ToString(uitslag - 250);
-
+     // result.Text = Convert.ToString("Jij moet deze hoeveelheid KCl per dag verliezen: " + (uitslag - 250));
                 }
                 else if (RBSnel.Checked == true)
                 {
-                    result.Text = Convert.ToString(uitslag - 500);
-
+     // result.Text = Convert.ToString("Jij moet deze hoeveelheid KCl per dag verliezen: " + (uitslag - 500));
                 }
                 else if (RBZosnelmogelijk.Checked == true)
                 {
-                    result.Text = Convert.ToString(uitslag - 1000);
+     // result.Text = Convert.ToString("Jij moet deze hoeveelheid KCl per dag verliezen: " + (uitslag - 1000)); 
                 }
                 else
                 {
-                    MessageBox.Show("Er zijn vragen die nog niet beantwoord zijn, conntroleer alle vragen en probeer opnieuw");
+      MessageBox.Show("Er zijn vragen die nog niet beantwoord zijn, conntroleer alle vragen en probeer opnieuw");
                 }
             }
         }
 
 
-        private void butOk_Click(object sender, EventArgs e)
+        public double Actieflevel(double BMR)
+        {
+            double Result= 0;
+            if (RBminderActief.Checked ==true)
+            {
+                Result = BMR * 1.2;
+               
+            }
+            else if (RBredelijkActief.Checked == true)
+            {
+                Result = BMR * 1.375;
+                
+            }
+            else if (RBheelactief.Checked == true)
+            {
+                Result = BMR * 1.55;
+               
+            }
+            else if (RBextraactief.Checked== true)
+            {
+                Result = BMR * 1.725;
+                
+            }
+            else if (RBergactief.Checked==true)
+            {
+                Result = BMR * 1.9;
+            }
+            return Result;
+
+        }
+
+
+        private void ButOk_Click(object sender, EventArgs e)
         {
             // gegevens van de gebruiker ophalen
 
             double Gewicht = Convert.ToDouble(TextbGewicht.Text);
             double Lengte = Convert.ToDouble(TextbLengte.Text);
             int leeftijd = Convert.ToInt32(textbLeeftijd.Text);
-            if (RBJa.Checked== true)
+            if (RBJa.Checked == true)
             {
                 MessageBox.Show("Overleg met jouw huisarts,voordat je gaat beginnen");
             }
-           //man of vrouw
+            //man of vrouw
             if (RBMan.Checked == true)
             {
                 //class BMR aanroepen
-               BMR man = new BMR(Gewicht,Lengte,leeftijd);
+                BMR man = new BMR(Gewicht, Lengte, leeftijd);
                 // method snelheid aanroepen
-                Snelheid(man.BMRMan());
+                Snelheid(Actieflevel(man.BMRMan()));
+                label8.Text = "Jij moet deze hoeveelheid KCl per dag verkrijgen: ";
 
             }
             else if (RBVrouw.Checked == true)
@@ -92,12 +120,11 @@ namespace LMA_project
                 //class BMR aanroepen
                 BMR vrouw = new BMR(Gewicht, Lengte, leeftijd);
                 //// method snelheid aanroepen
-                Snelheid(vrouw.BMRvrouw());
-            } 
-
+                Snelheid(Actieflevel(vrouw.BMRMan()));
             }
+        }
 
-     
+
 
 
 

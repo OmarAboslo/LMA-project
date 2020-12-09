@@ -49,15 +49,17 @@
             this.RBMan = new System.Windows.Forms.RadioButton();
             this.RBVrouw = new System.Windows.Forms.RadioButton();
             this.label9 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.RBheelactief = new System.Windows.Forms.RadioButton();
+            this.RBredelijkActief = new System.Windows.Forms.RadioButton();
+            this.RBminderActief = new System.Windows.Forms.RadioButton();
+            this.RBextraactief = new System.Windows.Forms.RadioButton();
             this.result = new System.Windows.Forms.Label();
             this.pnlSnelheid = new System.Windows.Forms.Panel();
             this.pnlActief = new System.Windows.Forms.Panel();
+            this.RBergactief = new System.Windows.Forms.RadioButton();
             this.pnlZiekte = new System.Windows.Forms.Panel();
             this.pnlGeslacht = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlSnelheid.SuspendLayout();
             this.pnlActief.SuspendLayout();
@@ -127,7 +129,7 @@
             this.butOk.TabIndex = 6;
             this.butOk.Text = "Ok";
             this.butOk.UseVisualStyleBackColor = true;
-            this.butOk.Click += new System.EventHandler(this.butOk_Click);
+            this.butOk.Click += new System.EventHandler(this.ButOk_Click);
             // 
             // pictureBox1
             // 
@@ -274,54 +276,54 @@
             this.label9.TabIndex = 28;
             this.label9.Text = "Hoe actief ben jij?";
             // 
-            // radioButton1
+            // RBheelactief
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(276, 8);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(96, 21);
-            this.radioButton1.TabIndex = 31;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Heel actief";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.RBheelactief.AutoSize = true;
+            this.RBheelactief.Location = new System.Drawing.Point(276, 8);
+            this.RBheelactief.Name = "RBheelactief";
+            this.RBheelactief.Size = new System.Drawing.Size(96, 21);
+            this.RBheelactief.TabIndex = 31;
+            this.RBheelactief.TabStop = true;
+            this.RBheelactief.Text = "Heel actief";
+            this.RBheelactief.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // RBredelijkActief
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(153, 8);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(117, 21);
-            this.radioButton2.TabIndex = 30;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Redelijk actief";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.RBredelijkActief.AutoSize = true;
+            this.RBredelijkActief.Location = new System.Drawing.Point(153, 8);
+            this.RBredelijkActief.Name = "RBredelijkActief";
+            this.RBredelijkActief.Size = new System.Drawing.Size(117, 21);
+            this.RBredelijkActief.TabIndex = 30;
+            this.RBredelijkActief.TabStop = true;
+            this.RBredelijkActief.Text = "Redelijk actief";
+            this.RBredelijkActief.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // RBminderActief
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(19, 8);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(111, 21);
-            this.radioButton3.TabIndex = 29;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Minder Actief";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.RBminderActief.AutoSize = true;
+            this.RBminderActief.Location = new System.Drawing.Point(19, 8);
+            this.RBminderActief.Name = "RBminderActief";
+            this.RBminderActief.Size = new System.Drawing.Size(111, 21);
+            this.RBminderActief.TabIndex = 29;
+            this.RBminderActief.TabStop = true;
+            this.RBminderActief.Text = "Minder Actief";
+            this.RBminderActief.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // RBextraactief
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(393, 8);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(99, 21);
-            this.radioButton4.TabIndex = 32;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Extra actief";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.RBextraactief.AutoSize = true;
+            this.RBextraactief.Location = new System.Drawing.Point(393, 8);
+            this.RBextraactief.Name = "RBextraactief";
+            this.RBextraactief.Size = new System.Drawing.Size(99, 21);
+            this.RBextraactief.TabIndex = 32;
+            this.RBextraactief.TabStop = true;
+            this.RBextraactief.Text = "Extra actief";
+            this.RBextraactief.UseVisualStyleBackColor = true;
             // 
             // result
             // 
             this.result.AutoSize = true;
-            this.result.Location = new System.Drawing.Point(115, 497);
+            this.result.Location = new System.Drawing.Point(257, 497);
             this.result.Name = "result";
             this.result.Size = new System.Drawing.Size(0, 17);
             this.result.TabIndex = 33;
@@ -338,20 +340,32 @@
             // 
             // pnlActief
             // 
-            this.pnlActief.Controls.Add(this.radioButton4);
-            this.pnlActief.Controls.Add(this.radioButton3);
-            this.pnlActief.Controls.Add(this.radioButton2);
-            this.pnlActief.Controls.Add(this.radioButton1);
+            this.pnlActief.Controls.Add(this.RBergactief);
+            this.pnlActief.Controls.Add(this.RBextraactief);
+            this.pnlActief.Controls.Add(this.RBminderActief);
+            this.pnlActief.Controls.Add(this.RBredelijkActief);
+            this.pnlActief.Controls.Add(this.RBheelactief);
             this.pnlActief.Location = new System.Drawing.Point(222, 317);
             this.pnlActief.Name = "pnlActief";
-            this.pnlActief.Size = new System.Drawing.Size(514, 47);
+            this.pnlActief.Size = new System.Drawing.Size(666, 47);
             this.pnlActief.TabIndex = 35;
+            // 
+            // RBergactief
+            // 
+            this.RBergactief.AutoSize = true;
+            this.RBergactief.Location = new System.Drawing.Point(514, 8);
+            this.RBergactief.Name = "RBergactief";
+            this.RBergactief.Size = new System.Drawing.Size(89, 21);
+            this.RBergactief.TabIndex = 33;
+            this.RBergactief.TabStop = true;
+            this.RBergactief.Text = "Erg actief";
+            this.RBergactief.UseVisualStyleBackColor = true;
             // 
             // pnlZiekte
             // 
             this.pnlZiekte.Controls.Add(this.RBJa);
             this.pnlZiekte.Controls.Add(this.RBNee);
-            this.pnlZiekte.Location = new System.Drawing.Point(626, 370);
+            this.pnlZiekte.Location = new System.Drawing.Point(659, 370);
             this.pnlZiekte.Name = "pnlZiekte";
             this.pnlZiekte.Size = new System.Drawing.Size(200, 47);
             this.pnlZiekte.TabIndex = 36;
@@ -365,12 +379,21 @@
             this.pnlGeslacht.Size = new System.Drawing.Size(200, 47);
             this.pnlGeslacht.TabIndex = 37;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(44, 496);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(0, 17);
+            this.label8.TabIndex = 38;
+            // 
             // Sport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(813, 556);
+            this.ClientSize = new System.Drawing.Size(900, 556);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.pnlGeslacht);
             this.Controls.Add(this.pnlZiekte);
             this.Controls.Add(this.pnlActief);
@@ -429,14 +452,16 @@
         private System.Windows.Forms.RadioButton RBMan;
         private System.Windows.Forms.RadioButton RBVrouw;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton RBheelactief;
+        private System.Windows.Forms.RadioButton RBredelijkActief;
+        private System.Windows.Forms.RadioButton RBminderActief;
+        private System.Windows.Forms.RadioButton RBextraactief;
         private System.Windows.Forms.Label result;
         private System.Windows.Forms.Panel pnlSnelheid;
         private System.Windows.Forms.Panel pnlActief;
         private System.Windows.Forms.Panel pnlZiekte;
         private System.Windows.Forms.Panel pnlGeslacht;
+        private System.Windows.Forms.RadioButton RBergactief;
+        private System.Windows.Forms.Label label8;
     }
 }
