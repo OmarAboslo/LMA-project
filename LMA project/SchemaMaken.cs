@@ -10,13 +10,18 @@ using System.Windows.Forms;
 
 namespace LMA_project
 {
-    public partial class FormAccountAanmaken : Form
+    public partial class SchemaMaken : Form
     {
-        public FormAccountAanmaken()
+        public SchemaMaken()
         {
             InitializeComponent();
         }
 
-
+        private void btnBiceps_Click(object sender, EventArgs e)
+        {
+            Biceps formBiceps = new Biceps();
+            formBiceps.Show();
+            this.Hide();
+        }
     }
 }

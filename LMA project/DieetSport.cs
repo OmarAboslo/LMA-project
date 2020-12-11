@@ -16,5 +16,12 @@ namespace LMA_project
         {
             InitializeComponent();
         }
+
+        private void buttonTraining_Click(object sender, EventArgs e)
+        {
+            SchemaKiezen formSchemaKiezen = new SchemaKiezen();
+            formSchemaKiezen.Show();
+            this.Hide();
+        }
     }
 }

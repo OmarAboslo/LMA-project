@@ -34,33 +34,34 @@
             // 
             // buttonDieet
             // 
-            this.buttonDieet.Location = new System.Drawing.Point(341, 132);
-            this.buttonDieet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonDieet.Location = new System.Drawing.Point(796, 294);
+            this.buttonDieet.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.buttonDieet.Name = "buttonDieet";
             this.buttonDieet.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.buttonDieet.Size = new System.Drawing.Size(227, 80);
+            this.buttonDieet.Size = new System.Drawing.Size(530, 178);
             this.buttonDieet.TabIndex = 10;
             this.buttonDieet.Text = "Dieet samenstellen";
             this.buttonDieet.UseVisualStyleBackColor = true;
             // 
             // buttonTraining
             // 
-            this.buttonTraining.Location = new System.Drawing.Point(47, 132);
-            this.buttonTraining.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonTraining.Location = new System.Drawing.Point(110, 294);
+            this.buttonTraining.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.buttonTraining.Name = "buttonTraining";
-            this.buttonTraining.Size = new System.Drawing.Size(223, 80);
+            this.buttonTraining.Size = new System.Drawing.Size(520, 178);
             this.buttonTraining.TabIndex = 9;
             this.buttonTraining.Text = "Training samenstellen";
             this.buttonTraining.UseVisualStyleBackColor = true;
+            this.buttonTraining.Click += new System.EventHandler(this.buttonTraining_Click);
             // 
             // DieetSport
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(1400, 816);
             this.Controls.Add(this.buttonDieet);
             this.Controls.Add(this.buttonTraining);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "DieetSport";
             this.Text = "DieetSport";
             this.ResumeLayout(false);

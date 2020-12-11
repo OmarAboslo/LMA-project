@@ -84,6 +84,7 @@ namespace LMA_project
             this.tbWachtwoord.Name = "tbWachtwoord";
             this.tbWachtwoord.Size = new System.Drawing.Size(228, 35);
             this.tbWachtwoord.TabIndex = 4;
+            this.tbWachtwoord.UseSystemPasswordChar = true;
             // 
             // btnAccountAanmaken
             // 
@@ -94,6 +95,7 @@ namespace LMA_project
             this.btnAccountAanmaken.TabIndex = 11;
             this.btnAccountAanmaken.Text = "Account Maken";
             this.btnAccountAanmaken.UseVisualStyleBackColor = true;
+            this.btnAccountAanmaken.Click += new System.EventHandler(this.btnAccountAanmaken_Click_1);
             // 
             // label1
             // 
@@ -113,6 +115,7 @@ namespace LMA_project
             this.btnInloggen.TabIndex = 13;
             this.btnInloggen.Text = "Inloggen";
             this.btnInloggen.UseVisualStyleBackColor = true;
+            this.btnInloggen.Click += new System.EventHandler(this.btnInloggen_Click_1);
             // 
             // LogIn
             // 

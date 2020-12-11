@@ -53,17 +53,59 @@
     <Compile Include="DieetSport.Designer.cs">
       <DependentUpon>DieetSport.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="AccountAanmaken.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AccountAanmaken.Designer.cs">
+      <DependentUpon>AccountAanmaken.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Beginner.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Beginner.Designer.cs">
+      <DependentUpon>Beginner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Biceps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Biceps.Designer.cs">
+      <DependentUpon>Biceps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SchemaMaken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchemaMaken.Designer.cs">
+      <DependentUpon>SchemaMaken.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plank.Designer.cs">
+      <DependentUpon>Plank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pushup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pushup.Designer.cs">
+      <DependentUpon>Pushup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SchemaKiezen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchemaKiezen.Designer.cs">
+      <DependentUpon>SchemaKiezen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NiveauKiezen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NiveauKiezen.Designer.cs">
+      <DependentUpon>NiveauKiezen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,11 +124,32 @@
     <EmbeddedResource Include="DieetSport.resx">
       <DependentUpon>DieetSport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="AccountAanmaken.resx">
+      <DependentUpon>AccountAanmaken.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Beginner.resx">
+      <DependentUpon>Beginner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Biceps.resx">
+      <DependentUpon>Biceps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchemaMaken.resx">
+      <DependentUpon>SchemaMaken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plank.resx">
+      <DependentUpon>Plank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pushup.resx">
+      <DependentUpon>Pushup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchemaKiezen.resx">
+      <DependentUpon>SchemaKiezen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NiveauKiezen.resx">
+      <DependentUpon>NiveauKiezen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -120,5 +183,12 @@
   <ItemGroup>
     <None Include="Resources\soso.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\sport-1685978_1920.jpg" />
+    <Content Include="Vars.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

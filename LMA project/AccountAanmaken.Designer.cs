@@ -1,7 +1,7 @@
 ﻿
 namespace LMA_project
 {
-    partial class FormAccountAanmaken
+    partial class AccountAanmaken
     {
         /// <summary>
         /// Required designer variable.
@@ -35,10 +35,10 @@ namespace LMA_project
             this.LWachtwoord = new System.Windows.Forms.Label();
             this.LWachtwoord_bevestigen = new System.Windows.Forms.Label();
             this.TNaam = new System.Windows.Forms.TextBox();
-            this.TWachtwoord = new System.Windows.Forms.TextBox();
-            this.TEmail = new System.Windows.Forms.TextBox();
+            this.TbWachtwoord = new System.Windows.Forms.TextBox();
+            this.TbEmail = new System.Windows.Forms.TextBox();
             this.TWachtwoord_bevestigen = new System.Windows.Forms.TextBox();
-            this.BOk = new System.Windows.Forms.Button();
+            this.btnAccountAanmaken = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LAccount_aanmaken
@@ -94,62 +94,63 @@ namespace LMA_project
             // TNaam
             // 
             this.TNaam.Location = new System.Drawing.Point(819, 281);
-            this.TNaam.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.TNaam.Margin = new System.Windows.Forms.Padding(7);
             this.TNaam.Name = "TNaam";
             this.TNaam.Size = new System.Drawing.Size(228, 35);
             this.TNaam.TabIndex = 5;
             // 
-            // TWachtwoord
+            // TbWachtwoord
             // 
-            this.TWachtwoord.Location = new System.Drawing.Point(819, 480);
-            this.TWachtwoord.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
-            this.TWachtwoord.Name = "TWachtwoord";
-            this.TWachtwoord.Size = new System.Drawing.Size(228, 35);
-            this.TWachtwoord.TabIndex = 6;
+            this.TbWachtwoord.Location = new System.Drawing.Point(819, 480);
+            this.TbWachtwoord.Margin = new System.Windows.Forms.Padding(7);
+            this.TbWachtwoord.Name = "TbWachtwoord";
+            this.TbWachtwoord.Size = new System.Drawing.Size(228, 35);
+            this.TbWachtwoord.TabIndex = 6;
             // 
-            // TEmail
+            // TbEmail
             // 
-            this.TEmail.Location = new System.Drawing.Point(819, 370);
-            this.TEmail.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
-            this.TEmail.Name = "TEmail";
-            this.TEmail.Size = new System.Drawing.Size(228, 35);
-            this.TEmail.TabIndex = 7;
+            this.TbEmail.Location = new System.Drawing.Point(819, 370);
+            this.TbEmail.Margin = new System.Windows.Forms.Padding(7);
+            this.TbEmail.Name = "TbEmail";
+            this.TbEmail.Size = new System.Drawing.Size(228, 35);
+            this.TbEmail.TabIndex = 7;
             // 
             // TWachtwoord_bevestigen
             // 
             this.TWachtwoord_bevestigen.Location = new System.Drawing.Point(819, 582);
-            this.TWachtwoord_bevestigen.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.TWachtwoord_bevestigen.Margin = new System.Windows.Forms.Padding(7);
             this.TWachtwoord_bevestigen.Name = "TWachtwoord_bevestigen";
             this.TWachtwoord_bevestigen.Size = new System.Drawing.Size(228, 35);
             this.TWachtwoord_bevestigen.TabIndex = 8;
             // 
-            // BOk
+            // btnAccountAanmaken
             // 
-            this.BOk.Location = new System.Drawing.Point(1197, 743);
-            this.BOk.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
-            this.BOk.Name = "BOk";
-            this.BOk.Size = new System.Drawing.Size(233, 125);
-            this.BOk.TabIndex = 9;
-            this.BOk.Text = "OK";
-            this.BOk.UseVisualStyleBackColor = true;
+            this.btnAccountAanmaken.Location = new System.Drawing.Point(1197, 743);
+            this.btnAccountAanmaken.Margin = new System.Windows.Forms.Padding(7);
+            this.btnAccountAanmaken.Name = "btnAccountAanmaken";
+            this.btnAccountAanmaken.Size = new System.Drawing.Size(233, 125);
+            this.btnAccountAanmaken.TabIndex = 9;
+            this.btnAccountAanmaken.Text = "Account aanmaken";
+            this.btnAccountAanmaken.UseVisualStyleBackColor = true;
+            this.btnAccountAanmaken.Click += new System.EventHandler(this.btnAccountAanmaken_Click);
             // 
-            // FormAccountAanmaken
+            // AccountAanmaken
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1867, 1004);
-            this.Controls.Add(this.BOk);
+            this.Controls.Add(this.btnAccountAanmaken);
             this.Controls.Add(this.TWachtwoord_bevestigen);
-            this.Controls.Add(this.TEmail);
-            this.Controls.Add(this.TWachtwoord);
+            this.Controls.Add(this.TbEmail);
+            this.Controls.Add(this.TbWachtwoord);
             this.Controls.Add(this.TNaam);
             this.Controls.Add(this.LWachtwoord_bevestigen);
             this.Controls.Add(this.LWachtwoord);
             this.Controls.Add(this.LEmail);
             this.Controls.Add(this.LNaam);
             this.Controls.Add(this.LAccount_aanmaken);
-            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
-            this.Name = "FormAccountAanmaken";
+            this.Margin = new System.Windows.Forms.Padding(7);
+            this.Name = "AccountAanmaken";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -164,9 +165,9 @@ namespace LMA_project
         private System.Windows.Forms.Label LWachtwoord;
         private System.Windows.Forms.Label LWachtwoord_bevestigen;
         private System.Windows.Forms.TextBox TNaam;
-        private System.Windows.Forms.TextBox TWachtwoord;
-        private System.Windows.Forms.TextBox TEmail;
+        private System.Windows.Forms.TextBox TbWachtwoord;
+        private System.Windows.Forms.TextBox TbEmail;
         private System.Windows.Forms.TextBox TWachtwoord_bevestigen;
-        private System.Windows.Forms.Button BOk;
+        private System.Windows.Forms.Button btnAccountAanmaken;
     }
 }
