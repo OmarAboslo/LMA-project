@@ -83,15 +83,10 @@ namespace LMA_project
                 throw ex;
             }
         }
-
         public SqlDataReader readDatathroughReader(string query)
         {
             //DataReader used to sequentially read data from a data source
             SqlDataReader reader;
-
-
-
-
             try
             {
                 if (connection.State == ConnectionState.Closed)

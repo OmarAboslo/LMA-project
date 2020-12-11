@@ -17,48 +17,52 @@ namespace LMA_project
             InitializeComponent(); 
         }
 
-        public void Snelheid(double uitslag)
+        public double Snelheid(double uitslag)
         {
             double Gewicht = Convert.ToDouble(TextbGewicht.Text);
             double Gewenstegewicht = Convert.ToDouble(textBoxGewensteGewicht.Text);
+           
             
             if (Gewicht < Gewenstegewicht)
             {
                 if (RBNormaal.Checked == true)
                 {
 
-     // result.Text = Convert.ToString("Jij moet deze hoeveelheid KCl per dag verkrijgen: " + (uitslag + 250));
+                uitslag = uitslag + 250;
                 }
                 else if (RBSnel.Checked == true)
                 {
-     // result.Text = Convert.ToString("Jij moet deze hoeveelheid KCl per dag verkrijgen: " + (uitslag +500));
+                 uitslag = uitslag +500;
                 }
                 else if (RBZosnelmogelijk.Checked == true)
                 {
 
-                    result.Text = Convert.ToString(uitslag + 1000);
+                uitslag = uitslag + 100;
 
                 }
+                return uitslag;
             }
             else if (Gewicht > Gewenstegewicht)
             { 
                 if (RBNormaal.Checked == true)
                 {
-     // result.Text = Convert.ToString("Jij moet deze hoeveelheid KCl per dag verliezen: " + (uitslag - 250));
+                    uitslag = uitslag - 250;
                 }
                 else if (RBSnel.Checked == true)
                 {
-     // result.Text = Convert.ToString("Jij moet deze hoeveelheid KCl per dag verliezen: " + (uitslag - 500));
+           uitslag= uitslag - 500;
                 }
                 else if (RBZosnelmogelijk.Checked == true)
                 {
-     // result.Text = Convert.ToString("Jij moet deze hoeveelheid KCl per dag verliezen: " + (uitslag - 1000)); 
+           uitslag = uitslag - 1000; 
                 }
                 else
                 {
       MessageBox.Show("Er zijn vragen die nog niet beantwoord zijn, conntroleer alle vragen en probeer opnieuw");
                 }
+                return uitslag;
             }
+            return uitslag;
         }
 
 
@@ -94,13 +98,19 @@ namespace LMA_project
         }
 
 
-        private void ButOk_Click(object sender, EventArgs e)
+      
+
+        private void butOk_Click_1(object sender, EventArgs e)
         {
             // gegevens van de gebruiker ophalen
 
             double Gewicht = Convert.ToDouble(TextbGewicht.Text);
             double Lengte = Convert.ToDouble(TextbLengte.Text);
             int leeftijd = Convert.ToInt32(textbLeeftijd.Text);
+            this.Hide();
+            Dieet_A form = new Dieet_A();
+
+
             if (RBJa.Checked == true)
             {
                 MessageBox.Show("Overleg met jouw huisarts,voordat je gaat beginnen");
@@ -111,9 +121,8 @@ namespace LMA_project
                 //class BMR aanroepen
                 BMR man = new BMR(Gewicht, Lengte, leeftijd);
                 // method snelheid aanroepen
-                Snelheid(Actieflevel(man.BMRMan()));
-                label8.Text = "Jij moet deze hoeveelheid KCl per dag verkrijgen: ";
-
+                form.Result.Text = Convert.ToString(Snelheid(Actieflevel(man.BMRMan())));
+                form.ShowDialog();
             }
             else if (RBVrouw.Checked == true)
             {
@@ -121,7 +130,10 @@ namespace LMA_project
                 BMR vrouw = new BMR(Gewicht, Lengte, leeftijd);
                 //// method snelheid aanroepen
                 Snelheid(Actieflevel(vrouw.BMRMan()));
+                form.Result.Text = Convert.ToString(Snelheid(Actieflevel(vrouw.BMRMan())));
+                form.ShowDialog();
             }
+
         }
 
 

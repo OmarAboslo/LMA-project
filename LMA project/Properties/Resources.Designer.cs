@@ -94,6 +94,16 @@ namespace LMA_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Shopping_Cart_Food_Icon {
+            get {
+                object obj = ResourceManager.GetObject("Shopping-Cart-Food-Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap soso {
             get {
                 object obj = ResourceManager.GetObject("soso", resourceCulture);

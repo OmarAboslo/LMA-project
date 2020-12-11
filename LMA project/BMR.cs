@@ -8,13 +8,13 @@ namespace LMA_project
 {
     class BMR
     {
-        private readonly double  Gewicht;
-     private readonly double Lengte;
-     private readonly int Leeftijd ;
+     public readonly double  Gewicht;
+     public readonly double Lengte;
+     public  int Leeftijd ;
 
-        public BMR(double weight,double length, int age)
+        public BMR(double weight, double length, int age)
         {
-           this.Gewicht=weight;
+            this.Gewicht = weight;
             this.Lengte = length;
             this.Leeftijd = age;
         }
