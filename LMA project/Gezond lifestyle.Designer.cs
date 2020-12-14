@@ -129,7 +129,7 @@
             this.butOk.TabIndex = 6;
             this.butOk.Text = "Ok";
             this.butOk.UseVisualStyleBackColor = true;
-            this.butOk.Click += new System.EventHandler(this.butOk_Click_1);
+            this.butOk.Click += new System.EventHandler(this.ButOk_Click_1);
             // 
             // pictureBox1
             // 

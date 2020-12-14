@@ -28,16 +28,16 @@ namespace LMA_project
                 if (RBNormaal.Checked == true)
                 {
 
-                uitslag = uitslag + 250;
+                uitslag += 250;
                 }
                 else if (RBSnel.Checked == true)
                 {
-                 uitslag = uitslag +500;
+                 uitslag += 500;
                 }
                 else if (RBZosnelmogelijk.Checked == true)
                 {
 
-                uitslag = uitslag + 100;
+                uitslag += 100;
 
                 }
                 return uitslag;
@@ -46,15 +46,15 @@ namespace LMA_project
             { 
                 if (RBNormaal.Checked == true)
                 {
-                    uitslag = uitslag - 250;
+                    uitslag -= 250;
                 }
                 else if (RBSnel.Checked == true)
                 {
-           uitslag= uitslag - 500;
+           uitslag -= 500;
                 }
                 else if (RBZosnelmogelijk.Checked == true)
                 {
-           uitslag = uitslag - 1000; 
+           uitslag -= 1000; 
                 }
                 else
                 {
@@ -64,8 +64,6 @@ namespace LMA_project
             }
             return uitslag;
         }
-
-
         public double Actieflevel(double BMR)
         {
             double Result= 0;
@@ -100,7 +98,7 @@ namespace LMA_project
 
       
 
-        private void butOk_Click_1(object sender, EventArgs e)
+        private void ButOk_Click_1(object sender, EventArgs e)
         {
             // gegevens van de gebruiker ophalen
 
@@ -129,7 +127,6 @@ namespace LMA_project
                 //class BMR aanroepen
                 BMR vrouw = new BMR(Gewicht, Lengte, leeftijd);
                 //// method snelheid aanroepen
-                Snelheid(Actieflevel(vrouw.BMRMan()));
                 form.Result.Text = Convert.ToString(Snelheid(Actieflevel(vrouw.BMRMan())));
                 form.ShowDialog();
             }
