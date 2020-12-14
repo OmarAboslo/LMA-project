@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace LMA_project
 {
-    public partial class DieetSport : Form
+    public partial class Form1 : Form
     {
-        public DieetSport()
+        public Form1()
         {
             InitializeComponent();
         }
-
-
     }
 }

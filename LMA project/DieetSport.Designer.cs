@@ -35,7 +35,7 @@
             // buttonDieet
             // 
             this.buttonDieet.Location = new System.Drawing.Point(341, 132);
-            this.buttonDieet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonDieet.Margin = new System.Windows.Forms.Padding(2);
             this.buttonDieet.Name = "buttonDieet";
             this.buttonDieet.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.buttonDieet.Size = new System.Drawing.Size(227, 80);
@@ -46,7 +46,7 @@
             // buttonTraining
             // 
             this.buttonTraining.Location = new System.Drawing.Point(47, 132);
-            this.buttonTraining.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonTraining.Margin = new System.Windows.Forms.Padding(2);
             this.buttonTraining.Name = "buttonTraining";
             this.buttonTraining.Size = new System.Drawing.Size(223, 80);
             this.buttonTraining.TabIndex = 9;
@@ -60,7 +60,7 @@
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.buttonDieet);
             this.Controls.Add(this.buttonTraining);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DieetSport";
             this.Text = "DieetSport";
             this.ResumeLayout(false);
