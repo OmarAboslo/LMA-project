@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BMR.cs" />
+    <Compile Include="ClassDieet.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="DE Automatisch.cs" />
     <Compile Include="Dieet A.cs">
