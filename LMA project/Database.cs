@@ -16,7 +16,7 @@ namespace LMA_project
         private static SqlDataAdapter adapter = new SqlDataAdapter();
         // public SqlTransaction DbTran;
 
-        private static string strConnString = "Data Source=192.168.172.77;Initial Catalog=proftaakproject;User ID=Ammar";
+        private static string strConnString = "Data Source=192.168.172.77;Initial Catalog=proftaakproject;Persist Security Info=True;User ID=Omar;Password=&Wy%EN%EzvByVB26";
 
         public void createConn()
         {

@@ -26,9 +26,10 @@ namespace LMA_project
             panelPbox1.Hide();
             panelPbox2.Show();
             DBAccess objDBAccess = new DBAccess();
+            objDBAccess.createConn();
             DataTable dtUsers = new DataTable();
             string ingredienten = textBox1.Text;
-            string query = "Select *  from Ingredienten Where Producten= '" + ingredienten + "'";
+            string query = "Select *  from Ingredienten Where Product= '" + ingredienten + "'";
             objDBAccess.readDatathroughAdapter(query, dtUsers);
             if (dtUsers.Rows.Count == 1)
             {
