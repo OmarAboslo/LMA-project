@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace LMA_project
-{/*
+{
     class DBAccess
     {
         private static SqlConnection connection = new SqlConnection();
@@ -14,7 +16,7 @@ namespace LMA_project
         private static SqlDataAdapter adapter = new SqlDataAdapter();
         // public SqlTransaction DbTran;
 
-        private static string strConnString = "";
+        private static string strConnString = "Data Source=192.168.172.77;Initial Catalog=proftaakproject;User ID=Ammar";
 
         public void createConn()
         {
@@ -61,7 +63,6 @@ namespace LMA_project
                 throw ex;
             }
         }
-
         public void readDatathroughAdapter(string query, DataTable tblName)
         {
             try
@@ -124,5 +125,5 @@ namespace LMA_project
                 throw ex;
             }
         }
-  */
+    }
 }

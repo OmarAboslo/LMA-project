@@ -25,10 +25,28 @@ namespace LMA_project
         {
             panelPbox1.Hide();
             panelPbox2.Show();
+            DBAccess objDBAccess = new DBAccess();
+            DataTable dtUsers = new DataTable();
+            string ingredienten = textBox1.Text;
+            string query = "Select *  from Ingredienten Where Producten= '" + ingredienten + "'";
+            objDBAccess.readDatathroughAdapter(query, dtUsers);
+            if (dtUsers.Rows.Count == 1)
+            {
+                MessageBox.Show("Gelukt");
+                objDBAccess.closeConn();
+                //  this.Hide();
+
+
+
+            }
+            else
+            {
+                MessageBox.Show("Fout, Probeer later opnieuw");
+            }
         }
 
-        
+   
 
-      
+     
     }
 }
