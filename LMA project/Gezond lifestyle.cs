@@ -137,7 +137,7 @@ namespace LMA_project
 
     }
 }
-/*A                           Eenheid       Kcal   Eiwit   Koolh.   Vet
+/*
 aalbessen                     100 gr        24     1.0     5.0     0.0
 aardappelen                   100 gr        85     2.6    18.6     0.0
 aardappelkroketten            100 gr       356    34.0    28.2    12.0
@@ -171,7 +171,6 @@ atjar tjampoer                100 gr        24     1.0     5.0     0.0
 aubergine                     100 gr        24     1.0     5.0     0.0
 augurken                      100 gr        18     0.9     3.6     0.0
 avocado                         1 stuk     226     4.0    12.0    18.0
-B                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 babi pangang                  100 gr       217    13.6     3.9    16.4
 babybel bonbel                100 gr       314    22.6     0.1    24.8
 bacon                         100 gr       430    13.0     0.0    42.0
@@ -272,7 +271,6 @@ bruine bonensoep              100 gr        46     3.5     7.5     0.3
 bulgaarse yoghurt (fruit)     100 gr       124     5.0    17.0     4.0
 bulgaarse yoghurt (mager)     100 gr        48     5.0     6.0     0.5
 bulgaarse yoghurt (vol)       100 gr        89     4.8     7.0     4.7
-C                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 cake                          100 gr       446     6.9    44.8    26.6
 camembert (45+)               100 gr       284    25.0     1.0    20.0
 camembert (50+)               100 gr       314    18.0     2.0    26.0
@@ -334,7 +332,6 @@ cruesli                       100 gr       389    10.6    68.3     8.2
 curry (devos lemmens)         100 gr       647     1.1     2.7    70.2 
 curryketchup                  100 gr       104     0.9    25.3     0.0
 custardpoeder                 100 gr       340     0.0    85.0     0.0
-D                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 dadels (vers)                 100 gr       165     2.0    37.0     1.0
 dadels (geconfijt)            100 gr       300     2.0    73.0     0.0
 danette chocolade             100 gr       148     4.9    21.2     4.8
@@ -356,7 +353,6 @@ drop (zoet)                   100 gr       348    10.0    77.0     0.0
 drop (zout)                   100 gr       336     9.0    75.0     0.0
 druiven                       100 gr        66     0.5    16.0     0.0
 dubbeldrank                   100 gr        52     0.3    12.8     0.0
-E                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 edammer                       100 gr       314    28.0     1.0    22.0
 eend                          100 gr       217    18.3     0.0    16.0
 eendenfilet                   100 gr       341    20.0     0.0    29.0
@@ -374,7 +370,6 @@ extran eiwitdrank             100 gr        98    12.5    11.5     0.3
 extran energiedrank           100 gr       160     0.0    40.0     0.0
 extran energiereep m. muesli  100 gr       367     5.6    76.0     4.5
 extran hypotone dorstlesser   100 gr        16     0.0     4.1     0.0
-F                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 feta                          100 gr       248    15.6     1.5    20.0
 filet americain               100 gr       161    18.5     2.2     8.7
 filet d'anvers                100 gr       158    26.0     0.0     6.0
@@ -400,7 +395,6 @@ frituurvet                    100 gr       898     0.1     0.3    99.7
 frituurvet (vloeibaar)        100 gr       900     0.0     0.0   100.0
 fruitcoctail                  100 gr        68     0.0    17.0     0.0
 fruitsap ( sinas )             25 cl       122     2.0    28.5     0.0
-G                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 gado gado                     100 gr       173     7.2     7.8    12.6
 galette                       100 gr       530     6.7    65.0    27.0
 gamba                         100 gr       137    18.5     0.0     7.0
@@ -445,7 +439,6 @@ groentesaus uit pakje         100 gr        62     1.7    10.6     1.4
 groentespread                 100 gr        20     1.0     4.0     0.0
 gruyere                       100 gr       435    29.0     1.0    35.0
 guave                         100 gr        72     1.0    17.0     0.0
-H                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 haas                          100 gr       113    21.5     0.0     3.0
 hachee                        100 gr        89     6.8     2.8     5.6
 hagelslag melk                100 gr       427     6.5    66.4    15.1
@@ -482,7 +475,6 @@ hotdog relish                 100 gr       104     0.0    26.0     0.0
 hutspot                       100 gr        62     1.5     8.2     2.6
 huttenkase                    100 gr        93    11.6     1.9     4.3
 huzarenslaatje                100 gr       105     7.9     9.0     4.2
-I                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 ijs                           100 gr       186     3.0    19.7    10.6
 ijs (conotop)                 100 gr       246     6.0    24.0    14.0
 ijs (met chocolade)           100 gr       218     3.2    22.8    12.7
@@ -495,12 +487,10 @@ ijswafeltje (koekje)          100 gr       433     8.8    76.7    10.1
 irish coffee                  100 gr       108     0.6     5.2     9.4
 isostar energiedrank          100 gr        28     0.0     7.0     0.0
 italiaanse schotel (zwan)     100 gr       101     4.0    10.0     5.0
-J                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 jachtschotel                  100 gr       101     5.0     9.0     5.0
 jam  (marmelade)              100 gr       240     0.2    60.0     0.0
 jam (halva en light)          100 gr       112     0.0    28.0     0.0
 japanse mix                   100 gr       362     8.0    73.7     3.9
-K                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 kaas 20+                      100 gr       269    38.0     0.0    13.0
 kaas 40+                      100 gr       327    25.5     0.1    25.0
 kaas ( trenta )               100 gr       370    25.0     0.0    30.0
@@ -622,7 +612,6 @@ kwark vruchten (mager)        100 gr       124     7.0    15.0     4.0
 kwark ( mager )               100 gr        64    13.0     3.0     0.0
 kwark (vol)                   100 gr       159    11.1     3.2    11.4
 kwarktaart                    100 gr       228     4.9    27.2    11.1
-L                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 lamsbout                      100 gr       350    25.8     0.0    27.4
 lamsfilet                     100 gr       143    20.0     0.0     7.0
 lamskarbonade                 100 gr       350    25.8     0.0    27.4
@@ -644,7 +633,6 @@ lion                            1 stuk     193     2.0    26.0     9.0
 loempia                       100 gr       176     7.0    18.6     8.2
 lolly                         100 gr       380     0.0    95.0     0.0
 lychee                        100 gr        68     1.0    16.0     0.0
-M                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 maaltijdsoep                  100 gr        63     3.0     6.0     3.0
 maaslander                    100 gr       370    25.0     0.0    30.0
 macaroni                      100 gr       358    13.0    72.0     2.0
@@ -705,7 +693,6 @@ muesli                        100 gr       374     6.5    68.0     8.5
 muisjes                       100 gr       393     0.1    98.2     0.0
 m&m met chocolade             100 gr       483     4.6    70.5    20.3
 m&m met pinda's               100 gr       514    10.2    57.3    27.1
-N                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 nasi goreng zonder ei         100 gr       126     4.1    21.8     2.5
 nasibal                       100 gr       301     6.0    31.0    17.0
 nectarine                       1 stuk      50     0.5    12.0     0.0
@@ -713,7 +700,6 @@ negerzoen                     100 gr       365     4.7    38.6    21.3
 netmeloen                     100 gr        24     0.0     6.0     0.0
 nogat                         100 gr       472     6.0    67.0    20.0
 nutella (choco)               100 gr       533     6.5    57.0    31.0
-O                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 oesters                       100 gr        65     9.0     5.0     1.0
 olie                            1 eetlpl   108     0.0     0.0    12.0
 olijven                       100 gr       232     6.0     7.0    20.0
@@ -723,7 +709,6 @@ ontbijtspek                   100 gr       785     5.0     0.0    85.0
 ossehaas                      100 gr       189    25.6     1.2     9.1
 osseworst                     100 gr       232    25.0     0.7    14.4
 ovenfrites                    100 gr       286     5.8    46.0     8.8
-P                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 paardenbiefstuk               100 gr       107    20.0     0.0     3.0
 paardenrookvlees              100 gr        88    22.0     0.0     0.0
 paling                        100 gr       209    14.0     0.0    17.0
@@ -803,9 +788,7 @@ proteine blast                  1 stuk     136    10.2    17.7     2.7
 pruim                           1 stuk      24     0.0     6.0     0.0
 pruimen op siroop             100 gr        68     0.0    17.0     0.0
 pruimen (geweekt)             100 gr       122     1.3    29.3     0.0
-Q                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 quorn                         100 gr        86    12.5     1.8     3.2
-R                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 raap                          100 gr        16     0.1     4.0     0.0
 rabarber                        1 stuk       8     0.0     2.0     0.0
 rabarbermoes                  100 gr        72     1.0    17.0     0.0
@@ -860,7 +843,6 @@ runderlappen (vet)            100 gr       278    31.0     0.7    16.9
 runderpoelet                  100 gr       195    30.8     0.5     7.8
 runderrollade                 100 gr       167    28.3     0.8     5.7
 rundertong                    100 gr       210    16.0     0.5    16.0
-S                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 saint paulin                  100 gr       329    25.0     1.0    25.0
 salami                        100 gr       414    18.0     0.0    38.0
 salami (beleg)                100 gr       522    18.0     0.0    50.0
@@ -962,7 +944,6 @@ suikerklontje                 100 gr       400     0.0   100.0     0.0
 suikermeloen                  100 gr        28     0.9     6.3     0.0
 sultana                       100 gr       378     6.6    72.8     6.8
 supreme cheese (quick)          1 stuk     687    37.7    46.1    39.2   
-T                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 taai-taai                     100 gr       263     3.4    60.4     0.9
 taartbodem (groot 22 cm)      100 gr       351     8.0    73.0     3.0
 taco shells (Old el paso)     100 gr       478     7.8    60.8    22.8
@@ -1004,14 +985,12 @@ tuttifrutti (geweekt)         100 gr        98     1.0    23.5     0.0
 tv-worstjes (zwan)            100 gr       178     9.0     4.0    14.0
 tweedrank                     100 gr        40     0.2     9.9     0.0
 twix                            1 stuk     277     3.0    37.0    13.0
-U                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 ui                            100 gr        44     1.0    10.0     0.0
 uiensoep (franse)             100 gr        62     3.0     8.0     2.0
 uitjes (devos lemmens)        100 gr        11     0.8     2.0     0.0
 uitsmijter ham (2 eieren)     100 gr       249    12.8    16.3    14.7
 uitsmijter kaas (2 eieren)    100 gr       284    13.6    16.2    18.3
 umer                          100 gr        65     6.5     3.0     3.0
-V                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 vanilleijs                    100 gr       187     3.2    25.5     8.0
 vanillepudding                100 gr       105     4.5    19.0     1.3
 vanillevla (mager)            100 gr        67     3.5    13.0     0.1
@@ -1060,7 +1039,6 @@ vruchtensaus                  100 gr       160     0.0    40.0     0.0
 vruchtentaart                 100 gr       264     3.7    36.3    11.6
 vruchtenvlaai                 100 gr       231     3.6    37.4     7.5
 vruchtesap                    100 gr        41     0.0    10.1     0.0
-W                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 wafel (choco)                 100 gr       472     5.0    59.0    24.0
 wafel (suiker)                100 gr       467     5.0    60.0    23.0
 wafels                          1 stuk     177     3.0    21.0     9.0
@@ -1084,7 +1062,6 @@ wittekool (rauw)              100 gr        24     2.0     4.0     0.0
 wokkels                       100 gr       473     3.0    68.0    21.0
 worstebroodje                 100 gr       395    13.0    25.0    27.0
 wortelen                      100 gr        32     1.0     7.0     0.0
-Y                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 yoghurt bio nature            100 gr        68     3.8     5.5     3.4
 yoghurt (danone)              100 gr       103     3.6    16.0     2.8
 yoghurt (halfvol)             100 gr        50     4.3     4.7     1.5
@@ -1096,7 +1073,6 @@ yoghurt (vol met fruit)       100 gr        93     4.0    14.2     2.3
 yoghurt (vol)                 100 gr        56     3.4     3.5     3.2
 yoghurtdrank                  100 gr        66     3.2    13.3     0.0
 yogonaise                     100 gr       276     0.8    12.0     25.0
-Z                           Eenheid       Kcal   Eiwit   Koolh.   Vet
 zalm (gerookt)                100 gr       136    25.0     0.0    4.0 
 zalm in blik (rode)           100 gr       215    19.0     0.0   15.5
 zalm in blik (roze)           100 gr       160    23.0     0.0    7.5
