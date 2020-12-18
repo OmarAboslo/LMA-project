@@ -20,11 +20,12 @@ namespace LMA_project
         int test = 20;
         int test2 = 30;
         int res = 0;
-        int sum;
+        int sum = 0;
         int sum2;
         int sum3;
         int test3 = 50;
-        int sumUncheck = -20;
+        int sumUncheck = 0;
+        int sumUncheck2 = 0;
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
@@ -38,7 +39,7 @@ namespace LMA_project
             else
             {
                 listBox1.Items.Remove("Test");
-                sumUncheck = sum - sumUncheck;
+                sumUncheck = sum - sum;
                 textBox1.Text = sumUncheck.ToString();
             }
         }
@@ -51,10 +52,12 @@ namespace LMA_project
                 sum2 = sum + test2;
                 textBox1.Text = sum2.ToString();
             }
-
+            
             else
             {
                 listBox1.Items.Remove("Test2");
+                sumUncheck2 = sum2 - test2;
+                textBox1.Text = sumUncheck2.ToString();
             }
         }
 
