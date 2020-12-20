@@ -120,10 +120,15 @@ namespace LMA_project
                 //class BMR aanroepen
                 BMR man = new BMR(Gewicht, Lengte, leeftijd);
                 // method snelheid aanroepen
+
                 frmez.Result.Text = Convert.ToString(Snelheid(Actieflevel(man.BMRMan())));
                 frmez.ShowDialog();
 
 
+
+
+                //form.Product.Text = Convert.ToString(Snelheid(Actieflevel(man.BMRMan())));
+                //form.ShowDialog();
 
             }
             else if (RBVrouw.Checked == true)
@@ -131,11 +136,16 @@ namespace LMA_project
                 //class BMR aanroepen
                 BMR vrouw = new BMR(Gewicht, Lengte, leeftijd);
                 //// method snelheid aanroepen
+
                
                     frmez.Result.Text = Convert.ToString(Snelheid(Actieflevel(vrouw.BMRvrouw())));
                     frmez.ShowDialog();
                 
         
+
+                //form.Product.Text = Convert.ToString(Snelheid(Actieflevel(vrouw.BMRMan())));
+                //form.ShowDialog();
+
             }
 
 
