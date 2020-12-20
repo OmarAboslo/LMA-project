@@ -110,9 +110,7 @@ namespace LMA_project
             {
                 MessageBox.Show("Overleg met jouw huisarts,voordat je gaat beginnen");
             }
-            this.Hide();
             DieetSport frmez = new DieetSport();
-            frmez.ShowDialog();
             //man of vrouw
             if (RBMan.Checked == true)
             {
@@ -120,13 +118,10 @@ namespace LMA_project
                 //class BMR aanroepen
                 BMR man = new BMR(Gewicht, Lengte, leeftijd);
                 // method snelheid aanroepen
-
+              
                 frmez.Result.Text = Convert.ToString(Snelheid(Actieflevel(man.BMRMan())));
+                this.Hide();      
                 frmez.ShowDialog();
-
-
-
-
                 //form.Product.Text = Convert.ToString(Snelheid(Actieflevel(man.BMRMan())));
                 //form.ShowDialog();
 
@@ -135,17 +130,10 @@ namespace LMA_project
             {
                 //class BMR aanroepen
                 BMR vrouw = new BMR(Gewicht, Lengte, leeftijd);
-                //// method snelheid aanroepen
-
-               
+                //// method snelheid aanroepen 
                     frmez.Result.Text = Convert.ToString(Snelheid(Actieflevel(vrouw.BMRvrouw())));
-                    frmez.ShowDialog();
-                
-        
-
-                //form.Product.Text = Convert.ToString(Snelheid(Actieflevel(vrouw.BMRMan())));
-                //form.ShowDialog();
-
+                this.Hide();
+                frmez.ShowDialog();
             }
 
 

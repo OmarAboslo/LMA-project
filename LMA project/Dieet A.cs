@@ -56,6 +56,9 @@ namespace LMA_project
             SqlCommand cmd = new SqlCommand();
             cmd.CommandText = "Select *  from [Ingredienten]";
             cmd.Connection = con;
+            Random RND = new Random();
+            int nummer;
+            nummer = RND.Next(0, 5);
             SqlDataReader rd = cmd.ExecuteReader();
             while (rd.Read())
             { 
