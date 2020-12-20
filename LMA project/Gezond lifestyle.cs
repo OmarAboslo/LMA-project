@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LMA_project
 {
-    public partial class Sport : Form
+    public partial class Gezond_lifestyle : Form
     {
-        public Sport()
+        public Gezond_lifestyle()
         {
             InitializeComponent(); 
         }
@@ -105,33 +105,40 @@ namespace LMA_project
             double Gewicht = Convert.ToDouble(TextbGewicht.Text);
             double Lengte = Convert.ToDouble(TextbLengte.Text);
             int leeftijd = Convert.ToInt32(textbLeeftijd.Text);
-            this.Hide();
-            Dieet_A form = new Dieet_A();
-
-
+       
             if (RBJa.Checked == true)
             {
                 MessageBox.Show("Overleg met jouw huisarts,voordat je gaat beginnen");
             }
+            this.Hide();
+            DieetSport frmez = new DieetSport();
+            frmez.ShowDialog();
             //man of vrouw
             if (RBMan.Checked == true)
             {
+                
                 //class BMR aanroepen
                 BMR man = new BMR(Gewicht, Lengte, leeftijd);
                 // method snelheid aanroepen
-                form.Result.Text = Convert.ToString(Snelheid(Actieflevel(man.BMRMan())));
-                form.ShowDialog();
+                frmez.Result.Text = Convert.ToString(Snelheid(Actieflevel(man.BMRMan())));
+                frmez.ShowDialog();
+
+
+
             }
             else if (RBVrouw.Checked == true)
             {
                 //class BMR aanroepen
                 BMR vrouw = new BMR(Gewicht, Lengte, leeftijd);
                 //// method snelheid aanroepen
-                form.Result.Text = Convert.ToString(Snelheid(Actieflevel(vrouw.BMRMan())));
-                form.ShowDialog();
+               
+                    frmez.Result.Text = Convert.ToString(Snelheid(Actieflevel(vrouw.BMRvrouw())));
+                    frmez.ShowDialog();
+                
+        
             }
 
-         
+
 
         }
 
