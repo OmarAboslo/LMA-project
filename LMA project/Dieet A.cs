@@ -58,11 +58,8 @@ namespace LMA_project
             cmd.Connection = con;
             SqlDataReader rd = cmd.ExecuteReader();
             while (rd.Read())
-
             { 
             Product.Text = rd["Product"].ToString();
-
-
             }
         }
     }
