@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace LMA_project
 {
@@ -46,8 +47,23 @@ namespace LMA_project
             }
         }
 
-   
+        private void button9_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = @"Data Source=192.168.172.77;Initial Catalog=proftaakproject;Persist Security Info=True;User ID=Omar;Password=&Wy%EN%EzvByVB26";
+            con.Open();
+            MessageBox.Show("Connection created");
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "Select *  from [Ingredienten]";
+            cmd.Connection = con;
+            SqlDataReader rd = cmd.ExecuteReader();
+            while (rd.Read())
 
-     
+            { 
+            Product.Text = rd["Product"].ToString();
+
+
+            }
+        }
     }
 }
