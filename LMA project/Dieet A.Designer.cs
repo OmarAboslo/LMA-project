@@ -67,8 +67,8 @@
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.Result = new System.Windows.Forms.Label();
+            this.Productmenu = new System.Windows.Forms.Button();
+            this.Product = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -457,7 +457,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.panel3.Controls.Add(this.button10);
-            this.panel3.Controls.Add(this.button9);
+            this.panel3.Controls.Add(this.Productmenu);
             this.panel3.Controls.Add(this.button8);
             this.panel3.Location = new System.Drawing.Point(192, 766);
             this.panel3.Name = "panel3";
@@ -472,26 +472,25 @@
             this.button10.TabIndex = 5;
             this.button10.Text = "Handmatig";
             this.button10.UseVisualStyleBackColor = true;
-           
             // 
-            // button9
+            // Productmenu
             // 
-            this.button9.Location = new System.Drawing.Point(162, 1);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(121, 39);
-            this.button9.TabIndex = 4;
-            this.button9.Text = "Theird menu";
-            this.button9.UseVisualStyleBackColor = true;
-          
+            this.Productmenu.Location = new System.Drawing.Point(162, 1);
+            this.Productmenu.Name = "Productmenu";
+            this.Productmenu.Size = new System.Drawing.Size(121, 39);
+            this.Productmenu.TabIndex = 4;
+            this.Productmenu.Text = "Product menu";
+            this.Productmenu.UseVisualStyleBackColor = true;
+            this.Productmenu.Click += new System.EventHandler(this.button9_Click);
             // 
-            // Result
+            // Product
             // 
-            this.Result.AutoSize = true;
-            this.Result.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Result.Location = new System.Drawing.Point(408, 570);
-            this.Result.Name = "Result";
-            this.Result.Size = new System.Drawing.Size(0, 38);
-            this.Result.TabIndex = 6;
+            this.Product.AutoSize = true;
+            this.Product.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Product.Location = new System.Drawing.Point(408, 570);
+            this.Product.Name = "Product";
+            this.Product.Size = new System.Drawing.Size(0, 38);
+            this.Product.TabIndex = 6;
             // 
             // textBox1
             // 
@@ -508,7 +507,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(799, 803);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.Result);
+            this.Controls.Add(this.Product);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panelPbox2);
             this.Controls.Add(this.panel2);
@@ -592,8 +591,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        public System.Windows.Forms.Label Result;
+        private System.Windows.Forms.Button Productmenu;
+        public System.Windows.Forms.Label Product;
         private System.Windows.Forms.TextBox textBox1;
     }
 }
