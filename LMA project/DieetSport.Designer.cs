@@ -30,6 +30,8 @@
         {
             this.buttonDieet = new System.Windows.Forms.Button();
             this.buttonTraining = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.SuspendLayout();
             // 
             // buttonDieet
@@ -54,11 +56,29 @@
             this.buttonTraining.UseVisualStyleBackColor = true;
             this.buttonTraining.Click += new System.EventHandler(this.buttonTraining_Click);
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(-20, -7);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1426, 119);
+            this.flowLayoutPanel1.TabIndex = 12;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(-7, 697);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1435, 119);
+            this.flowLayoutPanel2.TabIndex = 13;
+            // 
             // DieetSport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1400, 816);
+            this.Controls.Add(this.flowLayoutPanel2);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.buttonDieet);
             this.Controls.Add(this.buttonTraining);
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
@@ -72,5 +92,7 @@
 
         private System.Windows.Forms.Button buttonDieet;
         private System.Windows.Forms.Button buttonTraining;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
     }
 }
