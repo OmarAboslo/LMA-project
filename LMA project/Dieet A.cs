@@ -38,8 +38,6 @@ namespace LMA_project
                 objDBAccess.closeConn();
                 //  this.Hide();
 
-
-
             }
             else
             {
@@ -53,17 +51,31 @@ namespace LMA_project
             con.ConnectionString = @"Data Source=192.168.172.77;Initial Catalog=proftaakproject;Persist Security Info=True;User ID=Omar;Password=&Wy%EN%EzvByVB26";
             con.Open();
             MessageBox.Show("Connection created");
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandText = "Select *  from [Ingredienten]";
-            cmd.Connection = con;
-            Random RND = new Random();
-            int nummer;
-            nummer = RND.Next(0, 5);
-            SqlDataReader rd = cmd.ExecuteReader();
-            while (rd.Read())
-            { 
-            Product.Text = rd["Product"].ToString();
+            SqlCommand cmd = new SqlCommand("Select Product,Hoeveelheid,Eenheid,Kcal,Eiwit,Koolh from Ingredienten Where Vet=@Vet",con);
+            cmd.Parameters.AddWithValue("@Vet", 5.0);
+            SqlDataReader dr = cmd.ExecuteReader();
+
+            while (dr.Read())
+            {
+                textBox1.Text= (dr.GetString(0));
+                textBox2.Text = (dr.GetString(1));
+                textBox3.Text = (dr.GetString(2));
+                textBox4.Text = (dr.GetInt32(3).ToString());
+                textBox5.Text = (dr.GetString(4));
+
             }
+            dr.Close();
+            con.Close();    
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

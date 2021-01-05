@@ -16,5 +16,10 @@ namespace LMA_project
         {
             InitializeComponent();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
