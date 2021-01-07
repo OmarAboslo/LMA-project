@@ -34,6 +34,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnTerug = new System.Windows.Forms.Button();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.Home = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Home)).BeginInit();
             this.SuspendLayout();
@@ -78,7 +80,7 @@
             // 
             // btnTerug
             // 
-            this.btnTerug.Location = new System.Drawing.Point(763, 943);
+            this.btnTerug.Location = new System.Drawing.Point(757, 815);
             this.btnTerug.Name = "btnTerug";
             this.btnTerug.Size = new System.Drawing.Size(197, 86);
             this.btnTerug.TabIndex = 8;
@@ -86,10 +88,26 @@
             this.btnTerug.UseVisualStyleBackColor = true;
             this.btnTerug.Click += new System.EventHandler(this.btnTerug_Click);
             // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 963);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1670, 151);
+            this.flowLayoutPanel2.TabIndex = 20;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(-44, -30);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1771, 161);
+            this.flowLayoutPanel1.TabIndex = 21;
+            // 
             // Home
             // 
             this.Home.Image = ((System.Drawing.Image)(resources.GetObject("Home.Image")));
-            this.Home.Location = new System.Drawing.Point(12, 12);
+            this.Home.Location = new System.Drawing.Point(3, 137);
             this.Home.Name = "Home";
             this.Home.Size = new System.Drawing.Size(118, 90);
             this.Home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -101,15 +119,20 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1673, 1094);
+            this.ClientSize = new System.Drawing.Size(1666, 1101);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.Home);
             this.Controls.Add(this.btnTerug);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.MaximumSize = new System.Drawing.Size(1694, 1180);
+            this.MinimumSize = new System.Drawing.Size(1694, 1180);
             this.Name = "NiveauKiezen";
             this.Text = "NiveauKiezen";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             ((System.ComponentModel.ISupportInitialize)(this.Home)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -124,5 +147,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnTerug;
         private System.Windows.Forms.PictureBox Home;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

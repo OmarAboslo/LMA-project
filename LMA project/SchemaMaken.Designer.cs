@@ -40,7 +40,7 @@
             // btnBiceps
             // 
             this.btnBiceps.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBiceps.Location = new System.Drawing.Point(98, 204);
+            this.btnBiceps.Location = new System.Drawing.Point(111, 111);
             this.btnBiceps.Name = "btnBiceps";
             this.btnBiceps.Size = new System.Drawing.Size(179, 106);
             this.btnBiceps.TabIndex = 0;
@@ -51,7 +51,7 @@
             // btnTriceps
             // 
             this.btnTriceps.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTriceps.Location = new System.Drawing.Point(58, 885);
+            this.btnTriceps.Location = new System.Drawing.Point(111, 316);
             this.btnTriceps.Name = "btnTriceps";
             this.btnTriceps.Size = new System.Drawing.Size(179, 106);
             this.btnTriceps.TabIndex = 1;
@@ -61,7 +61,7 @@
             // btnBorst
             // 
             this.btnBorst.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBorst.Location = new System.Drawing.Point(1208, 885);
+            this.btnBorst.Location = new System.Drawing.Point(1047, 212);
             this.btnBorst.Name = "btnBorst";
             this.btnBorst.Size = new System.Drawing.Size(179, 106);
             this.btnBorst.TabIndex = 2;
@@ -71,7 +71,7 @@
             // btnBenen
             // 
             this.btnBenen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBenen.Location = new System.Drawing.Point(290, 885);
+            this.btnBenen.Location = new System.Drawing.Point(440, 111);
             this.btnBenen.Name = "btnBenen";
             this.btnBenen.Size = new System.Drawing.Size(179, 106);
             this.btnBenen.TabIndex = 3;
@@ -81,7 +81,7 @@
             // btnBuik
             // 
             this.btnBuik.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuik.Location = new System.Drawing.Point(542, 885);
+            this.btnBuik.Location = new System.Drawing.Point(440, 316);
             this.btnBuik.Name = "btnBuik";
             this.btnBuik.Size = new System.Drawing.Size(179, 106);
             this.btnBuik.TabIndex = 4;
@@ -91,7 +91,7 @@
             // btnSchouders
             // 
             this.btnSchouders.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSchouders.Location = new System.Drawing.Point(982, 885);
+            this.btnSchouders.Location = new System.Drawing.Point(746, 316);
             this.btnSchouders.Name = "btnSchouders";
             this.btnSchouders.Size = new System.Drawing.Size(179, 106);
             this.btnSchouders.TabIndex = 5;
@@ -101,7 +101,7 @@
             // btnRug
             // 
             this.btnRug.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRug.Location = new System.Drawing.Point(761, 885);
+            this.btnRug.Location = new System.Drawing.Point(746, 111);
             this.btnRug.Name = "btnRug";
             this.btnRug.Size = new System.Drawing.Size(179, 106);
             this.btnRug.TabIndex = 6;

@@ -44,5 +44,26 @@ namespace LMA_project
             formDieetSport.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Pecdec formPecdec = new Pecdec();
+            formPecdec.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Curl formCurl = new Curl();
+            formCurl.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LegPress formLegPress = new LegPress();
+            formLegPress.Show();
+            this.Hide();
+        }
     }
 }

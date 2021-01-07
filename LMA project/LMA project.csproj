@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Curl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Curl.Designer.cs">
+      <DependentUpon>Curl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Database.cs" />
     <Compile Include="DieetSport.cs">
       <SubType>Form</SubType>
@@ -70,6 +76,18 @@
     </Compile>
     <Compile Include="Biceps.Designer.cs">
       <DependentUpon>Biceps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LegPress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LegPress.Designer.cs">
+      <DependentUpon>LegPress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pecdec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pecdec.Designer.cs">
+      <DependentUpon>Pecdec.cs</DependentUpon>
     </Compile>
     <Compile Include="SchemaMaken.cs">
       <SubType>Form</SubType>
@@ -121,6 +139,9 @@
     <Compile Include="Vragen.Designer.cs">
       <DependentUpon>Vragen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Curl.resx">
+      <DependentUpon>Curl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DieetSport.resx">
       <DependentUpon>DieetSport.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,6 +153,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Biceps.resx">
       <DependentUpon>Biceps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LegPress.resx">
+      <DependentUpon>LegPress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pecdec.resx">
+      <DependentUpon>Pecdec.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SchemaMaken.resx">
       <DependentUpon>SchemaMaken.cs</DependentUpon>

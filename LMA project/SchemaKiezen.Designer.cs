@@ -81,11 +81,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1483, 1039);
+            this.ClientSize = new System.Drawing.Size(1666, 1101);
             this.Controls.Add(this.Home);
             this.Controls.Add(this.btnTerug);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnVoorgesteld);
+            this.MaximumSize = new System.Drawing.Size(1694, 1180);
+            this.MinimumSize = new System.Drawing.Size(1694, 1180);
             this.Name = "SchemaKiezen";
             ((System.ComponentModel.ISupportInitialize)(this.Home)).EndInit();
             this.ResumeLayout(false);
