@@ -69,7 +69,7 @@
             this.panel1.Controls.Add(this.btnHand);
             this.panel1.Controls.Add(this.btnAut);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(948, 544);
             this.panel1.TabIndex = 11;
@@ -96,7 +96,7 @@
             // btnHand
             // 
             this.btnHand.Location = new System.Drawing.Point(500, 186);
-            this.btnHand.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHand.Margin = new System.Windows.Forms.Padding(4);
             this.btnHand.Name = "btnHand";
             this.btnHand.Size = new System.Drawing.Size(303, 98);
             this.btnHand.TabIndex = 1;
@@ -107,7 +107,7 @@
             // btnAut
             // 
             this.btnAut.Location = new System.Drawing.Point(112, 186);
-            this.btnAut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAut.Margin = new System.Windows.Forms.Padding(4);
             this.btnAut.Name = "btnAut";
             this.btnAut.Size = new System.Drawing.Size(297, 98);
             this.btnAut.TabIndex = 0;
@@ -120,7 +120,7 @@
             this.panel2.Controls.Add(this.buttonTraining);
             this.panel2.Controls.Add(this.buttonDieet);
             this.panel2.Location = new System.Drawing.Point(4, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(944, 533);
             this.panel2.TabIndex = 12;
@@ -130,8 +130,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(947, 534);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "DieetSport";
             this.Text = "DieetSport";

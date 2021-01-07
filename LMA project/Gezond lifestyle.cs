@@ -94,10 +94,6 @@ namespace LMA_project
             return Result;
 
         }
-
-
-      
-
         private void ButOk_Click_1(object sender, EventArgs e)
         {
             // gegevens van de gebruiker ophalen
