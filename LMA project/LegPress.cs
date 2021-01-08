@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LMA_project
 {
-    public partial class DieetSport : Form
+    public partial class LegPress : Form
     {
-        public DieetSport()
+        public LegPress()
         {
             InitializeComponent();
         }
