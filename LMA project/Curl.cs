@@ -17,7 +17,5 @@ namespace LMA_project
         {
             InitializeComponent();
         }
-
-
     }
 }
