@@ -40,9 +40,7 @@ namespace LMA_project
 
         private void Home_Click(object sender, EventArgs e)
         {
-            DieetSport formDieetSport = new DieetSport();
-            formDieetSport.Show();
-            this.Hide();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
