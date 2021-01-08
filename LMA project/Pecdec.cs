@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace LMA_project
 {
-    public partial class Form2 : Form
+    public partial class Pecdec : Form
     {
-        public Form2()
+        public Pecdec()
         {
             InitializeComponent();
         }
-
-
     }
 }
