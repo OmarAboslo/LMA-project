@@ -63,6 +63,16 @@ namespace LMA_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2__8_ {
+            get {
+                object obj = ResourceManager.GetObject("2 (8)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap e64bb39b1638bdfe7baea24844e1a574 {
             get {
                 object obj = ResourceManager.GetObject("e64bb39b1638bdfe7baea24844e1a574", resourceCulture);
