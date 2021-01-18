@@ -86,31 +86,36 @@ namespace LMA_project
 
         }
 
-       /* public void voeding(int aantal)
-        {
-            SqlConnection con = new SqlConnection();
-            con.ConnectionString = @"Data Source=192.168.172.77;Initial Catalog=proftaakproject;Persist Security Info=True;User ID=Omar;Password=&Wy%EN%EzvByVB26";
-            con.Open();
-            SqlCommand cmd = new SqlCommand("Select TOP(@ID) Product,Hoeveelheid,Eenheid,Kcal,Eiwit,Koolh,Vet from Voed", con);
-            listBox1.Items.Add("dit is een test");
-            cmd.Parameters.AddWithValue("@ID", aantal);
-            SqlDataReader dr = cmd.ExecuteReader();
+ 
 
-            while (dr.Read())
-            {
 
-                textBox1.Text += (dr.GetString(0)) + "\n";
-                label2.Text = (dr.GetString(1));
-                label3.Text = (dr.GetString(2));
-                label4.Text = (dr.GetInt32(3).ToString());
-                label5.Text = (dr.GetDouble(4).ToString());
 
-                listBox1.Items.Add(dr.FieldCount.ToString());
-            }
-            dr.Close();
-            con.Close();
 
-        }
-       */
+        /* public void voeding(int aantal)
+         {
+             SqlConnection con = new SqlConnection();
+             con.ConnectionString = @"Data Source=192.168.172.77;Initial Catalog=proftaakproject;Persist Security Info=True;User ID=Omar;Password=&Wy%EN%EzvByVB26";
+             con.Open();
+             SqlCommand cmd = new SqlCommand("Select TOP(@ID) Product,Hoeveelheid,Eenheid,Kcal,Eiwit,Koolh,Vet from Voed", con);
+             listBox1.Items.Add("dit is een test");
+             cmd.Parameters.AddWithValue("@ID", aantal);
+             SqlDataReader dr = cmd.ExecuteReader();
+
+             while (dr.Read())
+             {
+
+                 textBox1.Text += (dr.GetString(0)) + "\n";
+                 label2.Text = (dr.GetString(1));
+                 label3.Text = (dr.GetString(2));
+                 label4.Text = (dr.GetInt32(3).ToString());
+                 label5.Text = (dr.GetDouble(4).ToString());
+
+                 listBox1.Items.Add(dr.FieldCount.ToString());
+             }
+             dr.Close();
+             con.Close();
+
+         }
+        */
     }
 }

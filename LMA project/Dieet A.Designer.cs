@@ -79,6 +79,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -498,7 +499,7 @@
             this.Product.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Product.Location = new System.Drawing.Point(408, 570);
             this.Product.Name = "Product";
-            this.Product.Size = new System.Drawing.Size(0, 38);
+            this.Product.Size = new System.Drawing.Size(0, 31);
             this.Product.TabIndex = 6;
             // 
             // textBox1
@@ -546,7 +547,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(227, 525);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 12;
             this.label1.Text = "label1";
             // 
@@ -555,7 +556,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(317, 525);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 13;
             this.label2.Text = "label2";
             // 
@@ -564,7 +565,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(429, 525);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
+            this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 14;
             this.label3.Text = "label3";
             // 
@@ -573,7 +574,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(538, 525);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 17);
+            this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 15;
             this.label4.Text = "label4";
             // 
@@ -582,16 +583,24 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(656, 525);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 17);
+            this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 16;
             this.label5.Text = "label5";
             // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(432, 570);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 19);
+            this.textBox6.TabIndex = 17;
+            // 
             // Dieet_A
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(799, 803);
+            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -698,5 +707,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox6;
     }
 }
