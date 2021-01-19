@@ -53,18 +53,6 @@
       <DependentUpon>Curl.cs</DependentUpon>
     </Compile>
     <Compile Include="Database.cs" />
-    <Compile Include="DieetSport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DieetSport.Designer.cs">
-      <DependentUpon>DieetSport.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AccountAanmaken.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AccountAanmaken.Designer.cs">
-      <DependentUpon>AccountAanmaken.cs</DependentUpon>
-    </Compile>
     <Compile Include="Beginner.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,12 +95,6 @@
     <Compile Include="Pushup.Designer.cs">
       <DependentUpon>Pushup.cs</DependentUpon>
     </Compile>
-    <Compile Include="LogIn.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LogIn.Designer.cs">
-      <DependentUpon>LogIn.cs</DependentUpon>
-    </Compile>
     <Compile Include="SchemaKiezen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,26 +109,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Gezond lifestyle.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Gezond lifestyle.Designer.cs">
-      <DependentUpon>Gezond lifestyle.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Vragen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vragen.Designer.cs">
-      <DependentUpon>Vragen.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Curl.resx">
       <DependentUpon>Curl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DieetSport.resx">
-      <DependentUpon>DieetSport.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AccountAanmaken.resx">
-      <DependentUpon>AccountAanmaken.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Beginner.resx">
       <DependentUpon>Beginner.cs</DependentUpon>
@@ -169,9 +133,6 @@
     <EmbeddedResource Include="Pushup.resx">
       <DependentUpon>Pushup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LogIn.resx">
-      <DependentUpon>LogIn.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SchemaKiezen.resx">
       <DependentUpon>SchemaKiezen.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,12 +143,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Gezond lifestyle.resx">
-      <DependentUpon>Gezond lifestyle.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Vragen.resx">
-      <DependentUpon>Vragen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
