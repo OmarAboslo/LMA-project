@@ -37,5 +37,10 @@ namespace LMA_project
             formDieetSport.Show();
             this.Hide();
         }
+
+        private void NiveauKiezen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

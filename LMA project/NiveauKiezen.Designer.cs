@@ -132,7 +132,7 @@
             this.MinimumSize = new System.Drawing.Size(1694, 1180);
             this.Name = "NiveauKiezen";
             this.Text = "NiveauKiezen";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.Load += new System.EventHandler(this.NiveauKiezen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Home)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
