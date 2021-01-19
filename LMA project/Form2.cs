@@ -12,6 +12,10 @@ namespace LMA_project
 {
     public partial class Form2 : Form
     {
+        Form1 Firstform = new Form1();
+        DBAccess objDBAccess = new DBAccess();
+        DataTable dtUsers = new DataTable();
+        Gezond_lifestyle secound_form = new Gezond_lifestyle();
         public Form2()
         {
             InitializeComponent();
@@ -19,10 +23,7 @@ namespace LMA_project
 
         private void BOk_Click(object sender, EventArgs e)
         {
-            DBAccess objDBAccess = new DBAccess();
-            DataTable dtUsers = new DataTable();
-            Gezond_lifestyle secound_form = new Gezond_lifestyle();
-
+         
             //input gebruikers ophalen 
             string Gebruiksnaam = TGebruikersnaam.Text;
             string Wachtwoord = TWachtwoord.Text;
@@ -43,7 +44,7 @@ namespace LMA_project
                 {
                     MessageBox.Show("Gelukt");
                     objDBAccess.closeConn();
-                    //  this.Hide();
+                   this.Hide();
 
                     secound_form.ShowDialog();
 
@@ -58,8 +59,9 @@ namespace LMA_project
 
         private void BAccoun_maken_Click(object sender, EventArgs e)
         {
-            Form1 Firstform = new Form1();
             this.Hide();
+           
+           
             Firstform.Show();
         }
     }

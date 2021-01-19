@@ -13,115 +13,68 @@ namespace LMA_project
 {
     public partial class Dieet_A : Form
     {
+        Dieet_H new_form = new Dieet_H();
+        DieetSport HomePagina = new DieetSport();
         public Dieet_A()
         {
             InitializeComponent();
         }
 
-  
 
-      
-
-        private void Button8_Click(object sender, EventArgs e)
+        public void GetItems(SqlCommand cmd)
         {
-         
-      //      DBAccess objDBAccess = new DBAccess();
-      //      objDBAccess.createConn();
-      //      DataTable dtUsers = new DataTable();
-      //  //    string ingredienten = textBox1.Text;
-      ////      string query = "Select *  from Ingredienten Where Product= '" + ingredienten + "'";
-      //      objDBAccess.readDatathroughAdapter(query, dtUsers);
-      //      if (dtUsers.Rows.Count == 1)
-      //      {
-      //          MessageBox.Show("Gelukt");
-      //          objDBAccess.closeConn();
-      //          //  this.Hide();
-
-      //      }
-      //      else
-      //      {
-      //          MessageBox.Show("Fout, Probeer later opnieuw");
-      //      }
+            SqlConnection con = new SqlConnection();
+            cmd.Parameters.AddWithValue("@Kcal", ClassDieet.GetKcal() / 8);
+            SqlDataReader rdr = cmd.ExecuteReader();
+            while (rdr.Read())
+            {
+                listBox1.Items.Add(rdr.GetString(0));
+                listBox2.Items.Add(rdr.GetString(1) + "  " + rdr.GetString(2));
+                listBox3.Items.Add(rdr.GetInt32(3));
+                listBox4.Items.Add(rdr.GetDouble(4));
+                listBox5.Items.Add(rdr.GetString(5));
+                listBox6.Items.Add(rdr.GetDouble(6));
+            }
+            rdr.Close();
+            con.Close();
         }
-        //   public void voeding (int aantal)
-        //{
-        //    SqlConnection con = new SqlConnection();
-        //    con.ConnectionString = @"Data Source=192.168.172.77;Initial Catalog=proftaakproject;Persist Security Info=True;User ID=Omar;Password=&Wy%EN%EzvByVB26";
-        //    con.Open();
-        //    SqlCommand cmd = new SqlCommand("Select Product,Hoeveelheid,Eenheid,Kcal,Eiwit,Koolh,Vet from Voed Where ID=@ID", con);
-        //    Random NR = new Random();
-        
-        //    cmd.Parameters.AddWithValue( "@ID",  NR.Next(1,930) );         
-        //    SqlDataReader dr = cmd.ExecuteReader();
 
-        //    while (dr.Read())
-        //    {
-
-           
-
-        //        label1.Text = (dr.GetString(0)) ;              
-        //        label2.Text = (dr.GetString(1)) ;              
-        //       label3.Text = (dr.GetString(2)) ;
-        //        label4.Text = (dr.GetInt32(3).ToString());
-        //       label5.Text = (dr.GetDouble(4).ToString());  
-        //    }
-        //    dr.Close();
-        //    con.Close();
-
-        //}
 
         private void button9_Click(object sender, EventArgs e)
         {
-            
-               
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = @"Data Source=192.168.172.77;Initial Catalog=proftaakproject;Persist Security Info=True;User ID=Omar;Password=&Wy%EN%EzvByVB26";
+            con.Open();
+            SqlCommand afvallen = new SqlCommand("Select TOP 8 Product,Hoeveelheid,Eenheid,Kcal,Eiwit, Koolh, Vet from Voeding Where Kcal <= @Kcal and Kcal>= @Kcal - 10  ORDER BY NEWID()", con);
+            SqlCommand aankomen = new SqlCommand("Select TOP 8 Product,Hoeveelheid,Eenheid,Kcal,Eiwit, Koolh, Vet from Voeding Where Kcal >= @Kcal and Kcal <= @Kcal + 10 ORDER BY NEWID()", con);
             listBox1.Items.Clear();
             listBox2.Items.Clear();
             listBox3.Items.Clear();
             listBox4.Items.Clear();
             listBox5.Items.Clear();
             listBox6.Items.Clear();
-            voeding(8);
-
-
-
-        }
-
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
-
-
-
-
-        public void voeding(int aantal)
-        {
-            SqlConnection con = new SqlConnection();
-            con.ConnectionString = @"Data Source=192.168.172.77;Initial Catalog=proftaakproject;Persist Security Info=True;User ID=Omar;Password=&Wy%EN%EzvByVB26";
-            con.Open();
-            SqlCommand cmd = new SqlCommand("Select TOP 6 Product,Hoeveelheid,Eenheid,Kcal,Eiwit, Koolh, Vet from Voeding Where Kcal BETWEEN 20 and 50 ORDER BY NEWID()", con);
-
-            //  cmd.Parameters.AddWithValue("@ID", aantal);
-            SqlDataReader rdr = cmd.ExecuteReader();
-
-            while (rdr.Read())
+            if (ClassDieet.Getpersonsate() == true)
             {
-                listBox1.Items.Add(rdr.GetString(0));
-                listBox2.Items.Add(rdr.GetString(1)+"  "+ rdr.GetString(2));     
-                listBox3.Items.Add(rdr.GetInt32(3));
-                listBox4.Items.Add(rdr.GetDouble(4));
-                listBox5.Items.Add(rdr.GetString(5));
-                listBox6.Items.Add(rdr.GetDouble(6));
-
-                //   listBox1.Items.Add(rdr.GetString(0) +"     "+ rdr.GetString(1) + "     "+ rdr.GetString(2) + "     "+ rdr.GetInt32(3).ToString()+"      "+ rdr.GetDouble(4).ToString() + "     ");
+                GetItems(afvallen);
             }
-            rdr.Close();
-            con.Close();
+            else if (ClassDieet.Getpersonsate() == false)
+            {
+                GetItems(aankomen);
+            }
 
+            }
+
+        private void tbHandmatig_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new_form.Show();
         }
 
-       
+        private void btHome_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            HomePagina.Show();
+
+        }
     }
 }

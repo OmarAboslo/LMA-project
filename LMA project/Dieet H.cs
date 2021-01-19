@@ -14,6 +14,8 @@ namespace LMA_project
 {
     public partial class Dieet_H : Form
     {
+       ClassDieet aantalKcal = new ClassDieet();
+        Dieet_A new_form = new Dieet_A();
         public Dieet_H()
         {
             InitializeComponent();
@@ -38,27 +40,43 @@ namespace LMA_project
         }
 
         private void btshow_Click(object sender, EventArgs e)
-        {
-            cn.Open();
-          //  AutoCompleteStringCollection Collection = new AutoCompleteStringCollection();
-           // textBox1.AutoCompleteCustomSource = Collection;
+        {          
             string result = textBox1.Text;
+            double sum = 0;
+            cn.Open();
             SqlCommand cmdd = new SqlCommand("Select Product,Hoeveelheid,Eenheid,Kcal,Eiwit,Koolh,Vet from Voeding Where Product=@Product", cn);
             cmdd.Parameters.AddWithValue("@Product" , result);
             SqlDataReader drr = cmdd.ExecuteReader();
 
             while (drr.Read())
             {
-                label1.Text = (drr.GetString(0));
-                label2.Text = (drr.GetString(1));
-               label3.Text = (drr.GetString(2));
-                label4.Text = (drr.GetInt32(3).ToString());
-                label5.Text = (drr.GetDouble(4).ToString());
-                label6.Text = (drr.GetString(5));
-               label7.Text = (drr.GetDouble(6).ToString());
+                listBox1.Items.Add (drr.GetString(0));
+               listBox2.Items.Add (drr.GetString(1) + "  "+ drr.GetString(2));             
+                listBox3.Items.Add  (drr.GetInt32(3).ToString());
+              listBox4.Items.Add  (drr.GetDouble(4).ToString());
+               listBox5.Items.Add (drr.GetString(5));
+               listBox6.Items.Add  (drr.GetDouble(6).ToString());
             }
             drr.Close();
             cn.Close();
+            for (int i = 0; i < listBox3.Items.Count; i++)
+            {
+
+                sum += Convert.ToDouble(listBox3.Items[i]);
+                if (sum > ClassDieet.GetKcal())
+                {
+                    MessageBox.Show("Jij heb te veel gekozen, jij bent boven de limiet" + sum);
+                }
+
+
+            }
+
+        }
+
+        private void btautomatisch_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new_form.Show();
         }
     }
 }

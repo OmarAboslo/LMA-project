@@ -8,19 +8,21 @@ namespace LMA_project
 {
     class ClassDieet
     {
-        public  enum Vlees {Lam = 300, kip = 250, vis = 219, kalf = 123 }
-        private enum Groente{sla, komkommer, tomaat, aardappel }
-        private enum Fruit {banaan, appel, druif, aardbei }
-        private enum Dranken {water, melk, fruitsap, koffie }
-    
-        public int Eenheid (int eenheid, int  soorvlees)
+      public static double kcal;
+      public static bool peronstate;   
+
+       
+
+
+       public static double GetKcal ()
         {
-            int result = eenheid * soorvlees;
-
-            return result;
+            return kcal;   
         }
-            
-
+       
+        public static bool Getpersonsate()
+        {
+            return peronstate;
+        }
 
 
     }
