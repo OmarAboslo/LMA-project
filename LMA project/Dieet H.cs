@@ -78,5 +78,15 @@ namespace LMA_project
             this.Hide();
             new_form.Show();
         }
+
+        private void btHome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

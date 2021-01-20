@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data;
 using System.Data.SqlClient;
 namespace LMA_project
 {
@@ -60,6 +59,11 @@ namespace LMA_project
                     MessageBox.Show("Fout, Probeer later opnieuw");
                 }
             }
+        }
+
+        private void LAccount_aanmaken_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

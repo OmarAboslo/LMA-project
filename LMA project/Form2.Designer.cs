@@ -29,6 +29,7 @@ namespace LMA_project
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.LGebruikersnaam = new System.Windows.Forms.Label();
             this.LWachtwoord = new System.Windows.Forms.Label();
             this.LInloggen = new System.Windows.Forms.Label();
@@ -39,67 +40,65 @@ namespace LMA_project
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // LGebruikersnaam
             // 
             this.LGebruikersnaam.AutoSize = true;
-            this.LGebruikersnaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LGebruikersnaam.Location = new System.Drawing.Point(225, 228);
-            this.LGebruikersnaam.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LGebruikersnaam.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold);
+            this.LGebruikersnaam.Location = new System.Drawing.Point(249, 300);
             this.LGebruikersnaam.Name = "LGebruikersnaam";
-            this.LGebruikersnaam.Size = new System.Drawing.Size(225, 32);
+            this.LGebruikersnaam.Size = new System.Drawing.Size(193, 54);
             this.LGebruikersnaam.TabIndex = 0;
-            this.LGebruikersnaam.Text = "Gebruikersnaam";
+            this.LGebruikersnaam.Text = "Gebruikersnaam:";
             // 
             // LWachtwoord
             // 
             this.LWachtwoord.AutoSize = true;
-            this.LWachtwoord.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LWachtwoord.Location = new System.Drawing.Point(225, 275);
-            this.LWachtwoord.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LWachtwoord.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold);
+            this.LWachtwoord.Location = new System.Drawing.Point(276, 354);
             this.LWachtwoord.Name = "LWachtwoord";
-            this.LWachtwoord.Size = new System.Drawing.Size(172, 32);
+            this.LWachtwoord.Size = new System.Drawing.Size(151, 54);
             this.LWachtwoord.TabIndex = 1;
-            this.LWachtwoord.Text = "Wachtwoord";
+            this.LWachtwoord.Text = "Wachtwoord:";
             // 
             // LInloggen
             // 
             this.LInloggen.AutoSize = true;
-            this.LInloggen.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LInloggen.Location = new System.Drawing.Point(368, 7);
-            this.LInloggen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LInloggen.Font = new System.Drawing.Font("Gabriola", 48F, System.Drawing.FontStyle.Bold);
+            this.LInloggen.Location = new System.Drawing.Point(289, -15);
             this.LInloggen.Name = "LInloggen";
-            this.LInloggen.Size = new System.Drawing.Size(350, 91);
+            this.LInloggen.Size = new System.Drawing.Size(226, 118);
             this.LInloggen.TabIndex = 2;
             this.LInloggen.Text = "Inloggen";
             // 
             // TGebruikersnaam
             // 
-            this.TGebruikersnaam.Location = new System.Drawing.Point(477, 224);
-            this.TGebruikersnaam.Margin = new System.Windows.Forms.Padding(4);
+            this.TGebruikersnaam.Location = new System.Drawing.Point(480, 311);
             this.TGebruikersnaam.Multiline = true;
             this.TGebruikersnaam.Name = "TGebruikersnaam";
-            this.TGebruikersnaam.Size = new System.Drawing.Size(180, 36);
+            this.TGebruikersnaam.Size = new System.Drawing.Size(159, 33);
             this.TGebruikersnaam.TabIndex = 3;
             // 
             // TWachtwoord
             // 
-            this.TWachtwoord.Location = new System.Drawing.Point(478, 275);
-            this.TWachtwoord.Margin = new System.Windows.Forms.Padding(4);
+            this.TWachtwoord.Location = new System.Drawing.Point(480, 365);
             this.TWachtwoord.Multiline = true;
             this.TWachtwoord.Name = "TWachtwoord";
-            this.TWachtwoord.Size = new System.Drawing.Size(179, 36);
+            this.TWachtwoord.Size = new System.Drawing.Size(159, 33);
             this.TWachtwoord.TabIndex = 4;
             // 
             // BOk
             // 
-            this.BOk.Location = new System.Drawing.Point(478, 342);
-            this.BOk.Margin = new System.Windows.Forms.Padding(4);
+            this.BOk.Font = new System.Drawing.Font("Gabriola", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BOk.Location = new System.Drawing.Point(502, 417);
             this.BOk.Name = "BOk";
-            this.BOk.Size = new System.Drawing.Size(166, 43);
+            this.BOk.Size = new System.Drawing.Size(124, 43);
             this.BOk.TabIndex = 10;
             this.BOk.Text = "OK";
             this.BOk.UseVisualStyleBackColor = true;
@@ -107,10 +106,10 @@ namespace LMA_project
             // 
             // BAccoun_maken
             // 
-            this.BAccoun_maken.Location = new System.Drawing.Point(806, 441);
-            this.BAccoun_maken.Margin = new System.Windows.Forms.Padding(4);
+            this.BAccoun_maken.Font = new System.Drawing.Font("Gabriola", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BAccoun_maken.Location = new System.Drawing.Point(654, 659);
             this.BAccoun_maken.Name = "BAccoun_maken";
-            this.BAccoun_maken.Size = new System.Drawing.Size(160, 43);
+            this.BAccoun_maken.Size = new System.Drawing.Size(133, 45);
             this.BAccoun_maken.TabIndex = 11;
             this.BAccoun_maken.Text = "Account Maken";
             this.BAccoun_maken.UseVisualStyleBackColor = true;
@@ -119,10 +118,10 @@ namespace LMA_project
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(822, 398);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Font = new System.Drawing.Font("Gabriola", 18F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(644, 611);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 17);
+            this.label1.Size = new System.Drawing.Size(143, 45);
             this.label1.TabIndex = 12;
             this.label1.Text = "Geen Account?";
             // 
@@ -132,25 +131,48 @@ namespace LMA_project
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.LInloggen);
             this.panel1.Location = new System.Drawing.Point(2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1065, 115);
+            this.panel1.Size = new System.Drawing.Size(799, 93);
             this.panel1.TabIndex = 13;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::LMA_project.Properties.Resources.Shopping_Cart_Food_Icon;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 3);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(687, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(67, 77);
+            this.pictureBox1.Size = new System.Drawing.Size(140, 101);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(2, 92);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(190, 91);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 67;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panel2.Location = new System.Drawing.Point(2, 179);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(190, 539);
+            this.panel2.TabIndex = 66;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(799, 716);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BAccoun_maken);
@@ -159,11 +181,11 @@ namespace LMA_project
             this.Controls.Add(this.TGebruikersnaam);
             this.Controls.Add(this.LWachtwoord);
             this.Controls.Add(this.LGebruikersnaam);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form2";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -181,5 +203,7 @@ namespace LMA_project
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel2;
     }
 }

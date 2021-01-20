@@ -29,6 +29,7 @@ namespace LMA_project
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.LAccount_aanmaken = new System.Windows.Forms.Label();
             this.LEmail = new System.Windows.Forms.Label();
             this.LWachtwoord = new System.Windows.Forms.Label();
@@ -39,84 +40,83 @@ namespace LMA_project
             this.BOk = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // LAccount_aanmaken
             // 
             this.LAccount_aanmaken.AutoSize = true;
-            this.LAccount_aanmaken.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LAccount_aanmaken.Location = new System.Drawing.Point(169, 7);
-            this.LAccount_aanmaken.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LAccount_aanmaken.Font = new System.Drawing.Font("Gabriola", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LAccount_aanmaken.Location = new System.Drawing.Point(147, -6);
             this.LAccount_aanmaken.Name = "LAccount_aanmaken";
-            this.LAccount_aanmaken.Size = new System.Drawing.Size(734, 91);
+            this.LAccount_aanmaken.Size = new System.Drawing.Size(441, 118);
             this.LAccount_aanmaken.TabIndex = 0;
             this.LAccount_aanmaken.Text = "Account aanmaken";
+            this.LAccount_aanmaken.Click += new System.EventHandler(this.LAccount_aanmaken_Click);
             // 
             // LEmail
             // 
             this.LEmail.AutoSize = true;
-            this.LEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LEmail.Location = new System.Drawing.Point(419, 203);
-            this.LEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LEmail.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LEmail.Location = new System.Drawing.Point(356, 298);
             this.LEmail.Name = "LEmail";
-            this.LEmail.Size = new System.Drawing.Size(57, 24);
+            this.LEmail.Size = new System.Drawing.Size(86, 54);
             this.LEmail.TabIndex = 2;
-            this.LEmail.Text = "Email";
+            this.LEmail.Text = "Email:";
             // 
             // LWachtwoord
             // 
             this.LWachtwoord.AutoSize = true;
-            this.LWachtwoord.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LWachtwoord.Location = new System.Drawing.Point(380, 250);
-            this.LWachtwoord.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LWachtwoord.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold);
+            this.LWachtwoord.Location = new System.Drawing.Point(314, 361);
             this.LWachtwoord.Name = "LWachtwoord";
-            this.LWachtwoord.Size = new System.Drawing.Size(121, 24);
+            this.LWachtwoord.Size = new System.Drawing.Size(151, 54);
             this.LWachtwoord.TabIndex = 3;
             this.LWachtwoord.Text = "Wachtwoord:";
             // 
             // LWachtwoord_bevestigen
             // 
             this.LWachtwoord_bevestigen.AutoSize = true;
-            this.LWachtwoord_bevestigen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LWachtwoord_bevestigen.Location = new System.Drawing.Point(318, 293);
-            this.LWachtwoord_bevestigen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LWachtwoord_bevestigen.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold);
+            this.LWachtwoord_bevestigen.Location = new System.Drawing.Point(273, 424);
             this.LWachtwoord_bevestigen.Name = "LWachtwoord_bevestigen";
-            this.LWachtwoord_bevestigen.Size = new System.Drawing.Size(218, 24);
+            this.LWachtwoord_bevestigen.Size = new System.Drawing.Size(259, 54);
             this.LWachtwoord_bevestigen.TabIndex = 4;
             this.LWachtwoord_bevestigen.Text = "Wachtwoord bevestigen:";
             // 
             // TWachtwoord
             // 
-            this.TWachtwoord.Location = new System.Drawing.Point(554, 250);
-            this.TWachtwoord.Margin = new System.Windows.Forms.Padding(4);
+            this.TWachtwoord.Location = new System.Drawing.Point(538, 372);
+            this.TWachtwoord.Multiline = true;
             this.TWachtwoord.Name = "TWachtwoord";
-            this.TWachtwoord.Size = new System.Drawing.Size(132, 22);
+            this.TWachtwoord.Size = new System.Drawing.Size(146, 33);
             this.TWachtwoord.TabIndex = 6;
             // 
             // TEmail
             // 
-            this.TEmail.Location = new System.Drawing.Point(554, 203);
-            this.TEmail.Margin = new System.Windows.Forms.Padding(4);
+            this.TEmail.Location = new System.Drawing.Point(538, 303);
+            this.TEmail.Multiline = true;
             this.TEmail.Name = "TEmail";
-            this.TEmail.Size = new System.Drawing.Size(132, 22);
+            this.TEmail.Size = new System.Drawing.Size(146, 34);
             this.TEmail.TabIndex = 7;
             // 
             // TWachtwoord_bevestigen
             // 
-            this.TWachtwoord_bevestigen.Location = new System.Drawing.Point(554, 295);
-            this.TWachtwoord_bevestigen.Margin = new System.Windows.Forms.Padding(4);
+            this.TWachtwoord_bevestigen.Location = new System.Drawing.Point(538, 434);
+            this.TWachtwoord_bevestigen.Multiline = true;
             this.TWachtwoord_bevestigen.Name = "TWachtwoord_bevestigen";
-            this.TWachtwoord_bevestigen.Size = new System.Drawing.Size(132, 22);
+            this.TWachtwoord_bevestigen.Size = new System.Drawing.Size(146, 33);
             this.TWachtwoord_bevestigen.TabIndex = 8;
             // 
             // BOk
             // 
-            this.BOk.Location = new System.Drawing.Point(721, 443);
-            this.BOk.Margin = new System.Windows.Forms.Padding(4);
+            this.BOk.Location = new System.Drawing.Point(649, 668);
             this.BOk.Name = "BOk";
-            this.BOk.Size = new System.Drawing.Size(184, 44);
+            this.BOk.Size = new System.Drawing.Size(138, 36);
             this.BOk.TabIndex = 9;
             this.BOk.Text = "OK";
             this.BOk.UseVisualStyleBackColor = true;
@@ -128,25 +128,48 @@ namespace LMA_project
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.LAccount_aanmaken);
             this.panel1.Location = new System.Drawing.Point(2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1053, 113);
+            this.panel1.Size = new System.Drawing.Size(790, 103);
             this.panel1.TabIndex = 10;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::LMA_project.Properties.Resources.Shopping_Cart_Food_Icon;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 3);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(681, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(67, 77);
+            this.pictureBox1.Size = new System.Drawing.Size(140, 101);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabIndex = 65;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(2, 105);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(190, 91);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 67;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panel2.Location = new System.Drawing.Point(2, 192);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(190, 539);
+            this.panel2.TabIndex = 66;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(799, 716);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.BOk);
             this.Controls.Add(this.TWachtwoord_bevestigen);
@@ -155,12 +178,12 @@ namespace LMA_project
             this.Controls.Add(this.LWachtwoord_bevestigen);
             this.Controls.Add(this.LWachtwoord);
             this.Controls.Add(this.LEmail);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,5 +201,7 @@ namespace LMA_project
         private System.Windows.Forms.Button BOk;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel2;
     }
 }

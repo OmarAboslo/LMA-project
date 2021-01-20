@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dieet_A));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -67,13 +68,24 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1065, 99);
             this.panel1.TabIndex = 0;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Forte", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Green;
+            this.label7.Location = new System.Drawing.Point(302, 34);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(293, 52);
+            this.label7.TabIndex = 44;
+            this.label7.Text = "Automatisch";
             // 
             // pictureBox1
             // 
@@ -89,9 +101,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(0, -35);
+            this.pictureBox2.Location = new System.Drawing.Point(-4, 95);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(187, 186);
+            this.pictureBox2.Size = new System.Drawing.Size(187, 89);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 43;
             this.pictureBox2.TabStop = false;
@@ -107,16 +119,16 @@
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(1, 107);
+            this.panel2.Location = new System.Drawing.Point(1, 184);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(230, 612);
+            this.panel2.Size = new System.Drawing.Size(185, 535);
             this.panel2.TabIndex = 1;
             // 
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(21, 298);
+            this.button7.Location = new System.Drawing.Point(3, 294);
             this.button7.Margin = new System.Windows.Forms.Padding(4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(182, 40);
@@ -127,7 +139,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(21, 250);
+            this.button6.Location = new System.Drawing.Point(3, 246);
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(182, 40);
@@ -138,7 +150,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(21, 202);
+            this.button5.Location = new System.Drawing.Point(3, 198);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(182, 40);
@@ -149,7 +161,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(21, 154);
+            this.button4.Location = new System.Drawing.Point(3, 150);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(182, 40);
@@ -160,7 +172,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(21, 106);
+            this.button3.Location = new System.Drawing.Point(3, 102);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(182, 40);
@@ -171,7 +183,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(21, 61);
+            this.button2.Location = new System.Drawing.Point(3, 57);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(182, 40);
@@ -182,7 +194,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(21, 11);
+            this.button1.Location = new System.Drawing.Point(3, 7);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(182, 40);
@@ -192,7 +204,8 @@
             // 
             // btHome
             // 
-            this.btHome.Location = new System.Drawing.Point(211, 0);
+            this.btHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btHome.Location = new System.Drawing.Point(236, 0);
             this.btHome.Margin = new System.Windows.Forms.Padding(4);
             this.btHome.Name = "btHome";
             this.btHome.Size = new System.Drawing.Size(156, 49);
@@ -206,15 +219,16 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.panel3.Controls.Add(this.tbHandmatig);
             this.panel3.Controls.Add(this.btHome);
-            this.panel3.Location = new System.Drawing.Point(264, 667);
+            this.panel3.Location = new System.Drawing.Point(206, 667);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(809, 52);
+            this.panel3.Size = new System.Drawing.Size(867, 52);
             this.panel3.TabIndex = 5;
             // 
             // tbHandmatig
             // 
-            this.tbHandmatig.Location = new System.Drawing.Point(375, 0);
+            this.tbHandmatig.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tbHandmatig.Location = new System.Drawing.Point(400, 0);
             this.tbHandmatig.Margin = new System.Windows.Forms.Padding(4);
             this.tbHandmatig.Name = "tbHandmatig";
             this.tbHandmatig.Size = new System.Drawing.Size(156, 49);
@@ -225,6 +239,7 @@
             // 
             // Productmenu
             // 
+            this.Productmenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Productmenu.Location = new System.Drawing.Point(450, 451);
             this.Productmenu.Margin = new System.Windows.Forms.Padding(4);
             this.Productmenu.Name = "Productmenu";
@@ -247,7 +262,7 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(270, 213);
+            this.listBox1.Location = new System.Drawing.Point(276, 284);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(139, 121);
             this.listBox1.TabIndex = 38;
@@ -255,7 +270,7 @@
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(415, 213);
+            this.listBox2.Location = new System.Drawing.Point(421, 284);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(65, 121);
             this.listBox2.TabIndex = 39;
@@ -263,7 +278,7 @@
             // listBox3
             // 
             this.listBox3.FormattingEnabled = true;
-            this.listBox3.Location = new System.Drawing.Point(487, 213);
+            this.listBox3.Location = new System.Drawing.Point(493, 284);
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(60, 121);
             this.listBox3.TabIndex = 40;
@@ -271,7 +286,7 @@
             // listBox4
             // 
             this.listBox4.FormattingEnabled = true;
-            this.listBox4.Location = new System.Drawing.Point(553, 213);
+            this.listBox4.Location = new System.Drawing.Point(559, 284);
             this.listBox4.Name = "listBox4";
             this.listBox4.Size = new System.Drawing.Size(59, 121);
             this.listBox4.TabIndex = 41;
@@ -279,7 +294,7 @@
             // listBox5
             // 
             this.listBox5.FormattingEnabled = true;
-            this.listBox5.Location = new System.Drawing.Point(618, 213);
+            this.listBox5.Location = new System.Drawing.Point(624, 284);
             this.listBox5.Name = "listBox5";
             this.listBox5.Size = new System.Drawing.Size(61, 121);
             this.listBox5.TabIndex = 42;
@@ -287,7 +302,7 @@
             // listBox6
             // 
             this.listBox6.FormattingEnabled = true;
-            this.listBox6.Location = new System.Drawing.Point(685, 213);
+            this.listBox6.Location = new System.Drawing.Point(691, 284);
             this.listBox6.Name = "listBox6";
             this.listBox6.Size = new System.Drawing.Size(61, 121);
             this.listBox6.TabIndex = 43;
@@ -295,7 +310,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(303, 183);
+            this.label1.Location = new System.Drawing.Point(309, 254);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 44;
@@ -304,7 +319,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(393, 183);
+            this.label2.Location = new System.Drawing.Point(399, 254);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 13);
             this.label2.TabIndex = 45;
@@ -313,7 +328,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(696, 183);
+            this.label3.Location = new System.Drawing.Point(702, 254);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(23, 13);
             this.label3.TabIndex = 46;
@@ -322,7 +337,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(501, 183);
+            this.label4.Location = new System.Drawing.Point(507, 254);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 13);
             this.label4.TabIndex = 47;
@@ -331,7 +346,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(551, 183);
+            this.label5.Location = new System.Drawing.Point(557, 254);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 13);
             this.label5.TabIndex = 48;
@@ -340,7 +355,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(627, 183);
+            this.label6.Location = new System.Drawing.Point(633, 254);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(34, 13);
             this.label6.TabIndex = 49;
@@ -354,6 +369,7 @@
             this.ClientSize = new System.Drawing.Size(799, 716);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.Productmenu);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -374,6 +390,7 @@
             this.Name = "Dieet_A";
             this.Text = "Dieet_A";
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -413,5 +430,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }

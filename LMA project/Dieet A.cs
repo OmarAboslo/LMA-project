@@ -13,12 +13,13 @@ namespace LMA_project
 {
     public partial class Dieet_A : Form
     {
-        Dieet_H new_form = new Dieet_H();
-        DieetSport HomePagina = new DieetSport();
+    
         public Dieet_A()
         {
             InitializeComponent();
         }
+        
+     
 
 
         public void GetItems(SqlCommand cmd)
@@ -66,12 +67,14 @@ namespace LMA_project
 
         private void tbHandmatig_Click(object sender, EventArgs e)
         {
+            Dieet_H new_form = new Dieet_H();
             this.Hide();
             new_form.Show();
         }
 
         private void btHome_Click(object sender, EventArgs e)
         {
+            DieetSport HomePagina = new DieetSport();
             this.Hide();
             HomePagina.Show();
 

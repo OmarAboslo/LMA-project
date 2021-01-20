@@ -141,6 +141,10 @@ namespace LMA_project
 
         }
 
+        private void LInloggen_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

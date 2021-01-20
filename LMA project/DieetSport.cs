@@ -28,7 +28,7 @@ namespace LMA_project
         {
             this.Hide();
             Dieet_H format= new Dieet_H();
-            format.ShowDialog();
+            format.Show();
             
             
 
@@ -38,8 +38,29 @@ namespace LMA_project
         {
             this.Hide();
             Dieet_A format = new Dieet_A();
-            format.ShowDialog();
+            format.Show();
 
+        }
+
+        private void Helplabel_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+
+        }
+
+        private void buttonDieet_MouseHover(object sender, EventArgs e)
+        {
+            Helplabel.Text = "efefed";
+            Helplabel.Visible = true;
+        }
+
+        private void buttonTraining_MouseUp(object sender, MouseEventArgs e)
+        {
+            Helplabel.Text = "hahahahahahah";
+        }
+
+        private void buttonDieet_MouseLeave(object sender, EventArgs e)
+        {
+            Helplabel.Visible = false;
         }
     }
 }
