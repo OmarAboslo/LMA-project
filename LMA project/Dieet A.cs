@@ -18,9 +18,6 @@ namespace LMA_project
         {
             InitializeComponent();
         }
-        
-     
-
 
         public void GetItems(SqlCommand cmd)
         {
@@ -39,8 +36,6 @@ namespace LMA_project
             rdr.Close();
             con.Close();
         }
-
-
         private void button9_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
@@ -64,19 +59,22 @@ namespace LMA_project
             }
 
             }
-
         private void tbHandmatig_Click(object sender, EventArgs e)
         {
             Dieet_H new_form = new Dieet_H();
             this.Hide();
             new_form.Show();
         }
-
         private void btHome_Click(object sender, EventArgs e)
         {
             DieetSport HomePagina = new DieetSport();
             this.Hide();
             HomePagina.Show();
+
+        }
+
+        private void Dieet_A_Load(object sender, EventArgs e)
+        {
 
         }
     }

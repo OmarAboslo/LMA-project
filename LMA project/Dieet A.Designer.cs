@@ -79,18 +79,18 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Forte", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Green;
-            this.label7.Location = new System.Drawing.Point(302, 34);
+            this.label7.Font = new System.Drawing.Font("Gabriola", 48F, System.Drawing.FontStyle.Bold);
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(189, -4);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(293, 52);
+            this.label7.Size = new System.Drawing.Size(450, 118);
             this.label7.TabIndex = 44;
-            this.label7.Text = "Automatisch";
+            this.label7.Text = "Klaargemaakt Dieet";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(676, -4);
+            this.pictureBox1.Location = new System.Drawing.Point(691, -4);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(119, 108);
@@ -127,91 +127,100 @@
             // 
             // button7
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(3, 294);
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.button7.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button7.Location = new System.Drawing.Point(1, 388);
             this.button7.Margin = new System.Windows.Forms.Padding(4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(182, 40);
             this.button7.TabIndex = 6;
             this.button7.Text = "Zondag";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(3, 246);
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.button6.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button6.Location = new System.Drawing.Point(1, 340);
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(182, 40);
             this.button6.TabIndex = 5;
             this.button6.Text = "Zaterdag";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(3, 198);
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.button5.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button5.Location = new System.Drawing.Point(1, 292);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(182, 40);
             this.button5.TabIndex = 4;
             this.button5.Text = "Vrijdag";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(3, 150);
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.button4.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button4.Location = new System.Drawing.Point(0, 244);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(182, 40);
             this.button4.TabIndex = 3;
             this.button4.Text = "Donderdag";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(3, 102);
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.button3.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button3.Location = new System.Drawing.Point(1, 196);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(182, 40);
             this.button3.TabIndex = 2;
             this.button3.Text = "Woensdag";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(3, 57);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.button2.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button2.Location = new System.Drawing.Point(0, 148);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(182, 40);
             this.button2.TabIndex = 1;
             this.button2.Text = "Dinsdag";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(3, 7);
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.button1.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(0, 100);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(182, 40);
             this.button1.TabIndex = 0;
             this.button1.Text = "Maandag";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // btHome
             // 
+            this.btHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
             this.btHome.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btHome.Location = new System.Drawing.Point(236, 0);
+            this.btHome.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btHome.Location = new System.Drawing.Point(265, 0);
             this.btHome.Margin = new System.Windows.Forms.Padding(4);
             this.btHome.Name = "btHome";
             this.btHome.Size = new System.Drawing.Size(156, 49);
             this.btHome.TabIndex = 3;
             this.btHome.Text = "Home";
-            this.btHome.UseVisualStyleBackColor = true;
+            this.btHome.UseVisualStyleBackColor = false;
             this.btHome.Click += new System.EventHandler(this.btHome_Click);
             // 
             // panel3
@@ -227,26 +236,30 @@
             // 
             // tbHandmatig
             // 
+            this.tbHandmatig.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
             this.tbHandmatig.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.tbHandmatig.Location = new System.Drawing.Point(400, 0);
+            this.tbHandmatig.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.tbHandmatig.Location = new System.Drawing.Point(430, -1);
             this.tbHandmatig.Margin = new System.Windows.Forms.Padding(4);
             this.tbHandmatig.Name = "tbHandmatig";
-            this.tbHandmatig.Size = new System.Drawing.Size(156, 49);
+            this.tbHandmatig.Size = new System.Drawing.Size(160, 49);
             this.tbHandmatig.TabIndex = 5;
             this.tbHandmatig.Text = "Handmatig";
-            this.tbHandmatig.UseVisualStyleBackColor = true;
+            this.tbHandmatig.UseVisualStyleBackColor = false;
             this.tbHandmatig.Click += new System.EventHandler(this.tbHandmatig_Click);
             // 
             // Productmenu
             // 
+            this.Productmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
             this.Productmenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Productmenu.Location = new System.Drawing.Point(450, 451);
+            this.Productmenu.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.Productmenu.Location = new System.Drawing.Point(493, 484);
             this.Productmenu.Margin = new System.Windows.Forms.Padding(4);
             this.Productmenu.Name = "Productmenu";
             this.Productmenu.Size = new System.Drawing.Size(145, 48);
             this.Productmenu.TabIndex = 4;
             this.Productmenu.Text = "Product menu";
-            this.Productmenu.UseVisualStyleBackColor = true;
+            this.Productmenu.UseVisualStyleBackColor = false;
             this.Productmenu.Click += new System.EventHandler(this.button9_Click);
             // 
             // Product
@@ -310,54 +323,60 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(309, 254);
+            this.label1.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(308, 242);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.Size = new System.Drawing.Size(70, 35);
             this.label1.TabIndex = 44;
             this.label1.Text = "Product";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(399, 254);
+            this.label2.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(403, 242);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 13);
+            this.label2.Size = new System.Drawing.Size(98, 35);
             this.label2.TabIndex = 45;
             this.label2.Text = "Hoeveelheid";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(702, 254);
+            this.label3.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(700, 242);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(23, 13);
+            this.label3.Size = new System.Drawing.Size(37, 35);
             this.label3.TabIndex = 46;
             this.label3.Text = "Vet";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(507, 254);
+            this.label4.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(499, 242);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(28, 13);
+            this.label4.Size = new System.Drawing.Size(45, 35);
             this.label4.TabIndex = 47;
             this.label4.Text = "Kcal";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(557, 254);
+            this.label5.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(558, 242);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 13);
+            this.label5.Size = new System.Drawing.Size(69, 35);
             this.label5.TabIndex = 48;
             this.label5.Text = "Eiwitten";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(633, 254);
+            this.label6.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(630, 242);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(34, 13);
+            this.label6.Size = new System.Drawing.Size(55, 35);
             this.label6.TabIndex = 49;
             this.label6.Text = "Koolh";
             // 
@@ -389,6 +408,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Dieet_A";
             this.Text = "Dieet_A";
+            this.Load += new System.EventHandler(this.Dieet_A_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

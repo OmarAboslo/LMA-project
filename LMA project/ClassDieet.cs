@@ -11,9 +11,6 @@ namespace LMA_project
       public static double kcal;
       public static bool peronstate;   
 
-       
-
-
        public static double GetKcal ()
         {
             return kcal;   

@@ -43,8 +43,8 @@
             this.RBSnel = new System.Windows.Forms.RadioButton();
             this.RBZosnelmogelijk = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
-            this.RBJa = new System.Windows.Forms.RadioButton();
-            this.RBNee = new System.Windows.Forms.RadioButton();
+            this.RBziekteJa = new System.Windows.Forms.RadioButton();
+            this.RBziekteNee = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
             this.RBMan = new System.Windows.Forms.RadioButton();
             this.RBVrouw = new System.Windows.Forms.RadioButton();
@@ -60,17 +60,17 @@
             this.pnlGeslacht = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.LInloggen = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlSnelheid.SuspendLayout();
             this.pnlActief.SuspendLayout();
             this.pnlZiekte.SuspendLayout();
             this.pnlGeslacht.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -109,7 +109,7 @@
             // TextbGewicht
             // 
             this.TextbGewicht.Location = new System.Drawing.Point(217, 188);
-            this.TextbGewicht.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TextbGewicht.Margin = new System.Windows.Forms.Padding(2);
             this.TextbGewicht.Multiline = true;
             this.TextbGewicht.Name = "TextbGewicht";
             this.TextbGewicht.Size = new System.Drawing.Size(129, 24);
@@ -118,7 +118,7 @@
             // TextbLengte
             // 
             this.TextbLengte.Location = new System.Drawing.Point(400, 188);
-            this.TextbLengte.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TextbLengte.Margin = new System.Windows.Forms.Padding(2);
             this.TextbLengte.Multiline = true;
             this.TextbLengte.Name = "TextbLengte";
             this.TextbLengte.Size = new System.Drawing.Size(129, 24);
@@ -127,7 +127,7 @@
             // textbLeeftijd
             // 
             this.textbLeeftijd.Location = new System.Drawing.Point(588, 184);
-            this.textbLeeftijd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textbLeeftijd.Margin = new System.Windows.Forms.Padding(2);
             this.textbLeeftijd.Multiline = true;
             this.textbLeeftijd.Name = "textbLeeftijd";
             this.textbLeeftijd.Size = new System.Drawing.Size(129, 24);
@@ -137,7 +137,7 @@
             // 
             this.butOk.Font = new System.Drawing.Font("Gabriola", 18F, System.Drawing.FontStyle.Bold);
             this.butOk.Location = new System.Drawing.Point(654, 659);
-            this.butOk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butOk.Margin = new System.Windows.Forms.Padding(2);
             this.butOk.Name = "butOk";
             this.butOk.Size = new System.Drawing.Size(134, 45);
             this.butOk.TabIndex = 6;
@@ -148,7 +148,7 @@
             // textBoxGewensteGewicht
             // 
             this.textBoxGewensteGewicht.Location = new System.Drawing.Point(405, 263);
-            this.textBoxGewensteGewicht.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxGewensteGewicht.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxGewensteGewicht.Multiline = true;
             this.textBoxGewensteGewicht.Name = "textBoxGewensteGewicht";
             this.textBoxGewensteGewicht.Size = new System.Drawing.Size(124, 32);
@@ -181,7 +181,7 @@
             this.RBNormaal.AutoSize = true;
             this.RBNormaal.Font = new System.Drawing.Font("Gabriola", 11.25F);
             this.RBNormaal.Location = new System.Drawing.Point(20, 9);
-            this.RBNormaal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RBNormaal.Margin = new System.Windows.Forms.Padding(2);
             this.RBNormaal.Name = "RBNormaal";
             this.RBNormaal.Size = new System.Drawing.Size(69, 32);
             this.RBNormaal.TabIndex = 18;
@@ -194,7 +194,7 @@
             this.RBSnel.AutoSize = true;
             this.RBSnel.Font = new System.Drawing.Font("Gabriola", 11.25F);
             this.RBSnel.Location = new System.Drawing.Point(108, 9);
-            this.RBSnel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RBSnel.Margin = new System.Windows.Forms.Padding(2);
             this.RBSnel.Name = "RBSnel";
             this.RBSnel.Size = new System.Drawing.Size(49, 32);
             this.RBSnel.TabIndex = 19;
@@ -207,7 +207,7 @@
             this.RBZosnelmogelijk.AutoSize = true;
             this.RBZosnelmogelijk.Font = new System.Drawing.Font("Gabriola", 11.25F);
             this.RBZosnelmogelijk.Location = new System.Drawing.Point(186, 9);
-            this.RBZosnelmogelijk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RBZosnelmogelijk.Margin = new System.Windows.Forms.Padding(2);
             this.RBZosnelmogelijk.Name = "RBZosnelmogelijk";
             this.RBZosnelmogelijk.Size = new System.Drawing.Size(106, 32);
             this.RBZosnelmogelijk.TabIndex = 20;
@@ -226,31 +226,31 @@
             this.label4.TabIndex = 21;
             this.label4.Text = "Heb je een ziekte of ben je allergisch voor iets specifieks?";
             // 
-            // RBJa
+            // RBziekteJa
             // 
-            this.RBJa.AutoSize = true;
-            this.RBJa.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBJa.Location = new System.Drawing.Point(18, 6);
-            this.RBJa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.RBJa.Name = "RBJa";
-            this.RBJa.Size = new System.Drawing.Size(38, 32);
-            this.RBJa.TabIndex = 22;
-            this.RBJa.TabStop = true;
-            this.RBJa.Text = "Ja";
-            this.RBJa.UseVisualStyleBackColor = true;
+            this.RBziekteJa.AutoSize = true;
+            this.RBziekteJa.Font = new System.Drawing.Font("Gabriola", 11.25F);
+            this.RBziekteJa.Location = new System.Drawing.Point(18, 6);
+            this.RBziekteJa.Margin = new System.Windows.Forms.Padding(2);
+            this.RBziekteJa.Name = "RBziekteJa";
+            this.RBziekteJa.Size = new System.Drawing.Size(38, 32);
+            this.RBziekteJa.TabIndex = 22;
+            this.RBziekteJa.TabStop = true;
+            this.RBziekteJa.Text = "Ja";
+            this.RBziekteJa.UseVisualStyleBackColor = true;
             // 
-            // RBNee
+            // RBziekteNee
             // 
-            this.RBNee.AutoSize = true;
-            this.RBNee.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBNee.Location = new System.Drawing.Point(82, 6);
-            this.RBNee.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.RBNee.Name = "RBNee";
-            this.RBNee.Size = new System.Drawing.Size(48, 32);
-            this.RBNee.TabIndex = 23;
-            this.RBNee.TabStop = true;
-            this.RBNee.Text = "Nee";
-            this.RBNee.UseVisualStyleBackColor = true;
+            this.RBziekteNee.AutoSize = true;
+            this.RBziekteNee.Font = new System.Drawing.Font("Gabriola", 11.25F);
+            this.RBziekteNee.Location = new System.Drawing.Point(82, 6);
+            this.RBziekteNee.Margin = new System.Windows.Forms.Padding(2);
+            this.RBziekteNee.Name = "RBziekteNee";
+            this.RBziekteNee.Size = new System.Drawing.Size(48, 32);
+            this.RBziekteNee.TabIndex = 23;
+            this.RBziekteNee.TabStop = true;
+            this.RBziekteNee.Text = "Nee";
+            this.RBziekteNee.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -268,7 +268,7 @@
             this.RBMan.AutoSize = true;
             this.RBMan.Font = new System.Drawing.Font("Gabriola", 11.25F);
             this.RBMan.Location = new System.Drawing.Point(16, 3);
-            this.RBMan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RBMan.Margin = new System.Windows.Forms.Padding(2);
             this.RBMan.Name = "RBMan";
             this.RBMan.Size = new System.Drawing.Size(51, 32);
             this.RBMan.TabIndex = 25;
@@ -281,7 +281,7 @@
             this.RBVrouw.AutoSize = true;
             this.RBVrouw.Font = new System.Drawing.Font("Gabriola", 11.25F);
             this.RBVrouw.Location = new System.Drawing.Point(77, 3);
-            this.RBVrouw.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RBVrouw.Margin = new System.Windows.Forms.Padding(2);
             this.RBVrouw.Name = "RBVrouw";
             this.RBVrouw.Size = new System.Drawing.Size(59, 32);
             this.RBVrouw.TabIndex = 26;
@@ -305,7 +305,7 @@
             this.RBheelactief.AutoSize = true;
             this.RBheelactief.Font = new System.Drawing.Font("Gabriola", 11.25F);
             this.RBheelactief.Location = new System.Drawing.Point(200, 20);
-            this.RBheelactief.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RBheelactief.Margin = new System.Windows.Forms.Padding(2);
             this.RBheelactief.Name = "RBheelactief";
             this.RBheelactief.Size = new System.Drawing.Size(79, 32);
             this.RBheelactief.TabIndex = 31;
@@ -318,7 +318,7 @@
             this.RBredelijkActief.AutoSize = true;
             this.RBredelijkActief.Font = new System.Drawing.Font("Gabriola", 11.25F);
             this.RBredelijkActief.Location = new System.Drawing.Point(100, 20);
-            this.RBredelijkActief.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RBredelijkActief.Margin = new System.Windows.Forms.Padding(2);
             this.RBredelijkActief.Name = "RBredelijkActief";
             this.RBredelijkActief.Size = new System.Drawing.Size(96, 32);
             this.RBredelijkActief.TabIndex = 30;
@@ -331,7 +331,7 @@
             this.RBminderActief.AutoSize = true;
             this.RBminderActief.Font = new System.Drawing.Font("Gabriola", 11.25F);
             this.RBminderActief.Location = new System.Drawing.Point(2, 20);
-            this.RBminderActief.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RBminderActief.Margin = new System.Windows.Forms.Padding(2);
             this.RBminderActief.Name = "RBminderActief";
             this.RBminderActief.Size = new System.Drawing.Size(94, 32);
             this.RBminderActief.TabIndex = 29;
@@ -344,7 +344,7 @@
             this.RBextraactief.AutoSize = true;
             this.RBextraactief.Font = new System.Drawing.Font("Gabriola", 11.25F);
             this.RBextraactief.Location = new System.Drawing.Point(287, 21);
-            this.RBextraactief.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RBextraactief.Margin = new System.Windows.Forms.Padding(2);
             this.RBextraactief.Name = "RBextraactief";
             this.RBextraactief.Size = new System.Drawing.Size(83, 32);
             this.RBextraactief.TabIndex = 32;
@@ -358,7 +358,7 @@
             this.pnlSnelheid.Controls.Add(this.RBNormaal);
             this.pnlSnelheid.Controls.Add(this.RBSnel);
             this.pnlSnelheid.Location = new System.Drawing.Point(330, 353);
-            this.pnlSnelheid.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlSnelheid.Margin = new System.Windows.Forms.Padding(2);
             this.pnlSnelheid.Name = "pnlSnelheid";
             this.pnlSnelheid.Size = new System.Drawing.Size(294, 43);
             this.pnlSnelheid.TabIndex = 34;
@@ -371,7 +371,7 @@
             this.pnlActief.Controls.Add(this.RBredelijkActief);
             this.pnlActief.Controls.Add(this.RBheelactief);
             this.pnlActief.Location = new System.Drawing.Point(253, 437);
-            this.pnlActief.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlActief.Margin = new System.Windows.Forms.Padding(2);
             this.pnlActief.Name = "pnlActief";
             this.pnlActief.Size = new System.Drawing.Size(478, 61);
             this.pnlActief.TabIndex = 35;
@@ -381,7 +381,7 @@
             this.RBergactief.AutoSize = true;
             this.RBergactief.Font = new System.Drawing.Font("Gabriola", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RBergactief.Location = new System.Drawing.Point(390, 20);
-            this.RBergactief.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RBergactief.Margin = new System.Windows.Forms.Padding(2);
             this.RBergactief.Name = "RBergactief";
             this.RBergactief.Size = new System.Drawing.Size(74, 32);
             this.RBergactief.TabIndex = 33;
@@ -391,10 +391,10 @@
             // 
             // pnlZiekte
             // 
-            this.pnlZiekte.Controls.Add(this.RBJa);
-            this.pnlZiekte.Controls.Add(this.RBNee);
+            this.pnlZiekte.Controls.Add(this.RBziekteJa);
+            this.pnlZiekte.Controls.Add(this.RBziekteNee);
             this.pnlZiekte.Location = new System.Drawing.Point(415, 543);
-            this.pnlZiekte.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlZiekte.Margin = new System.Windows.Forms.Padding(2);
             this.pnlZiekte.Name = "pnlZiekte";
             this.pnlZiekte.Size = new System.Drawing.Size(155, 46);
             this.pnlZiekte.TabIndex = 36;
@@ -404,7 +404,7 @@
             this.pnlGeslacht.Controls.Add(this.RBVrouw);
             this.pnlGeslacht.Controls.Add(this.RBMan);
             this.pnlGeslacht.Location = new System.Drawing.Point(415, 647);
-            this.pnlGeslacht.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlGeslacht.Margin = new System.Windows.Forms.Padding(2);
             this.pnlGeslacht.Name = "pnlGeslacht";
             this.pnlGeslacht.Size = new System.Drawing.Size(160, 44);
             this.pnlGeslacht.TabIndex = 37;
@@ -424,10 +424,21 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.LInloggen);
             this.panel1.Location = new System.Drawing.Point(2, 2);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 93);
             this.panel1.TabIndex = 39;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(689, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(140, 101);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // LInloggen
             // 
@@ -438,13 +449,12 @@
             this.LInloggen.Size = new System.Drawing.Size(380, 118);
             this.LInloggen.TabIndex = 2;
             this.LInloggen.Text = "Gezond Lifestyle";
-            this.LInloggen.Click += new System.EventHandler(this.LInloggen_Click);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.panel2.Location = new System.Drawing.Point(2, 178);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(190, 539);
             this.panel2.TabIndex = 40;
@@ -458,17 +468,6 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 65;
             this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(689, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 101);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // Gezond_lifestyle
             // 
@@ -497,7 +496,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Gezond_lifestyle";
             this.Text = "Gezond_lifestyle";
             this.pnlSnelheid.ResumeLayout(false);
@@ -510,8 +509,8 @@
             this.pnlGeslacht.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -533,8 +532,8 @@
         private System.Windows.Forms.RadioButton RBSnel;
         private System.Windows.Forms.RadioButton RBZosnelmogelijk;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RadioButton RBJa;
-        private System.Windows.Forms.RadioButton RBNee;
+        private System.Windows.Forms.RadioButton RBziekteJa;
+        private System.Windows.Forms.RadioButton RBziekteNee;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RadioButton RBMan;
         private System.Windows.Forms.RadioButton RBVrouw;

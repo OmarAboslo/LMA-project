@@ -61,7 +61,7 @@ namespace LMA_project
                 }
                 else
                 {
-      MessageBox.Show("Er zijn vragen die nog niet beantwoord zijn, conntroleer alle vragen en probeer opnieuw");
+                     MessageBox.Show("Er zijn vragen die nog niet beantwoord zijn, conntroleer alle vragen en probeer opnieuw");
                 }
                 return uitslag;
             }
@@ -104,25 +104,24 @@ namespace LMA_project
             double Gewicht = Convert.ToDouble(TextbGewicht.Text);
             double Lengte = Convert.ToDouble(TextbLengte.Text);
             int leeftijd = Convert.ToInt32(textbLeeftijd.Text);
-          
 
-            if (RBJa.Checked == true)
+            /// Controleren of de gebruiker een bepaalde ziekte heeft.
+          
+            if (RBziekteJa.Checked == true)
             {
                 MessageBox.Show("Overleg met jouw huisarts,voordat je gaat beginnen");
             }
            
-            //man of vrouw
+            
+           
+
+
             if (RBMan.Checked == true)
             {
                 BMR man = new BMR(Gewicht, Lengte, leeftijd);
-                ClassDieet.kcal= (Snelheid(Actieflevel(man.BMRMan())));
-
-
-                //class BMR aanroepen
-               
-                // method snelheid aanroepen
-              
-                Dieetsport.tbResult.Text = Convert.ToString(ClassDieet.GetKcal());
+                ClassDieet.kcal= (Snelheid(Actieflevel(man.BMRMan())));              
+                // method snelheid aanroepen             
+                Dieetsport.tbResult.Text = Convert.ToString(Convert.ToInt32(ClassDieet.GetKcal()));
                 this.Hide();      
                 Dieetsport.ShowDialog();
             }
@@ -132,7 +131,7 @@ namespace LMA_project
                 BMR vrouw = new BMR(Gewicht, Lengte, leeftijd);
                 ClassDieet.kcal= Snelheid(Actieflevel(vrouw.BMRMan()));
                 //// method snelheid aanroepen 
-                Dieetsport.tbResult.Text = Convert.ToString(ClassDieet.GetKcal());
+                Dieetsport.tbResult.Text = Convert.ToString(Convert.ToInt32( ClassDieet.GetKcal()));
                 this.Hide();
                 Dieetsport.ShowDialog();
             }
@@ -141,10 +140,7 @@ namespace LMA_project
 
         }
 
-        private void LInloggen_Click(object sender, EventArgs e)
-        {
-
-        }
+     
     }
 }
 
