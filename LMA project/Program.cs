@@ -16,7 +16,7 @@ namespace LMA_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Dieet_H());
+            Application.Run(new Gezond_lifestyle());
         }
     }
 }
