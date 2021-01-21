@@ -137,5 +137,8 @@
   <ItemGroup>
     <None Include="Resources\2 %288%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blauw-vraagteken-107489943.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

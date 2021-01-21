@@ -42,9 +42,12 @@ namespace LMA_project
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblhelp = new System.Windows.Forms.Label();
+            this.pichelp = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pichelp)).BeginInit();
             this.SuspendLayout();
             // 
             // LGebruikersnaam
@@ -131,7 +134,7 @@ namespace LMA_project
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.LInloggen);
             this.panel1.Location = new System.Drawing.Point(2, 2);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(799, 93);
             this.panel1.TabIndex = 13;
@@ -166,11 +169,33 @@ namespace LMA_project
             this.panel2.Size = new System.Drawing.Size(190, 539);
             this.panel2.TabIndex = 66;
             // 
+            // lblhelp
+            // 
+            this.lblhelp.AutoSize = true;
+            this.lblhelp.Location = new System.Drawing.Point(227, 109);
+            this.lblhelp.Name = "lblhelp";
+            this.lblhelp.Size = new System.Drawing.Size(0, 13);
+            this.lblhelp.TabIndex = 85;
+            // 
+            // pichelp
+            // 
+            this.pichelp.Image = global::LMA_project.Properties.Resources.blauw_vraagteken_107489943;
+            this.pichelp.Location = new System.Drawing.Point(198, 100);
+            this.pichelp.Name = "pichelp";
+            this.pichelp.Size = new System.Drawing.Size(23, 22);
+            this.pichelp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pichelp.TabIndex = 84;
+            this.pichelp.TabStop = false;
+            this.pichelp.MouseLeave += new System.EventHandler(this.pichelp_MouseLeave);
+            this.pichelp.MouseHover += new System.EventHandler(this.pichelp_MouseHover);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(799, 716);
+            this.Controls.Add(this.lblhelp);
+            this.Controls.Add(this.pichelp);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -186,6 +211,7 @@ namespace LMA_project
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pichelp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -205,5 +231,7 @@ namespace LMA_project
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label lblhelp;
+        private System.Windows.Forms.PictureBox pichelp;
     }
 }

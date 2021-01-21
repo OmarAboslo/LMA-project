@@ -29,8 +29,17 @@ namespace LMA_project
             this.Hide();
             Dieet_H format= new Dieet_H();
             format.Show();
-            
-            
+            format.plmaandag.Visible = false;
+            format.plDinsdag.Visible = false;
+            format.plWoensdag.Visible = false;
+            format.plDonderdag.Visible = false;
+            format.plVrijdag.Visible = false;
+            format.plZaterdag.Visible = false;
+            format.plZondag.Visible = false;
+
+
+
+
 
         }
 
@@ -64,6 +73,15 @@ namespace LMA_project
             Helplabel.Visible = false;
         }
 
-    
+        private void pichelp_MouseHover(object sender, EventArgs e)
+        {
+            lblhelp.Visible = true;
+            lblhelp.Text = ("Kies een van de volgende opties");
+        }
+
+        private void pichelp_MouseLeave(object sender, EventArgs e)
+        {
+            lblhelp.Visible = false;
+        }
     }
 }

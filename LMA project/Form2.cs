@@ -64,5 +64,16 @@ namespace LMA_project
            
             Firstform.Show();
         }
+
+        private void pichelp_MouseHover(object sender, EventArgs e)
+        {
+            lblhelp.Visible = true;
+            lblhelp.Text = ("Log in met uw gebruikersnaam en wachtwoord" + "\n" +"U kunt ook een account maken Als u geen acoount hebt");
+        }
+
+        private void pichelp_MouseLeave(object sender, EventArgs e)
+        {
+            lblhelp.Visible = false;
+        }
     }
 }

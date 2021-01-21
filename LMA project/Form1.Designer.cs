@@ -39,6 +39,7 @@ namespace LMA_project
             this.TWachtwoord_bevestigen = new System.Windows.Forms.TextBox();
             this.BOk = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btterug = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -56,7 +57,6 @@ namespace LMA_project
             this.LAccount_aanmaken.Size = new System.Drawing.Size(441, 118);
             this.LAccount_aanmaken.TabIndex = 0;
             this.LAccount_aanmaken.Text = "Account aanmaken";
-            this.LAccount_aanmaken.Click += new System.EventHandler(this.LAccount_aanmaken_Click);
             // 
             // LEmail
             // 
@@ -125,13 +125,24 @@ namespace LMA_project
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panel1.Controls.Add(this.btterug);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.LAccount_aanmaken);
             this.panel1.Location = new System.Drawing.Point(2, 2);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(790, 103);
             this.panel1.TabIndex = 10;
+            // 
+            // btterug
+            // 
+            this.btterug.Location = new System.Drawing.Point(0, 0);
+            this.btterug.Name = "btterug";
+            this.btterug.Size = new System.Drawing.Size(101, 42);
+            this.btterug.TabIndex = 68;
+            this.btterug.Text = "Terug";
+            this.btterug.UseVisualStyleBackColor = true;
+            this.btterug.Click += new System.EventHandler(this.btterug_Click);
             // 
             // pictureBox1
             // 
@@ -203,5 +214,6 @@ namespace LMA_project
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btterug;
     }
 }

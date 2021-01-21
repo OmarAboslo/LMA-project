@@ -124,6 +124,9 @@
   <data name="istockphoto-934791642-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-934791642-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="2 (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="soso" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\soso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -133,7 +136,7 @@
   <data name="Shopping-Cart-Food-Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Shopping-Cart-Food-Icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2 (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="blauw-vraagteken-107489943" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blauw-vraagteken-107489943.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

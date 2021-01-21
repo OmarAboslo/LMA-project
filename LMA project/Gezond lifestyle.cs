@@ -155,7 +155,16 @@ namespace LMA_project
 
         }
 
-     
+        private void pichelp_MouseHover(object sender, EventArgs e)
+        {
+            lblhelp.Visible = true;
+            lblhelp.Text = ("Vul alle onderstaande gegevens");
+        }
+
+        private void pichelp_MouseLeave(object sender, EventArgs e)
+        {
+            lblhelp.Visible = false;
+        }
     }
 }
 

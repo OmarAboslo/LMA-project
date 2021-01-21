@@ -43,6 +43,13 @@ namespace LMA_project
             Dieet_H new_form = new Dieet_H();
             this.Hide();
             new_form.Show();
+            new_form.plmaandag.Visible = false;
+            new_form.plDinsdag.Visible = false;
+            new_form.plWoensdag.Visible = false;
+            new_form.plDonderdag.Visible = false;
+            new_form.plVrijdag.Visible = false;
+            new_form.plZaterdag.Visible = false;
+            new_form.plZondag.Visible = false;
         }
         private void btHome_Click(object sender, EventArgs e)
         {
@@ -236,6 +243,17 @@ namespace LMA_project
         private void btnsave_Click(object sender, EventArgs e)
         {
             dieetprogram = false;
+        }
+
+        private void pichelp_MouseHover(object sender, EventArgs e)
+        {
+            lblhelp.Visible = true;
+            lblhelp.Text = ("Hier krijgt u een lijst met voedsel en dranken en u kunt deze opslaan om later te bekijken");
+        }
+
+        private void pichelp_MouseLeave(object sender, EventArgs e)
+        {
+            lblhelp.Visible = false;
         }
     }
 }
