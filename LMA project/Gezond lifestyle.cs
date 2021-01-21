@@ -97,6 +97,19 @@ namespace LMA_project
             return Result;
 
         }
+
+        public void aantal_Kacl()
+        {
+            if (ClassDieet.peronstate == true)
+            {
+                Dieetsport.tbResult.Text += "te verliezien: " + Convert.ToString(Convert.ToInt32(ClassDieet.GetKcal()));
+            }
+            else if (ClassDieet.peronstate == false)
+            {
+                Dieetsport.tbResult.Text += "te verkrijgen: " + Convert.ToString(Convert.ToInt32(ClassDieet.GetKcal()));
+            }
+        }
+
         private void ButOk_Click_1(object sender, EventArgs e)
         {
             
@@ -119,9 +132,11 @@ namespace LMA_project
             if (RBMan.Checked == true)
             {
                 BMR man = new BMR(Gewicht, Lengte, leeftijd);
-                ClassDieet.kcal= (Snelheid(Actieflevel(man.BMRMan())));              
-                // method snelheid aanroepen             
-                Dieetsport.tbResult.Text += ": " + Convert.ToString(Convert.ToInt32(ClassDieet.GetKcal())) ;
+                ClassDieet.kcal= (Snelheid(Actieflevel(man.BMRMan())));
+                // method snelheid aanroepen
+                aantal_Kacl();
+
+
                 this.Hide();      
                 Dieetsport.ShowDialog();
             }
@@ -130,8 +145,8 @@ namespace LMA_project
                 //class BMR aanroepen
                 BMR vrouw = new BMR(Gewicht, Lengte, leeftijd);
                 ClassDieet.kcal= Snelheid(Actieflevel(vrouw.BMRMan()));
-                //// method snelheid aanroepen 
-                Dieetsport.tbResult.Text += ": "+ Convert.ToString(Convert.ToInt32( ClassDieet.GetKcal()));
+                //// method snelheid aanroepen
+                aantal_Kacl();
                 this.Hide();
                 Dieetsport.ShowDialog();
             }

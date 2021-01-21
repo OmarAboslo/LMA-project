@@ -37,11 +37,11 @@
             this.btnAut = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Helplabel = new System.Windows.Forms.Label();
-            this.tbResult = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.tbResult = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -79,6 +79,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.tbResult);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnHand);
             this.panel1.Controls.Add(this.btnAut);
@@ -100,7 +101,7 @@
             // btnHand
             // 
             this.btnHand.Font = new System.Drawing.Font("Gabriola", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHand.Location = new System.Drawing.Point(328, 170);
+            this.btnHand.Location = new System.Drawing.Point(303, 293);
             this.btnHand.Name = "btnHand";
             this.btnHand.Size = new System.Drawing.Size(182, 61);
             this.btnHand.TabIndex = 1;
@@ -111,7 +112,7 @@
             // btnAut
             // 
             this.btnAut.Font = new System.Drawing.Font("Gabriola", 20.25F, System.Drawing.FontStyle.Bold);
-            this.btnAut.Location = new System.Drawing.Point(55, 170);
+            this.btnAut.Location = new System.Drawing.Point(42, 293);
             this.btnAut.Name = "btnAut";
             this.btnAut.Size = new System.Drawing.Size(182, 61);
             this.btnAut.TabIndex = 0;
@@ -137,17 +138,6 @@
             this.Helplabel.Size = new System.Drawing.Size(0, 13);
             this.Helplabel.TabIndex = 68;
             this.Helplabel.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.Helplabel_HelpRequested);
-            // 
-            // tbResult
-            // 
-            this.tbResult.AutoSize = true;
-            this.tbResult.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbResult.ForeColor = System.Drawing.Color.Crimson;
-            this.tbResult.Location = new System.Drawing.Point(218, 132);
-            this.tbResult.Name = "tbResult";
-            this.tbResult.Size = new System.Drawing.Size(476, 54);
-            this.tbResult.TabIndex = 11;
-            this.tbResult.Text = "Het aantal Kacl die jij per dag moet verkrijgen";
             // 
             // panel3
             // 
@@ -188,17 +178,27 @@
             this.panel4.Size = new System.Drawing.Size(190, 534);
             this.panel4.TabIndex = 66;
             // 
+            // tbResult
+            // 
+            this.tbResult.AutoSize = true;
+            this.tbResult.Font = new System.Drawing.Font("Gabriola", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbResult.ForeColor = System.Drawing.Color.Crimson;
+            this.tbResult.Location = new System.Drawing.Point(3, 140);
+            this.tbResult.Name = "tbResult";
+            this.tbResult.Size = new System.Drawing.Size(425, 29);
+            this.tbResult.TabIndex = 13;
+            this.tbResult.Text = "Het aantal Kacl die jij per dag moet verkrijgen,om een Kilo per week ";
+            // 
             // DieetSport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(799, 716);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.tbResult);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DieetSport";
             this.Text = "DieetSport";
@@ -210,7 +210,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

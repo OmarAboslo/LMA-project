@@ -88,5 +88,38 @@ namespace LMA_project
         {
 
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            string gebruikerInput = tbmaandag.Text;
+            listBmaandag.Items.Add(gebruikerInput);
+
+        }
+
+        private void btRemove_Click(object sender, EventArgs e)
+        {
+            listBmaandag.Items.Clear();
+        }
+
+        private void btDinsAdd_Click(object sender, EventArgs e)
+        {
+            string gebruikerInput = tbDins.Text;
+            listbDins.Items.Add(gebruikerInput);
+        }
+
+        private void btMaandag_Click(object sender, EventArgs e)
+        {
+
+            plmaandag.Visible = true;
+            plDinsdag.Visible = false;
+        }
+
+        private void btDinsdag_Click(object sender, EventArgs e)
+        {
+            plmaandag.Visible = false;
+            plDinsdag.Visible = true;
+        }
+
+     
     }
 }
