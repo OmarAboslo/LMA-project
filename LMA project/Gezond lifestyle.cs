@@ -39,7 +39,7 @@ namespace LMA_project
                 else if (RBZosnelmogelijk.Checked == true)
                 {
 
-                uitslag += 100;
+                uitslag += 1000 ;
 
                 }
                 return uitslag;
@@ -121,7 +121,7 @@ namespace LMA_project
                 BMR man = new BMR(Gewicht, Lengte, leeftijd);
                 ClassDieet.kcal= (Snelheid(Actieflevel(man.BMRMan())));              
                 // method snelheid aanroepen             
-                Dieetsport.tbResult.Text = Convert.ToString(Convert.ToInt32(ClassDieet.GetKcal()));
+                Dieetsport.tbResult.Text += ": " + Convert.ToString(Convert.ToInt32(ClassDieet.GetKcal())) ;
                 this.Hide();      
                 Dieetsport.ShowDialog();
             }
@@ -131,7 +131,7 @@ namespace LMA_project
                 BMR vrouw = new BMR(Gewicht, Lengte, leeftijd);
                 ClassDieet.kcal= Snelheid(Actieflevel(vrouw.BMRMan()));
                 //// method snelheid aanroepen 
-                Dieetsport.tbResult.Text = Convert.ToString(Convert.ToInt32( ClassDieet.GetKcal()));
+                Dieetsport.tbResult.Text += ": "+ Convert.ToString(Convert.ToInt32( ClassDieet.GetKcal()));
                 this.Hide();
                 Dieetsport.ShowDialog();
             }

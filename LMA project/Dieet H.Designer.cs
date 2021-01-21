@@ -146,7 +146,7 @@ namespace LMA_project
             this.btshow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
             this.btshow.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btshow.Font = new System.Drawing.Font("Gabriola", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btshow.Location = new System.Drawing.Point(559, 161);
+            this.btshow.Location = new System.Drawing.Point(542, 164);
             this.btshow.Margin = new System.Windows.Forms.Padding(2);
             this.btshow.Name = "btshow";
             this.btshow.Size = new System.Drawing.Size(155, 26);

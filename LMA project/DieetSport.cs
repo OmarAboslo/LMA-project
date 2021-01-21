@@ -37,8 +37,9 @@ namespace LMA_project
         private void btnAut_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Dieet_A format = new Dieet_A();
-            format.Show();
+            Dieet_A automatisch = new Dieet_A();
+            automatisch.Show();
+      
 
         }
 

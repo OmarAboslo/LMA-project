@@ -34,30 +34,31 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btZondag = new System.Windows.Forms.Button();
+            this.btZaterdag = new System.Windows.Forms.Button();
+            this.btVrijdag = new System.Windows.Forms.Button();
+            this.btDonderdag = new System.Windows.Forms.Button();
+            this.btwoensdag = new System.Windows.Forms.Button();
+            this.btDinsdag = new System.Windows.Forms.Button();
+            this.btMaandag = new System.Windows.Forms.Button();
             this.btHome = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tbHandmatig = new System.Windows.Forms.Button();
-            this.Productmenu = new System.Windows.Forms.Button();
             this.Product = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.listBox3 = new System.Windows.Forms.ListBox();
-            this.listBox4 = new System.Windows.Forms.ListBox();
-            this.listBox5 = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.listBox6 = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.listBox5 = new System.Windows.Forms.ListBox();
+            this.listBox4 = new System.Windows.Forms.ListBox();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -73,7 +74,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1065, 99);
+            this.panel1.Size = new System.Drawing.Size(796, 99);
             this.panel1.TabIndex = 0;
             // 
             // label7
@@ -103,7 +104,7 @@
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(-4, 95);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(187, 89);
+            this.pictureBox2.Size = new System.Drawing.Size(190, 89);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 43;
             this.pictureBox2.TabStop = false;
@@ -111,13 +112,13 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.panel2.Controls.Add(this.button7);
-            this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btZondag);
+            this.panel2.Controls.Add(this.btZaterdag);
+            this.panel2.Controls.Add(this.btVrijdag);
+            this.panel2.Controls.Add(this.btDonderdag);
+            this.panel2.Controls.Add(this.btwoensdag);
+            this.panel2.Controls.Add(this.btDinsdag);
+            this.panel2.Controls.Add(this.btMaandag);
             this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.Location = new System.Drawing.Point(1, 184);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
@@ -125,89 +126,103 @@
             this.panel2.Size = new System.Drawing.Size(185, 535);
             this.panel2.TabIndex = 1;
             // 
-            // button7
+            // btZondag
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
-            this.button7.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button7.Location = new System.Drawing.Point(1, 388);
-            this.button7.Margin = new System.Windows.Forms.Padding(4);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(182, 40);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Zondag";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btZondag.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.btZondag.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btZondag.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btZondag.Location = new System.Drawing.Point(1, 388);
+            this.btZondag.Margin = new System.Windows.Forms.Padding(4);
+            this.btZondag.Name = "btZondag";
+            this.btZondag.Size = new System.Drawing.Size(182, 40);
+            this.btZondag.TabIndex = 6;
+            this.btZondag.Text = "Zondag";
+            this.btZondag.UseVisualStyleBackColor = false;
+            this.btZondag.Click += new System.EventHandler(this.btZondag_Click);
             // 
-            // button6
+            // btZaterdag
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
-            this.button6.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button6.Location = new System.Drawing.Point(1, 340);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(182, 40);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Zaterdag";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btZaterdag.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.btZaterdag.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btZaterdag.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btZaterdag.Location = new System.Drawing.Point(1, 340);
+            this.btZaterdag.Margin = new System.Windows.Forms.Padding(4);
+            this.btZaterdag.Name = "btZaterdag";
+            this.btZaterdag.Size = new System.Drawing.Size(182, 40);
+            this.btZaterdag.TabIndex = 5;
+            this.btZaterdag.Text = "Zaterdag";
+            this.btZaterdag.UseVisualStyleBackColor = false;
+            this.btZaterdag.Click += new System.EventHandler(this.btZaterdag_Click);
             // 
-            // button5
+            // btVrijdag
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
-            this.button5.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(1, 292);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(182, 40);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Vrijdag";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btVrijdag.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.btVrijdag.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btVrijdag.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btVrijdag.Location = new System.Drawing.Point(1, 292);
+            this.btVrijdag.Margin = new System.Windows.Forms.Padding(4);
+            this.btVrijdag.Name = "btVrijdag";
+            this.btVrijdag.Size = new System.Drawing.Size(182, 40);
+            this.btVrijdag.TabIndex = 4;
+            this.btVrijdag.Text = "Vrijdag";
+            this.btVrijdag.UseVisualStyleBackColor = false;
+            this.btVrijdag.Click += new System.EventHandler(this.btVrijdag_Click);
             // 
-            // button4
+            // btDonderdag
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
-            this.button4.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(0, 244);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(182, 40);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Donderdag";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btDonderdag.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.btDonderdag.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btDonderdag.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btDonderdag.Location = new System.Drawing.Point(0, 244);
+            this.btDonderdag.Margin = new System.Windows.Forms.Padding(4);
+            this.btDonderdag.Name = "btDonderdag";
+            this.btDonderdag.Size = new System.Drawing.Size(182, 40);
+            this.btDonderdag.TabIndex = 3;
+            this.btDonderdag.Text = "Donderdag";
+            this.btDonderdag.UseVisualStyleBackColor = false;
+            this.btDonderdag.Click += new System.EventHandler(this.btDonderdag_Click);
             // 
-            // button3
+            // btwoensdag
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
-            this.button3.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(1, 196);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(182, 40);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Woensdag";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btwoensdag.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.btwoensdag.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btwoensdag.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btwoensdag.Location = new System.Drawing.Point(1, 196);
+            this.btwoensdag.Margin = new System.Windows.Forms.Padding(4);
+            this.btwoensdag.Name = "btwoensdag";
+            this.btwoensdag.Size = new System.Drawing.Size(182, 40);
+            this.btwoensdag.TabIndex = 2;
+            this.btwoensdag.Text = "Woensdag";
+            this.btwoensdag.UseVisualStyleBackColor = false;
+            this.btwoensdag.Click += new System.EventHandler(this.btwoensdag_Click);
             // 
-            // button2
+            // btDinsdag
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
-            this.button2.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(0, 148);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(182, 40);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Dinsdag";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btDinsdag.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.btDinsdag.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btDinsdag.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btDinsdag.Location = new System.Drawing.Point(0, 148);
+            this.btDinsdag.Margin = new System.Windows.Forms.Padding(4);
+            this.btDinsdag.Name = "btDinsdag";
+            this.btDinsdag.Size = new System.Drawing.Size(182, 40);
+            this.btDinsdag.TabIndex = 1;
+            this.btDinsdag.Text = "Dinsdag";
+            this.btDinsdag.UseVisualStyleBackColor = false;
+            this.btDinsdag.Click += new System.EventHandler(this.btDinsdag_Click);
             // 
-            // button1
+            // btMaandag
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
-            this.button1.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(0, 100);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(182, 40);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Maandag";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btMaandag.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.btMaandag.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btMaandag.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btMaandag.Location = new System.Drawing.Point(0, 100);
+            this.btMaandag.Margin = new System.Windows.Forms.Padding(4);
+            this.btMaandag.Name = "btMaandag";
+            this.btMaandag.Size = new System.Drawing.Size(182, 40);
+            this.btMaandag.TabIndex = 0;
+            this.btMaandag.Text = "Maandag";
+            this.btMaandag.UseVisualStyleBackColor = false;
+            this.btMaandag.Click += new System.EventHandler(this.btMaandag_Click);
             // 
             // btHome
             // 
@@ -248,20 +263,6 @@
             this.tbHandmatig.UseVisualStyleBackColor = false;
             this.tbHandmatig.Click += new System.EventHandler(this.tbHandmatig_Click);
             // 
-            // Productmenu
-            // 
-            this.Productmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
-            this.Productmenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Productmenu.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.Productmenu.Location = new System.Drawing.Point(493, 484);
-            this.Productmenu.Margin = new System.Windows.Forms.Padding(4);
-            this.Productmenu.Name = "Productmenu";
-            this.Productmenu.Size = new System.Drawing.Size(145, 48);
-            this.Productmenu.TabIndex = 4;
-            this.Productmenu.Text = "Product menu";
-            this.Productmenu.UseVisualStyleBackColor = false;
-            this.Productmenu.Click += new System.EventHandler(this.button9_Click);
-            // 
             // Product
             // 
             this.Product.AutoSize = true;
@@ -272,113 +273,139 @@
             this.Product.Size = new System.Drawing.Size(0, 31);
             this.Product.TabIndex = 6;
             // 
-            // listBox1
+            // button1
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(276, 284);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(139, 121);
-            this.listBox1.TabIndex = 38;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(471, 476);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(156, 49);
+            this.button1.TabIndex = 81;
+            this.button1.Text = "Save";
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // listBox2
+            // button2
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(421, 284);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(65, 121);
-            this.listBox2.TabIndex = 39;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button2.Location = new System.Drawing.Point(290, 476);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(156, 49);
+            this.button2.TabIndex = 80;
+            this.button2.Text = "Edit";
+            this.button2.UseVisualStyleBackColor = false;
             // 
-            // listBox3
+            // label10
             // 
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.Location = new System.Drawing.Point(493, 284);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(60, 121);
-            this.listBox3.TabIndex = 40;
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label10.Location = new System.Drawing.Point(606, 269);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(55, 35);
+            this.label10.TabIndex = 79;
+            this.label10.Text = "Koolh";
             // 
-            // listBox4
+            // label11
             // 
-            this.listBox4.FormattingEnabled = true;
-            this.listBox4.Location = new System.Drawing.Point(559, 284);
-            this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(59, 121);
-            this.listBox4.TabIndex = 41;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label11.Location = new System.Drawing.Point(534, 269);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(69, 35);
+            this.label11.TabIndex = 78;
+            this.label11.Text = "Eiwitten";
             // 
-            // listBox5
+            // label12
             // 
-            this.listBox5.FormattingEnabled = true;
-            this.listBox5.Location = new System.Drawing.Point(624, 284);
-            this.listBox5.Name = "listBox5";
-            this.listBox5.Size = new System.Drawing.Size(61, 121);
-            this.listBox5.TabIndex = 42;
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label12.Location = new System.Drawing.Point(475, 269);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(45, 35);
+            this.label12.TabIndex = 77;
+            this.label12.Text = "Kcal";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label13.Location = new System.Drawing.Point(676, 269);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(37, 35);
+            this.label13.TabIndex = 76;
+            this.label13.Text = "Vet";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label14.Location = new System.Drawing.Point(379, 269);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(98, 35);
+            this.label14.TabIndex = 75;
+            this.label14.Text = "Hoeveelheid";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label15.Location = new System.Drawing.Point(284, 269);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(70, 35);
+            this.label15.TabIndex = 74;
+            this.label15.Text = "Product";
             // 
             // listBox6
             // 
             this.listBox6.FormattingEnabled = true;
-            this.listBox6.Location = new System.Drawing.Point(691, 284);
+            this.listBox6.Location = new System.Drawing.Point(667, 311);
             this.listBox6.Name = "listBox6";
             this.listBox6.Size = new System.Drawing.Size(61, 121);
-            this.listBox6.TabIndex = 43;
+            this.listBox6.TabIndex = 73;
             // 
-            // label1
+            // listBox5
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(308, 242);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 35);
-            this.label1.TabIndex = 44;
-            this.label1.Text = "Product";
+            this.listBox5.FormattingEnabled = true;
+            this.listBox5.Location = new System.Drawing.Point(600, 311);
+            this.listBox5.Name = "listBox5";
+            this.listBox5.Size = new System.Drawing.Size(61, 121);
+            this.listBox5.TabIndex = 72;
             // 
-            // label2
+            // listBox4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(403, 242);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 35);
-            this.label2.TabIndex = 45;
-            this.label2.Text = "Hoeveelheid";
+            this.listBox4.FormattingEnabled = true;
+            this.listBox4.Location = new System.Drawing.Point(535, 311);
+            this.listBox4.Name = "listBox4";
+            this.listBox4.Size = new System.Drawing.Size(59, 121);
+            this.listBox4.TabIndex = 71;
             // 
-            // label3
+            // listBox3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(700, 242);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 35);
-            this.label3.TabIndex = 46;
-            this.label3.Text = "Vet";
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.Location = new System.Drawing.Point(469, 311);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(60, 121);
+            this.listBox3.TabIndex = 70;
             // 
-            // label4
+            // listBox2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(499, 242);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 35);
-            this.label4.TabIndex = 47;
-            this.label4.Text = "Kcal";
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.Location = new System.Drawing.Point(397, 311);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(65, 121);
+            this.listBox2.TabIndex = 69;
             // 
-            // label5
+            // listBox1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(558, 242);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 35);
-            this.label5.TabIndex = 48;
-            this.label5.Text = "Eiwitten";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(630, 242);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 35);
-            this.label6.TabIndex = 49;
-            this.label6.Text = "Koolh";
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(252, 311);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(139, 121);
+            this.listBox1.TabIndex = 68;
             // 
             // Dieet_A
             // 
@@ -386,21 +413,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(799, 716);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.Productmenu);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.listBox6);
             this.Controls.Add(this.listBox5);
             this.Controls.Add(this.listBox4);
             this.Controls.Add(this.listBox3);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.Product);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -408,7 +436,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Dieet_A";
             this.Text = "Dieet_A";
-            this.Load += new System.EventHandler(this.Dieet_A_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -426,30 +453,31 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btHome;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btZondag;
+        private System.Windows.Forms.Button btZaterdag;
+        private System.Windows.Forms.Button btVrijdag;
+        private System.Windows.Forms.Button btDonderdag;
+        private System.Windows.Forms.Button btwoensdag;
+        private System.Windows.Forms.Button btDinsdag;
+        private System.Windows.Forms.Button btMaandag;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button tbHandmatig;
-        private System.Windows.Forms.Button Productmenu;
         public System.Windows.Forms.Label Product;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.ListBox listBox3;
-        private System.Windows.Forms.ListBox listBox4;
-        private System.Windows.Forms.ListBox listBox5;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.ListBox listBox6;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.ListBox listBox6;
+        private System.Windows.Forms.ListBox listBox5;
+        private System.Windows.Forms.ListBox listBox4;
+        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

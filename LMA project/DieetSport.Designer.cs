@@ -122,7 +122,6 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.Helplabel);
-            this.panel2.Controls.Add(this.tbResult);
             this.panel2.Controls.Add(this.buttonTraining);
             this.panel2.Controls.Add(this.buttonDieet);
             this.panel2.Location = new System.Drawing.Point(227, 264);
@@ -142,10 +141,13 @@
             // tbResult
             // 
             this.tbResult.AutoSize = true;
-            this.tbResult.Location = new System.Drawing.Point(234, 301);
+            this.tbResult.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbResult.ForeColor = System.Drawing.Color.Crimson;
+            this.tbResult.Location = new System.Drawing.Point(218, 132);
             this.tbResult.Name = "tbResult";
-            this.tbResult.Size = new System.Drawing.Size(0, 13);
+            this.tbResult.Size = new System.Drawing.Size(476, 54);
             this.tbResult.TabIndex = 11;
+            this.tbResult.Text = "Het aantal Kacl die jij per dag moet verkrijgen";
             // 
             // panel3
             // 
@@ -192,6 +194,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(799, 716);
             this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.tbResult);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -207,6 +210,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
