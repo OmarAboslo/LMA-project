@@ -32,6 +32,7 @@
             this.buttonDieet = new System.Windows.Forms.Button();
             this.buttonTraining = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.tbResult = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnHand = new System.Windows.Forms.Button();
             this.btnAut = new System.Windows.Forms.Button();
@@ -41,12 +42,14 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.tbResult = new System.Windows.Forms.Label();
+            this.lblhelp = new System.Windows.Forms.Label();
+            this.pichelp = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pichelp)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonDieet
@@ -87,6 +90,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(537, 398);
             this.panel1.TabIndex = 11;
+            // 
+            // tbResult
+            // 
+            this.tbResult.AutoSize = true;
+            this.tbResult.Font = new System.Drawing.Font("Gabriola", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbResult.ForeColor = System.Drawing.Color.Crimson;
+            this.tbResult.Location = new System.Drawing.Point(3, 140);
+            this.tbResult.Name = "tbResult";
+            this.tbResult.Size = new System.Drawing.Size(425, 29);
+            this.tbResult.TabIndex = 13;
+            this.tbResult.Text = "Het aantal Kacl die jij per dag moet verkrijgen,om een Kilo per week ";
             // 
             // label1
             // 
@@ -178,22 +192,33 @@
             this.panel4.Size = new System.Drawing.Size(190, 534);
             this.panel4.TabIndex = 66;
             // 
-            // tbResult
+            // lblhelp
             // 
-            this.tbResult.AutoSize = true;
-            this.tbResult.Font = new System.Drawing.Font("Gabriola", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbResult.ForeColor = System.Drawing.Color.Crimson;
-            this.tbResult.Location = new System.Drawing.Point(3, 140);
-            this.tbResult.Name = "tbResult";
-            this.tbResult.Size = new System.Drawing.Size(425, 29);
-            this.tbResult.TabIndex = 13;
-            this.tbResult.Text = "Het aantal Kacl die jij per dag moet verkrijgen,om een Kilo per week ";
+            this.lblhelp.AutoSize = true;
+            this.lblhelp.Location = new System.Drawing.Point(228, 124);
+            this.lblhelp.Name = "lblhelp";
+            this.lblhelp.Size = new System.Drawing.Size(0, 13);
+            this.lblhelp.TabIndex = 85;
+            // 
+            // pichelp
+            // 
+            this.pichelp.Image = global::LMA_project.Properties.Resources.blauw_vraagteken_107489943;
+            this.pichelp.Location = new System.Drawing.Point(199, 115);
+            this.pichelp.Name = "pichelp";
+            this.pichelp.Size = new System.Drawing.Size(23, 22);
+            this.pichelp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pichelp.TabIndex = 84;
+            this.pichelp.TabStop = false;
+            this.pichelp.MouseLeave += new System.EventHandler(this.pichelp_MouseLeave);
+            this.pichelp.MouseHover += new System.EventHandler(this.pichelp_MouseHover);
             // 
             // DieetSport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(799, 716);
+            this.Controls.Add(this.lblhelp);
+            this.Controls.Add(this.pichelp);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -209,7 +234,9 @@
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pichelp)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -228,5 +255,7 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label Helplabel;
         public System.Windows.Forms.Label tbResult;
+        private System.Windows.Forms.Label lblhelp;
+        private System.Windows.Forms.PictureBox pichelp;
     }
 }

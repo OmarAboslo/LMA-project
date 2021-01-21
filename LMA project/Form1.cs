@@ -61,9 +61,13 @@ namespace LMA_project
             }
         }
 
-        private void LAccount_aanmaken_Click(object sender, EventArgs e)
-        {
+ 
 
+        private void btterug_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 form = new Form2();
+            form.ShowDialog();
         }
     }
 }

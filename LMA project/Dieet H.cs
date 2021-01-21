@@ -23,6 +23,18 @@ namespace LMA_project
         SqlConnection cn = new SqlConnection(@"Data Source = 192.168.172.77; Initial Catalog = proftaakproject; Persist Security Info=True;User ID = Omar; Password=&Wy%EN%EzvByVB26");
         SqlCommand cmd;
         SqlDataReader dr;
+        
+        public void ListBoxRemove()
+        {
+            listBox1.Items.Clear();
+            listBox2.Items.Clear();
+            listBox3.Items.Clear();
+            listBox4.Items.Clear();
+            listBox5.Items.Clear();
+            listBox6.Items.Clear();
+
+
+        }
 
         private void Dieet_H_Load(object sender, EventArgs e)
         {
@@ -79,26 +91,17 @@ namespace LMA_project
             new_form.Show();
         }
 
-        private void btHome_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button11_Click(object sender, EventArgs e)
+     
+        private void btMaandagAdd_Click(object sender, EventArgs e)
         {
             string gebruikerInput = tbmaandag.Text;
-            listBmaandag.Items.Add(gebruikerInput);
+            listbMmaandag.Items.Add(gebruikerInput);
 
         }
 
-        private void btRemove_Click(object sender, EventArgs e)
+        private void btMaandagRemove_Click(object sender, EventArgs e)
         {
-            listBmaandag.Items.Clear();
+            listbMmaandag.Items.Clear();
         }
 
         private void btDinsAdd_Click(object sender, EventArgs e)
@@ -112,14 +115,199 @@ namespace LMA_project
 
             plmaandag.Visible = true;
             plDinsdag.Visible = false;
+            plWoensdag.Visible = false;
+            plDonderdag.Visible = false;
+            plVrijdag.Visible = false;
+            plZaterdag.Visible = false;
+            plZondag.Visible = false;
+            ListBoxRemove();
         }
 
         private void btDinsdag_Click(object sender, EventArgs e)
         {
             plmaandag.Visible = false;
             plDinsdag.Visible = true;
+            plWoensdag.Visible = false;
+            plDonderdag.Visible = false;
+            plVrijdag.Visible = false;
+            plZaterdag.Visible = false;
+            plZondag.Visible = false;
+            ListBoxRemove();
         }
 
-     
+        private void tbmaandag_MouseClick(object sender, MouseEventArgs e)
+        {
+            tbmaandag.Text = "";
+        }
+
+        private void tbDins_MouseClick(object sender, MouseEventArgs e)
+        {
+            tbDins.Text = "";
+
+        }
+
+        private void btWoensdag_Click(object sender, EventArgs e)
+        {
+            plmaandag.Visible = false;
+            plDinsdag.Visible = false;
+            plWoensdag.Visible = true;
+            plDonderdag.Visible = false;
+            plVrijdag.Visible = false;
+            plZaterdag.Visible = false;
+            plZondag.Visible = false;
+            ListBoxRemove();
+        }
+
+        private void btDonderdag_Click(object sender, EventArgs e)
+        {
+            plmaandag.Visible = false;
+            plDinsdag.Visible = false;
+            plWoensdag.Visible = false;
+            plDonderdag.Visible = true;
+            plVrijdag.Visible = false;
+            plZaterdag.Visible = false;
+            plZondag.Visible = false;
+            ListBoxRemove();
+        }
+
+        private void btVrijdag_Click(object sender, EventArgs e)
+        {
+            plmaandag.Visible = false;
+            plDinsdag.Visible = false;
+            plWoensdag.Visible = false;
+            plDonderdag.Visible = false;
+            plVrijdag.Visible = true;
+            plZaterdag.Visible = false;
+            plZondag.Visible = false;
+            ListBoxRemove();
+        }
+
+        private void btZaterdag_Click(object sender, EventArgs e)
+        {
+            plmaandag.Visible = false;
+            plDinsdag.Visible = false;
+            plWoensdag.Visible = false;
+            plDonderdag.Visible = false;
+            plVrijdag.Visible = false;
+            plZaterdag.Visible = true;
+            plZondag.Visible = false;
+            ListBoxRemove();
+        }
+
+        private void btZondag_Click(object sender, EventArgs e)
+        {
+            plmaandag.Visible = false;
+            plDinsdag.Visible = false;
+            plWoensdag.Visible = false;
+            plDonderdag.Visible = false;
+            plVrijdag.Visible = false;
+            plZaterdag.Visible = false;
+            plZondag.Visible = true;
+            ListBoxRemove();
+        }
+
+        private void btZondagAdd_Click(object sender, EventArgs e)
+        {
+            string gebruikerInput = tbZondag.Text;
+            listbZondag.Items.Add(gebruikerInput);
+        }
+
+        private void btWoensdagAdd_Click(object sender, EventArgs e)
+        {
+            string gebruikerInput = tbWoensdag.Text;
+            listbWoensdag.Items.Add(gebruikerInput);
+        }
+
+        private void btZaterdagAdd_Click(object sender, EventArgs e)
+        {
+            string gebruikerInput = tbZaterdag.Text;
+            listbZaterdag.Items.Add(gebruikerInput);
+        }
+
+        private void btDonderdagAdd_Click(object sender, EventArgs e)
+        {
+            string gebruikerInput = tbDonderdag.Text;
+            listbDonderdag.Items.Add(gebruikerInput);
+        }
+
+        private void btVrijdagAdd_Click(object sender, EventArgs e)
+        {
+            string gebruikerInput = tbVrijdag.Text;
+            listbVrijdag.Items.Add(gebruikerInput);
+        }
+
+        private void btZondagRemove_Click(object sender, EventArgs e)
+        {
+            listbZondag.Items.Clear();
+        }
+
+        private void btWoesdagRemove_Click(object sender, EventArgs e)
+        {
+            listbWoensdag.Items.Clear();
+        }
+
+        private void btDinsRemove_Click(object sender, EventArgs e)
+        {
+           listbDins .Items.Clear();
+        }
+
+        private void btZaterdagRemove_Click(object sender, EventArgs e)
+        {
+            listbZaterdag.Items.Clear();
+        }
+
+        private void btDonderdagRemove_Click(object sender, EventArgs e)
+        {
+            listbDonderdag.Items.Clear();
+        }
+
+        private void btVrijdagRemove_Click(object sender, EventArgs e)
+        {
+            listbVrijdag.Items.Clear();
+        }
+
+        private void tbZondag_MouseClick(object sender, MouseEventArgs e)
+        {
+            tbZondag.Text = "";
+        }
+
+        private void tbVrijdag_MouseClick(object sender, MouseEventArgs e)
+        {
+            tbVrijdag.Text = "";
+        }
+
+        private void tbWoensdag_MouseClick(object sender, MouseEventArgs e)
+        {
+            tbWoensdag.Text = "";
+        }
+
+        private void tbZaterdag_MouseClick(object sender, MouseEventArgs e)
+        {
+            tbZaterdag.Text = "";
+        }
+
+        private void tbDonderdag_MouseClick(object sender, MouseEventArgs e)
+        {
+            tbDonderdag.Text = "";
+        }
+
+
+        private void btHome_Click(object sender, EventArgs e)
+        {
+            DieetSport HomePagina = new DieetSport();
+            this.Hide();
+            HomePagina.Show();
+        }
+
+        private void pichelp_MouseHover(object sender, EventArgs e)
+        {
+            lblhelp.Visible = true;
+            lblhelp.Text = ("U kunt hier voedsel en dranken zoeken, toevoegen aan uw lijst, en opslaan in een andere lijst");
+        }
+
+        private void pichelp_MouseLeave(object sender, EventArgs e)
+        {
+            lblhelp.Visible = false;
+        }
     }
 }
