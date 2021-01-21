@@ -79,33 +79,33 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Andalus", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Gill Sans MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(210, 141);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 41);
+            this.label1.Size = new System.Drawing.Size(130, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "Gewicht:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Andalus", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Gill Sans MT", 20.25F, System.Drawing.FontStyle.Bold);
             this.label2.Location = new System.Drawing.Point(408, 141);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 41);
+            this.label2.Size = new System.Drawing.Size(113, 38);
             this.label2.TabIndex = 1;
             this.label2.Text = "Lengte:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Andalus", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Gill Sans MT", 20.25F, System.Drawing.FontStyle.Bold);
             this.label3.Location = new System.Drawing.Point(595, 141);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(113, 41);
+            this.label3.Size = new System.Drawing.Size(120, 38);
             this.label3.TabIndex = 2;
             this.label3.Text = "Leeftijd:";
             // 
@@ -138,14 +138,15 @@
             // 
             // butOk
             // 
+            this.butOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
             this.butOk.Font = new System.Drawing.Font("Gabriola", 18F, System.Drawing.FontStyle.Bold);
-            this.butOk.Location = new System.Drawing.Point(654, 659);
+            this.butOk.Location = new System.Drawing.Point(623, 659);
             this.butOk.Margin = new System.Windows.Forms.Padding(2);
             this.butOk.Name = "butOk";
-            this.butOk.Size = new System.Drawing.Size(134, 45);
+            this.butOk.Size = new System.Drawing.Size(165, 45);
             this.butOk.TabIndex = 6;
             this.butOk.Text = "Ok";
-            this.butOk.UseVisualStyleBackColor = true;
+            this.butOk.UseVisualStyleBackColor = false;
             this.butOk.Click += new System.EventHandler(this.ButOk_Click_1);
             // 
             // textBoxGewensteGewicht
@@ -160,33 +161,33 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(278, 297);
+            this.label6.Font = new System.Drawing.Font("Gill Sans MT", 20.25F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(223, 313);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(388, 54);
+            this.label6.Size = new System.Drawing.Size(486, 38);
             this.label6.TabIndex = 10;
             this.label6.Text = "Hoe snel wil je aankomen of afvallen?";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(321, 217);
+            this.label7.Font = new System.Drawing.Font("Gill Sans MT", 20.25F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(270, 223);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(307, 54);
+            this.label7.Size = new System.Drawing.Size(396, 38);
             this.label7.TabIndex = 9;
             this.label7.Text = "Wat is het gewenste gewicht?";
             // 
             // RBNormaal
             // 
             this.RBNormaal.AutoSize = true;
-            this.RBNormaal.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBNormaal.Location = new System.Drawing.Point(20, 9);
+            this.RBNormaal.Font = new System.Drawing.Font("Gill Sans MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBNormaal.Location = new System.Drawing.Point(2, 9);
             this.RBNormaal.Margin = new System.Windows.Forms.Padding(2);
             this.RBNormaal.Name = "RBNormaal";
-            this.RBNormaal.Size = new System.Drawing.Size(69, 32);
+            this.RBNormaal.Size = new System.Drawing.Size(80, 25);
             this.RBNormaal.TabIndex = 18;
             this.RBNormaal.TabStop = true;
             this.RBNormaal.Text = "Normaal";
@@ -195,11 +196,11 @@
             // RBSnel
             // 
             this.RBSnel.AutoSize = true;
-            this.RBSnel.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBSnel.Location = new System.Drawing.Point(108, 9);
+            this.RBSnel.Font = new System.Drawing.Font("Gill Sans MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBSnel.Location = new System.Drawing.Point(89, 9);
             this.RBSnel.Margin = new System.Windows.Forms.Padding(2);
             this.RBSnel.Name = "RBSnel";
-            this.RBSnel.Size = new System.Drawing.Size(49, 32);
+            this.RBSnel.Size = new System.Drawing.Size(53, 25);
             this.RBSnel.TabIndex = 19;
             this.RBSnel.TabStop = true;
             this.RBSnel.Text = "Snel";
@@ -208,11 +209,11 @@
             // RBZosnelmogelijk
             // 
             this.RBZosnelmogelijk.AutoSize = true;
-            this.RBZosnelmogelijk.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBZosnelmogelijk.Location = new System.Drawing.Point(186, 9);
+            this.RBZosnelmogelijk.Font = new System.Drawing.Font("Gill Sans MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBZosnelmogelijk.Location = new System.Drawing.Point(157, 9);
             this.RBZosnelmogelijk.Margin = new System.Windows.Forms.Padding(2);
             this.RBZosnelmogelijk.Name = "RBZosnelmogelijk";
-            this.RBZosnelmogelijk.Size = new System.Drawing.Size(106, 32);
+            this.RBZosnelmogelijk.Size = new System.Drawing.Size(126, 25);
             this.RBZosnelmogelijk.TabIndex = 20;
             this.RBZosnelmogelijk.TabStop = true;
             this.RBZosnelmogelijk.Text = "Zo snel mogelijk";
@@ -221,22 +222,22 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(208, 500);
+            this.label4.Font = new System.Drawing.Font("Gill Sans MT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(209, 500);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(577, 54);
+            this.label4.Size = new System.Drawing.Size(579, 30);
             this.label4.TabIndex = 21;
             this.label4.Text = "Heb je een ziekte of ben je allergisch voor iets specifieks?";
             // 
             // RBziekteJa
             // 
             this.RBziekteJa.AutoSize = true;
-            this.RBziekteJa.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBziekteJa.Location = new System.Drawing.Point(18, 6);
+            this.RBziekteJa.Font = new System.Drawing.Font("Gill Sans MT", 8.25F);
+            this.RBziekteJa.Location = new System.Drawing.Point(23, 13);
             this.RBziekteJa.Margin = new System.Windows.Forms.Padding(2);
             this.RBziekteJa.Name = "RBziekteJa";
-            this.RBziekteJa.Size = new System.Drawing.Size(38, 32);
+            this.RBziekteJa.Size = new System.Drawing.Size(34, 20);
             this.RBziekteJa.TabIndex = 22;
             this.RBziekteJa.TabStop = true;
             this.RBziekteJa.Text = "Ja";
@@ -245,11 +246,11 @@
             // RBziekteNee
             // 
             this.RBziekteNee.AutoSize = true;
-            this.RBziekteNee.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBziekteNee.Location = new System.Drawing.Point(82, 6);
+            this.RBziekteNee.Font = new System.Drawing.Font("Gill Sans MT", 8.25F);
+            this.RBziekteNee.Location = new System.Drawing.Point(86, 13);
             this.RBziekteNee.Margin = new System.Windows.Forms.Padding(2);
             this.RBziekteNee.Name = "RBziekteNee";
-            this.RBziekteNee.Size = new System.Drawing.Size(48, 32);
+            this.RBziekteNee.Size = new System.Drawing.Size(45, 20);
             this.RBziekteNee.TabIndex = 23;
             this.RBziekteNee.TabStop = true;
             this.RBziekteNee.Text = "Nee";
@@ -258,22 +259,22 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(314, 591);
+            this.label5.Font = new System.Drawing.Font("Gill Sans MT", 20.25F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(349, 591);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(233, 54);
+            this.label5.Size = new System.Drawing.Size(291, 38);
             this.label5.TabIndex = 24;
             this.label5.Text = "Wat is jouw geslacht?";
             // 
             // RBMan
             // 
             this.RBMan.AutoSize = true;
-            this.RBMan.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBMan.Location = new System.Drawing.Point(16, 3);
+            this.RBMan.Font = new System.Drawing.Font("Gill Sans MT", 8.25F);
+            this.RBMan.Location = new System.Drawing.Point(21, 12);
             this.RBMan.Margin = new System.Windows.Forms.Padding(2);
             this.RBMan.Name = "RBMan";
-            this.RBMan.Size = new System.Drawing.Size(51, 32);
+            this.RBMan.Size = new System.Drawing.Size(46, 20);
             this.RBMan.TabIndex = 25;
             this.RBMan.TabStop = true;
             this.RBMan.Text = "Man";
@@ -282,11 +283,11 @@
             // RBVrouw
             // 
             this.RBVrouw.AutoSize = true;
-            this.RBVrouw.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBVrouw.Location = new System.Drawing.Point(77, 3);
+            this.RBVrouw.Font = new System.Drawing.Font("Gill Sans MT", 8.25F);
+            this.RBVrouw.Location = new System.Drawing.Point(86, 12);
             this.RBVrouw.Margin = new System.Windows.Forms.Padding(2);
             this.RBVrouw.Name = "RBVrouw";
-            this.RBVrouw.Size = new System.Drawing.Size(59, 32);
+            this.RBVrouw.Size = new System.Drawing.Size(57, 20);
             this.RBVrouw.TabIndex = 26;
             this.RBVrouw.TabStop = true;
             this.RBVrouw.Text = "Vrouw";
@@ -295,22 +296,22 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(373, 398);
+            this.label9.Font = new System.Drawing.Font("Gill Sans MT", 20.25F, System.Drawing.FontStyle.Bold);
+            this.label9.Location = new System.Drawing.Point(371, 389);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(199, 54);
+            this.label9.Size = new System.Drawing.Size(241, 38);
             this.label9.TabIndex = 28;
             this.label9.Text = "Hoe actief ben jij?";
             // 
             // RBheelactief
             // 
             this.RBheelactief.AutoSize = true;
-            this.RBheelactief.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBheelactief.Location = new System.Drawing.Point(200, 20);
+            this.RBheelactief.Font = new System.Drawing.Font("Gill Sans MT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBheelactief.Location = new System.Drawing.Point(203, 19);
             this.RBheelactief.Margin = new System.Windows.Forms.Padding(2);
             this.RBheelactief.Name = "RBheelactief";
-            this.RBheelactief.Size = new System.Drawing.Size(79, 32);
+            this.RBheelactief.Size = new System.Drawing.Size(79, 22);
             this.RBheelactief.TabIndex = 31;
             this.RBheelactief.TabStop = true;
             this.RBheelactief.Text = "Heel actief";
@@ -319,11 +320,11 @@
             // RBredelijkActief
             // 
             this.RBredelijkActief.AutoSize = true;
-            this.RBredelijkActief.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBredelijkActief.Location = new System.Drawing.Point(100, 20);
+            this.RBredelijkActief.Font = new System.Drawing.Font("Gill Sans MT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBredelijkActief.Location = new System.Drawing.Point(103, 19);
             this.RBredelijkActief.Margin = new System.Windows.Forms.Padding(2);
             this.RBredelijkActief.Name = "RBredelijkActief";
-            this.RBredelijkActief.Size = new System.Drawing.Size(96, 32);
+            this.RBredelijkActief.Size = new System.Drawing.Size(95, 22);
             this.RBredelijkActief.TabIndex = 30;
             this.RBredelijkActief.TabStop = true;
             this.RBredelijkActief.Text = "Redelijk actief";
@@ -332,11 +333,11 @@
             // RBminderActief
             // 
             this.RBminderActief.AutoSize = true;
-            this.RBminderActief.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBminderActief.Location = new System.Drawing.Point(2, 20);
+            this.RBminderActief.Font = new System.Drawing.Font("Gill Sans MT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBminderActief.Location = new System.Drawing.Point(5, 19);
             this.RBminderActief.Margin = new System.Windows.Forms.Padding(2);
             this.RBminderActief.Name = "RBminderActief";
-            this.RBminderActief.Size = new System.Drawing.Size(94, 32);
+            this.RBminderActief.Size = new System.Drawing.Size(93, 22);
             this.RBminderActief.TabIndex = 29;
             this.RBminderActief.TabStop = true;
             this.RBminderActief.Text = "Minder Actief";
@@ -345,11 +346,11 @@
             // RBextraactief
             // 
             this.RBextraactief.AutoSize = true;
-            this.RBextraactief.Font = new System.Drawing.Font("Gabriola", 11.25F);
-            this.RBextraactief.Location = new System.Drawing.Point(287, 21);
+            this.RBextraactief.Font = new System.Drawing.Font("Gill Sans MT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBextraactief.Location = new System.Drawing.Point(290, 20);
             this.RBextraactief.Margin = new System.Windows.Forms.Padding(2);
             this.RBextraactief.Name = "RBextraactief";
-            this.RBextraactief.Size = new System.Drawing.Size(83, 32);
+            this.RBextraactief.Size = new System.Drawing.Size(81, 22);
             this.RBextraactief.TabIndex = 32;
             this.RBextraactief.TabStop = true;
             this.RBextraactief.Text = "Extra actief";
@@ -382,11 +383,11 @@
             // RBergactief
             // 
             this.RBergactief.AutoSize = true;
-            this.RBergactief.Font = new System.Drawing.Font("Gabriola", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RBergactief.Location = new System.Drawing.Point(390, 20);
+            this.RBergactief.Font = new System.Drawing.Font("Gill Sans MT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBergactief.Location = new System.Drawing.Point(393, 19);
             this.RBergactief.Margin = new System.Windows.Forms.Padding(2);
             this.RBergactief.Name = "RBergactief";
-            this.RBergactief.Size = new System.Drawing.Size(74, 32);
+            this.RBergactief.Size = new System.Drawing.Size(71, 22);
             this.RBergactief.TabIndex = 33;
             this.RBergactief.TabStop = true;
             this.RBergactief.Text = "Erg actief";

@@ -309,5 +309,10 @@ namespace LMA_project
         {
             lblhelp.Visible = false;
         }
+
+        private void textBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            textBox1.Text = "";
+        }
     }
 }

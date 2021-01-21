@@ -43,7 +43,7 @@
             this.btEerste = new System.Windows.Forms.Button();
             this.btHome = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btverwerken = new System.Windows.Forms.Button();
             this.tbHandmatig = new System.Windows.Forms.Button();
             this.Product = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -87,8 +87,30 @@
             this.label19 = new System.Windows.Forms.Label();
             this.plVierde = new System.Windows.Forms.Panel();
             this.listB6Vierde = new System.Windows.Forms.ListBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.listB1Vierde = new System.Windows.Forms.ListBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.listB2Vierde = new System.Windows.Forms.ListBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.listB3Vierde = new System.Windows.Forms.ListBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.listB4Vierde = new System.Windows.Forms.ListBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.listB5Vierde = new System.Windows.Forms.ListBox();
+            this.label25 = new System.Windows.Forms.Label();
             this.plVijfde = new System.Windows.Forms.Panel();
             this.listB6Vijfde = new System.Windows.Forms.ListBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.listB1Vijfde = new System.Windows.Forms.ListBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.listB2Vijfde = new System.Windows.Forms.ListBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.listB3Vijfde = new System.Windows.Forms.ListBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.listB4Vijfde = new System.Windows.Forms.ListBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.listB5vijfde = new System.Windows.Forms.ListBox();
+            this.label31 = new System.Windows.Forms.Label();
             this.plZesde = new System.Windows.Forms.Panel();
             this.listB6zesde = new System.Windows.Forms.ListBox();
             this.label32 = new System.Windows.Forms.Label();
@@ -102,28 +124,6 @@
             this.label36 = new System.Windows.Forms.Label();
             this.listB5zesde = new System.Windows.Forms.ListBox();
             this.label37 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.listB1Vijfde = new System.Windows.Forms.ListBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.listB2Vijfde = new System.Windows.Forms.ListBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.listB3Vijfde = new System.Windows.Forms.ListBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.listB4Vijfde = new System.Windows.Forms.ListBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.listB5vijfde = new System.Windows.Forms.ListBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.listB1Vierde = new System.Windows.Forms.ListBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.listB2Vierde = new System.Windows.Forms.ListBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.listB3Vierde = new System.Windows.Forms.ListBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.listB4Vierde = new System.Windows.Forms.ListBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.listB5Vierde = new System.Windows.Forms.ListBox();
-            this.label25 = new System.Windows.Forms.Label();
             this.plZevende = new System.Windows.Forms.Panel();
             this.listBox6Zevende = new System.Windows.Forms.ListBox();
             this.label38 = new System.Windows.Forms.Label();
@@ -326,7 +326,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.panel3.Controls.Add(this.button2);
+            this.panel3.Controls.Add(this.btverwerken);
             this.panel3.Controls.Add(this.tbHandmatig);
             this.panel3.Controls.Add(this.btHome);
             this.panel3.Location = new System.Drawing.Point(206, 667);
@@ -335,19 +335,19 @@
             this.panel3.Size = new System.Drawing.Size(867, 52);
             this.panel3.TabIndex = 5;
             // 
-            // button2
+            // btverwerken
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(100, -1);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(156, 49);
-            this.button2.TabIndex = 80;
-            this.button2.Text = "Verwerken";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btverwerken.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
+            this.btverwerken.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btverwerken.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btverwerken.Location = new System.Drawing.Point(100, -1);
+            this.btverwerken.Margin = new System.Windows.Forms.Padding(4);
+            this.btverwerken.Name = "btverwerken";
+            this.btverwerken.Size = new System.Drawing.Size(156, 49);
+            this.btverwerken.TabIndex = 80;
+            this.btverwerken.Text = "Verwerken";
+            this.btverwerken.UseVisualStyleBackColor = false;
+            this.btverwerken.Click += new System.EventHandler(this.btverwerken_Click);
             // 
             // tbHandmatig
             // 
@@ -781,6 +781,106 @@
             this.listB6Vierde.Size = new System.Drawing.Size(61, 121);
             this.listB6Vierde.TabIndex = 73;
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label20.Location = new System.Drawing.Point(349, 15);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(55, 35);
+            this.label20.TabIndex = 79;
+            this.label20.Text = "Koolh";
+            // 
+            // listB1Vierde
+            // 
+            this.listB1Vierde.FormattingEnabled = true;
+            this.listB1Vierde.Location = new System.Drawing.Point(11, 57);
+            this.listB1Vierde.Name = "listB1Vierde";
+            this.listB1Vierde.Size = new System.Drawing.Size(123, 121);
+            this.listB1Vierde.TabIndex = 68;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label21.Location = new System.Drawing.Point(277, 15);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(69, 35);
+            this.label21.TabIndex = 78;
+            this.label21.Text = "Eiwitten";
+            // 
+            // listB2Vierde
+            // 
+            this.listB2Vierde.FormattingEnabled = true;
+            this.listB2Vierde.Location = new System.Drawing.Point(140, 57);
+            this.listB2Vierde.Name = "listB2Vierde";
+            this.listB2Vierde.Size = new System.Drawing.Size(65, 121);
+            this.listB2Vierde.TabIndex = 69;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label22.Location = new System.Drawing.Point(218, 15);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(45, 35);
+            this.label22.TabIndex = 77;
+            this.label22.Text = "Kcal";
+            // 
+            // listB3Vierde
+            // 
+            this.listB3Vierde.FormattingEnabled = true;
+            this.listB3Vierde.Location = new System.Drawing.Point(212, 57);
+            this.listB3Vierde.Name = "listB3Vierde";
+            this.listB3Vierde.Size = new System.Drawing.Size(60, 121);
+            this.listB3Vierde.TabIndex = 70;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label23.Location = new System.Drawing.Point(419, 15);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(37, 35);
+            this.label23.TabIndex = 76;
+            this.label23.Text = "Vet";
+            // 
+            // listB4Vierde
+            // 
+            this.listB4Vierde.FormattingEnabled = true;
+            this.listB4Vierde.Location = new System.Drawing.Point(278, 57);
+            this.listB4Vierde.Name = "listB4Vierde";
+            this.listB4Vierde.Size = new System.Drawing.Size(59, 121);
+            this.listB4Vierde.TabIndex = 71;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label24.Location = new System.Drawing.Point(122, 15);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(98, 35);
+            this.label24.TabIndex = 75;
+            this.label24.Text = "Hoeveelheid";
+            // 
+            // listB5Vierde
+            // 
+            this.listB5Vierde.FormattingEnabled = true;
+            this.listB5Vierde.Location = new System.Drawing.Point(343, 57);
+            this.listB5Vierde.Name = "listB5Vierde";
+            this.listB5Vierde.Size = new System.Drawing.Size(61, 121);
+            this.listB5Vierde.TabIndex = 72;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label25.Location = new System.Drawing.Point(27, 15);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(70, 35);
+            this.label25.TabIndex = 74;
+            this.label25.Text = "Product";
+            // 
             // plVijfde
             // 
             this.plVijfde.Controls.Add(this.listB6Vijfde);
@@ -807,6 +907,106 @@
             this.listB6Vijfde.Name = "listB6Vijfde";
             this.listB6Vijfde.Size = new System.Drawing.Size(61, 121);
             this.listB6Vijfde.TabIndex = 73;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label26.Location = new System.Drawing.Point(349, 15);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(55, 35);
+            this.label26.TabIndex = 79;
+            this.label26.Text = "Koolh";
+            // 
+            // listB1Vijfde
+            // 
+            this.listB1Vijfde.FormattingEnabled = true;
+            this.listB1Vijfde.Location = new System.Drawing.Point(11, 57);
+            this.listB1Vijfde.Name = "listB1Vijfde";
+            this.listB1Vijfde.Size = new System.Drawing.Size(123, 121);
+            this.listB1Vijfde.TabIndex = 68;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label27.Location = new System.Drawing.Point(277, 15);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(69, 35);
+            this.label27.TabIndex = 78;
+            this.label27.Text = "Eiwitten";
+            // 
+            // listB2Vijfde
+            // 
+            this.listB2Vijfde.FormattingEnabled = true;
+            this.listB2Vijfde.Location = new System.Drawing.Point(140, 57);
+            this.listB2Vijfde.Name = "listB2Vijfde";
+            this.listB2Vijfde.Size = new System.Drawing.Size(65, 121);
+            this.listB2Vijfde.TabIndex = 69;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label28.Location = new System.Drawing.Point(218, 15);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(45, 35);
+            this.label28.TabIndex = 77;
+            this.label28.Text = "Kcal";
+            // 
+            // listB3Vijfde
+            // 
+            this.listB3Vijfde.FormattingEnabled = true;
+            this.listB3Vijfde.Location = new System.Drawing.Point(212, 57);
+            this.listB3Vijfde.Name = "listB3Vijfde";
+            this.listB3Vijfde.Size = new System.Drawing.Size(60, 121);
+            this.listB3Vijfde.TabIndex = 70;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label29.Location = new System.Drawing.Point(419, 15);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(37, 35);
+            this.label29.TabIndex = 76;
+            this.label29.Text = "Vet";
+            // 
+            // listB4Vijfde
+            // 
+            this.listB4Vijfde.FormattingEnabled = true;
+            this.listB4Vijfde.Location = new System.Drawing.Point(278, 57);
+            this.listB4Vijfde.Name = "listB4Vijfde";
+            this.listB4Vijfde.Size = new System.Drawing.Size(59, 121);
+            this.listB4Vijfde.TabIndex = 71;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label30.Location = new System.Drawing.Point(122, 15);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(98, 35);
+            this.label30.TabIndex = 75;
+            this.label30.Text = "Hoeveelheid";
+            // 
+            // listB5vijfde
+            // 
+            this.listB5vijfde.FormattingEnabled = true;
+            this.listB5vijfde.Location = new System.Drawing.Point(343, 57);
+            this.listB5vijfde.Name = "listB5vijfde";
+            this.listB5vijfde.Size = new System.Drawing.Size(61, 121);
+            this.listB5vijfde.TabIndex = 72;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label31.Location = new System.Drawing.Point(27, 15);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(70, 35);
+            this.label31.TabIndex = 74;
+            this.label31.Text = "Product";
             // 
             // plZesde
             // 
@@ -934,206 +1134,6 @@
             this.label37.Size = new System.Drawing.Size(70, 35);
             this.label37.TabIndex = 74;
             this.label37.Text = "Product";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label26.Location = new System.Drawing.Point(349, 15);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(55, 35);
-            this.label26.TabIndex = 79;
-            this.label26.Text = "Koolh";
-            // 
-            // listB1Vijfde
-            // 
-            this.listB1Vijfde.FormattingEnabled = true;
-            this.listB1Vijfde.Location = new System.Drawing.Point(11, 57);
-            this.listB1Vijfde.Name = "listB1Vijfde";
-            this.listB1Vijfde.Size = new System.Drawing.Size(123, 121);
-            this.listB1Vijfde.TabIndex = 68;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label27.Location = new System.Drawing.Point(277, 15);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(69, 35);
-            this.label27.TabIndex = 78;
-            this.label27.Text = "Eiwitten";
-            // 
-            // listB2Vijfde
-            // 
-            this.listB2Vijfde.FormattingEnabled = true;
-            this.listB2Vijfde.Location = new System.Drawing.Point(140, 57);
-            this.listB2Vijfde.Name = "listB2Vijfde";
-            this.listB2Vijfde.Size = new System.Drawing.Size(65, 121);
-            this.listB2Vijfde.TabIndex = 69;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label28.Location = new System.Drawing.Point(218, 15);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(45, 35);
-            this.label28.TabIndex = 77;
-            this.label28.Text = "Kcal";
-            // 
-            // listB3Vijfde
-            // 
-            this.listB3Vijfde.FormattingEnabled = true;
-            this.listB3Vijfde.Location = new System.Drawing.Point(212, 57);
-            this.listB3Vijfde.Name = "listB3Vijfde";
-            this.listB3Vijfde.Size = new System.Drawing.Size(60, 121);
-            this.listB3Vijfde.TabIndex = 70;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label29.Location = new System.Drawing.Point(419, 15);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(37, 35);
-            this.label29.TabIndex = 76;
-            this.label29.Text = "Vet";
-            // 
-            // listB4Vijfde
-            // 
-            this.listB4Vijfde.FormattingEnabled = true;
-            this.listB4Vijfde.Location = new System.Drawing.Point(278, 57);
-            this.listB4Vijfde.Name = "listB4Vijfde";
-            this.listB4Vijfde.Size = new System.Drawing.Size(59, 121);
-            this.listB4Vijfde.TabIndex = 71;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label30.Location = new System.Drawing.Point(122, 15);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(98, 35);
-            this.label30.TabIndex = 75;
-            this.label30.Text = "Hoeveelheid";
-            // 
-            // listB5vijfde
-            // 
-            this.listB5vijfde.FormattingEnabled = true;
-            this.listB5vijfde.Location = new System.Drawing.Point(343, 57);
-            this.listB5vijfde.Name = "listB5vijfde";
-            this.listB5vijfde.Size = new System.Drawing.Size(61, 121);
-            this.listB5vijfde.TabIndex = 72;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label31.Location = new System.Drawing.Point(27, 15);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(70, 35);
-            this.label31.TabIndex = 74;
-            this.label31.Text = "Product";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label20.Location = new System.Drawing.Point(349, 15);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(55, 35);
-            this.label20.TabIndex = 79;
-            this.label20.Text = "Koolh";
-            // 
-            // listB1Vierde
-            // 
-            this.listB1Vierde.FormattingEnabled = true;
-            this.listB1Vierde.Location = new System.Drawing.Point(11, 57);
-            this.listB1Vierde.Name = "listB1Vierde";
-            this.listB1Vierde.Size = new System.Drawing.Size(123, 121);
-            this.listB1Vierde.TabIndex = 68;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label21.Location = new System.Drawing.Point(277, 15);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(69, 35);
-            this.label21.TabIndex = 78;
-            this.label21.Text = "Eiwitten";
-            // 
-            // listB2Vierde
-            // 
-            this.listB2Vierde.FormattingEnabled = true;
-            this.listB2Vierde.Location = new System.Drawing.Point(140, 57);
-            this.listB2Vierde.Name = "listB2Vierde";
-            this.listB2Vierde.Size = new System.Drawing.Size(65, 121);
-            this.listB2Vierde.TabIndex = 69;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label22.Location = new System.Drawing.Point(218, 15);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(45, 35);
-            this.label22.TabIndex = 77;
-            this.label22.Text = "Kcal";
-            // 
-            // listB3Vierde
-            // 
-            this.listB3Vierde.FormattingEnabled = true;
-            this.listB3Vierde.Location = new System.Drawing.Point(212, 57);
-            this.listB3Vierde.Name = "listB3Vierde";
-            this.listB3Vierde.Size = new System.Drawing.Size(60, 121);
-            this.listB3Vierde.TabIndex = 70;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label23.Location = new System.Drawing.Point(419, 15);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(37, 35);
-            this.label23.TabIndex = 76;
-            this.label23.Text = "Vet";
-            // 
-            // listB4Vierde
-            // 
-            this.listB4Vierde.FormattingEnabled = true;
-            this.listB4Vierde.Location = new System.Drawing.Point(278, 57);
-            this.listB4Vierde.Name = "listB4Vierde";
-            this.listB4Vierde.Size = new System.Drawing.Size(59, 121);
-            this.listB4Vierde.TabIndex = 71;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label24.Location = new System.Drawing.Point(122, 15);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(98, 35);
-            this.label24.TabIndex = 75;
-            this.label24.Text = "Hoeveelheid";
-            // 
-            // listB5Vierde
-            // 
-            this.listB5Vierde.FormattingEnabled = true;
-            this.listB5Vierde.Location = new System.Drawing.Point(343, 57);
-            this.listB5Vierde.Name = "listB5Vierde";
-            this.listB5Vierde.Size = new System.Drawing.Size(61, 121);
-            this.listB5Vierde.TabIndex = 72;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Gabriola", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label25.Location = new System.Drawing.Point(27, 15);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(70, 35);
-            this.label25.TabIndex = 74;
-            this.label25.Text = "Product";
             // 
             // plZevende
             // 
@@ -1315,7 +1315,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btHome;
-        private System.Windows.Forms.Button btZevende;
+        public System.Windows.Forms.Button btZevende;
         private System.Windows.Forms.Button btZesde;
         private System.Windows.Forms.Button btVijfde;
         private System.Windows.Forms.Button btVierde;
@@ -1327,7 +1327,7 @@
         public System.Windows.Forms.Label Product;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btverwerken;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
@@ -1340,8 +1340,8 @@
         private System.Windows.Forms.ListBox listB3Eerste;
         private System.Windows.Forms.ListBox listBox2Eerste;
         private System.Windows.Forms.ListBox listB1Eerte;
-        private System.Windows.Forms.Panel plEerste;
-        private System.Windows.Forms.Panel plTweede;
+        public System.Windows.Forms.Panel plEerste;
+        public System.Windows.Forms.Panel plTweede;
         private System.Windows.Forms.ListBox listB6tweede;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox listB1Tweede;
@@ -1354,7 +1354,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ListBox listB5Tweede;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel plDerde;
+        public System.Windows.Forms.Panel plDerde;
         private System.Windows.Forms.ListBox listB6Derde;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ListBox listB1Derde;
@@ -1367,7 +1367,7 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.ListBox listB5Derde;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Panel plVierde;
+        public System.Windows.Forms.Panel plVierde;
         private System.Windows.Forms.ListBox listB6Vierde;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.ListBox listB1Vierde;
@@ -1380,7 +1380,7 @@
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.ListBox listB5Vierde;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Panel plVijfde;
+        public System.Windows.Forms.Panel plVijfde;
         private System.Windows.Forms.ListBox listB6Vijfde;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.ListBox listB1Vijfde;
@@ -1393,7 +1393,7 @@
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.ListBox listB5vijfde;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Panel plZesde;
+        public System.Windows.Forms.Panel plZesde;
         private System.Windows.Forms.ListBox listB6zesde;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.ListBox listB1zesde;
@@ -1406,7 +1406,7 @@
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.ListBox listB5zesde;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Panel plZevende;
+        public System.Windows.Forms.Panel plZevende;
         private System.Windows.Forms.ListBox listBox6Zevende;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.ListBox listB1Zevende;

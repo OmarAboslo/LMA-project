@@ -10,9 +10,9 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 namespace LMA_project
 {
-    public partial class Form1 : Form
+    public partial class Accountmaken : Form
     {
-        public Form1()
+        public Accountmaken()
         {
             InitializeComponent();
         }
@@ -49,7 +49,7 @@ namespace LMA_project
                 {
                     MessageBox.Show("Account Succesvol Aangemaakt");
                     this.Hide();
-                    Form2 eerstscherm = new Form2();
+                    Inloggen eerstscherm = new Inloggen();
                     eerstscherm.Show();
 
 
@@ -66,7 +66,7 @@ namespace LMA_project
         private void btterug_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 form = new Form2();
+            Inloggen form = new Inloggen();
             form.ShowDialog();
         }
     }

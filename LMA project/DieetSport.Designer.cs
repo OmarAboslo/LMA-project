@@ -94,11 +94,11 @@
             // tbResult
             // 
             this.tbResult.AutoSize = true;
-            this.tbResult.Font = new System.Drawing.Font("Gabriola", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbResult.Font = new System.Drawing.Font("Gill Sans MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbResult.ForeColor = System.Drawing.Color.Crimson;
-            this.tbResult.Location = new System.Drawing.Point(3, 140);
+            this.tbResult.Location = new System.Drawing.Point(11, 138);
             this.tbResult.Name = "tbResult";
-            this.tbResult.Size = new System.Drawing.Size(425, 29);
+            this.tbResult.Size = new System.Drawing.Size(440, 18);
             this.tbResult.TabIndex = 13;
             this.tbResult.Text = "Het aantal Kacl die jij per dag moet verkrijgen,om een Kilo per week ";
             // 
@@ -222,8 +222,8 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DieetSport";
             this.Text = "DieetSport";

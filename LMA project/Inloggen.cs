@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace LMA_project
 {
-    public partial class Form2 : Form
+    public partial class Inloggen : Form
     {
-        Form1 Firstform = new Form1();
+        Accountmaken Firstform = new Accountmaken();
         DBAccess objDBAccess = new DBAccess();
         DataTable dtUsers = new DataTable();
         Gezond_lifestyle secound_form = new Gezond_lifestyle();
-        public Form2()
+        public Inloggen()
         {
             InitializeComponent();
         }

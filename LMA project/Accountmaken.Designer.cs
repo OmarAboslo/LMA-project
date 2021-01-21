@@ -1,7 +1,7 @@
 ﻿
 namespace LMA_project
 {
-    partial class Form1
+    partial class Accountmaken
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace LMA_project
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Accountmaken));
             this.LAccount_aanmaken = new System.Windows.Forms.Label();
             this.LEmail = new System.Windows.Forms.Label();
             this.LWachtwoord = new System.Windows.Forms.Label();
@@ -114,12 +114,13 @@ namespace LMA_project
             // 
             // BOk
             // 
+            this.BOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
             this.BOk.Location = new System.Drawing.Point(649, 668);
             this.BOk.Name = "BOk";
             this.BOk.Size = new System.Drawing.Size(138, 36);
             this.BOk.TabIndex = 9;
             this.BOk.Text = "OK";
-            this.BOk.UseVisualStyleBackColor = true;
+            this.BOk.UseVisualStyleBackColor = false;
             this.BOk.Click += new System.EventHandler(this.BOk_Click);
             // 
             // panel1
@@ -136,12 +137,13 @@ namespace LMA_project
             // 
             // btterug
             // 
+            this.btterug.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
             this.btterug.Location = new System.Drawing.Point(0, 0);
             this.btterug.Name = "btterug";
-            this.btterug.Size = new System.Drawing.Size(101, 42);
+            this.btterug.Size = new System.Drawing.Size(141, 42);
             this.btterug.TabIndex = 68;
             this.btterug.Text = "Terug";
-            this.btterug.UseVisualStyleBackColor = true;
+            this.btterug.UseVisualStyleBackColor = false;
             this.btterug.Click += new System.EventHandler(this.btterug_Click);
             // 
             // pictureBox1
@@ -174,7 +176,7 @@ namespace LMA_project
             this.panel2.Size = new System.Drawing.Size(190, 539);
             this.panel2.TabIndex = 66;
             // 
-            // Form1
+            // Accountmaken
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -189,7 +191,7 @@ namespace LMA_project
             this.Controls.Add(this.LWachtwoord_bevestigen);
             this.Controls.Add(this.LWachtwoord);
             this.Controls.Add(this.LEmail);
-            this.Name = "Form1";
+            this.Name = "Accountmaken";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

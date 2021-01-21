@@ -48,7 +48,14 @@ namespace LMA_project
             this.Hide();
             Dieet_A automatisch = new Dieet_A();
             automatisch.Show();
-      
+            automatisch.plEerste.Visible = false;
+            automatisch.plTweede.Visible = false;
+            automatisch.plDerde.Visible = false;
+            automatisch.plVierde.Visible = false;
+            automatisch.plVijfde.Visible = false;
+            automatisch.plZesde.Visible = false;
+            automatisch.plZevende.Visible = false;
+
 
         }
 

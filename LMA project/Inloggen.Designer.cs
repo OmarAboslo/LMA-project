@@ -1,7 +1,7 @@
 ﻿
 namespace LMA_project
 {
-    partial class Form2
+    partial class Inloggen
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace LMA_project
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inloggen));
             this.LGebruikersnaam = new System.Windows.Forms.Label();
             this.LWachtwoord = new System.Windows.Forms.Label();
             this.LInloggen = new System.Windows.Forms.Label();
@@ -98,24 +98,26 @@ namespace LMA_project
             // 
             // BOk
             // 
+            this.BOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
             this.BOk.Font = new System.Drawing.Font("Gabriola", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BOk.Location = new System.Drawing.Point(502, 417);
             this.BOk.Name = "BOk";
             this.BOk.Size = new System.Drawing.Size(124, 43);
             this.BOk.TabIndex = 10;
             this.BOk.Text = "OK";
-            this.BOk.UseVisualStyleBackColor = true;
+            this.BOk.UseVisualStyleBackColor = false;
             this.BOk.Click += new System.EventHandler(this.BOk_Click);
             // 
             // BAccoun_maken
             // 
+            this.BAccoun_maken.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
             this.BAccoun_maken.Font = new System.Drawing.Font("Gabriola", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BAccoun_maken.Location = new System.Drawing.Point(654, 659);
             this.BAccoun_maken.Name = "BAccoun_maken";
             this.BAccoun_maken.Size = new System.Drawing.Size(133, 45);
             this.BAccoun_maken.TabIndex = 11;
             this.BAccoun_maken.Text = "Account Maken";
-            this.BAccoun_maken.UseVisualStyleBackColor = true;
+            this.BAccoun_maken.UseVisualStyleBackColor = false;
             this.BAccoun_maken.Click += new System.EventHandler(this.BAccoun_maken_Click);
             // 
             // label1
@@ -189,7 +191,7 @@ namespace LMA_project
             this.pichelp.MouseLeave += new System.EventHandler(this.pichelp_MouseLeave);
             this.pichelp.MouseHover += new System.EventHandler(this.pichelp_MouseHover);
             // 
-            // Form2
+            // Inloggen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -206,7 +208,7 @@ namespace LMA_project
             this.Controls.Add(this.TGebruikersnaam);
             this.Controls.Add(this.LWachtwoord);
             this.Controls.Add(this.LGebruikersnaam);
-            this.Name = "Form2";
+            this.Name = "Inloggen";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

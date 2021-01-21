@@ -95,7 +95,106 @@ namespace LMA_project
             }
             rdr.Close();
             
-        }     
+        }
+        public void Items()
+        {
+
+            con.ConnectionString = @"Data Source=192.168.172.77;Initial Catalog=proftaakproject;Persist Security Info=True;User ID=Omar;Password=&Wy%EN%EzvByVB26";
+            con.Open();
+
+            SqlCommand afvallen = new SqlCommand("Select TOP 8 Product,Hoeveelheid,Eenheid,Kcal,Eiwit, Koolh, Vet from Voeding Where Kcal <= @Kcal and Kcal>= @Kcal - 10  ORDER BY NEWID()", con);
+            SqlCommand aankomen = new SqlCommand("Select TOP 8 Product,Hoeveelheid,Eenheid,Kcal,Eiwit, Koolh, Vet from Voeding Where Kcal >= @Kcal and Kcal <= @Kcal + 10 ORDER BY NEWID()", con);
+
+            if (ClassDieet.Getpersonsate() == true)
+            {
+                GetItems(afvallen);
+            }
+            else if (ClassDieet.Getpersonsate() == false)
+            {
+                GetItems(aankomen);
+            }
+            con.Close();
+        }
+        public void ListBox_Leegmaken()
+        {
+            if (plEerste.Visible == true)
+
+            {
+                listB1Eerte.Items.Clear();
+                listBox2Eerste.Items.Clear();
+                listB3Eerste.Items.Clear();
+                listB4Eerste.Items.Clear();
+                listB5Eerste.Items.Clear();
+                listB6Eerste.Items.Clear();
+            }
+            else if (plTweede.Visible == true)
+            {
+                listB1Tweede.Items.Clear();
+                listB2Tweede.Items.Clear();
+                listB3Tweede.Items.Clear();
+                listB4Tweede.Items.Clear();
+                listB5Tweede.Items.Clear();
+                listB6tweede.Items.Clear();
+            }
+            else if (plDerde.Visible == true)
+            {
+                listB1Derde.Items.Clear();
+                listB2Derde.Items.Clear();
+                listB3Derde.Items.Clear();
+                listB4Derde.Items.Clear();
+                listB5Derde.Items.Clear();
+                listB6Derde.Items.Clear();
+            }
+            else if (plVierde.Visible == true)
+            {
+                listB1Vierde.Items.Clear();
+                listB2Vierde.Items.Clear();
+                listB3Vierde.Items.Clear();
+                listB4Vierde.Items.Clear();
+                listB5Vierde.Items.Clear();
+                listB6Vierde.Items.Clear();
+            }
+            else if (plVijfde.Visible == true)
+            {
+                listB1Vijfde.Items.Clear();
+                listB2Vijfde.Items.Clear();
+                listB3Vijfde.Items.Clear();
+                listB4Vijfde.Items.Clear();
+                listB5vijfde.Items.Clear();
+                listB6Vijfde.Items.Clear();
+            }
+            else if (plZesde.Visible == true)
+            {
+                listB1zesde.Items.Clear();
+                listB2zesde.Items.Clear();
+                listB3zesde.Items.Clear();
+                listB4zesde.Items.Clear();
+                listB5zesde.Items.Clear();
+                listB6zesde.Items.Clear();
+            }
+            else if (plZevende.Visible == true)
+            {
+                listB1Zevende.Items.Clear();
+                listB2Zevende.Items.Clear();
+                listB3Zevende.Items.Clear();
+                listB4Zevende.Items.Clear();
+                listB5Zevende.Items.Clear();
+                listBox6Zevende.Items.Clear();
+            }
+        }
+
+
+
+
+
+        bool eerste = true;
+        bool tweede = true;
+        bool derde = true;
+        bool vierde = true;
+        bool vijfde = true;
+        bool zesde = true;
+        bool zevende = true;
+
         private void tbHandmatig_Click(object sender, EventArgs e)
         {
             Dieet_H new_form = new Dieet_H();
@@ -116,41 +215,6 @@ namespace LMA_project
             HomePagina.Show();
 
         }
-
-         public void Items ()
-        {
-
-            con.ConnectionString = @"Data Source=192.168.172.77;Initial Catalog=proftaakproject;Persist Security Info=True;User ID=Omar;Password=&Wy%EN%EzvByVB26";
-            con.Open();
-
-            SqlCommand afvallen = new SqlCommand("Select TOP 8 Product,Hoeveelheid,Eenheid,Kcal,Eiwit, Koolh, Vet from Voeding Where Kcal <= @Kcal and Kcal>= @Kcal - 10  ORDER BY NEWID()", con);
-            SqlCommand aankomen = new SqlCommand("Select TOP 8 Product,Hoeveelheid,Eenheid,Kcal,Eiwit, Koolh, Vet from Voeding Where Kcal >= @Kcal and Kcal <= @Kcal + 10 ORDER BY NEWID()", con);
-
-            if (ClassDieet.Getpersonsate() == true)
-            {
-                GetItems(afvallen);
-            }
-            else if (ClassDieet.Getpersonsate() == false)
-            {
-                GetItems(aankomen);
-            }
-            con.Close();
-        }
-
-
-
-        bool eerste = true;
-        bool tweede = true;
-        bool derde = true;
-        bool vierde = true;
-        bool vijfde = true;
-        bool zesde = true;
-        bool zevende = true;
-
-
-
-   
-
         private void btTweede_Click(object sender, EventArgs e)
         {
             plEerste.Visible = false;
@@ -263,57 +327,6 @@ namespace LMA_project
                
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if (plEerste.Visible == true)
-            {
-                con.ConnectionString = @"Data Source=192.168.172.77;Initial Catalog=proftaakproject;Persist Security Info=True;User ID=Omar;Password=&Wy%EN%EzvByVB26";
-                con.Open();
-
-                SqlCommand afvallen = new SqlCommand("Select TOP 8 Product,Hoeveelheid,Eenheid,Kcal,Eiwit, Koolh, Vet from Voeding Where Kcal <= @Kcal and Kcal>= @Kcal - 10  ORDER BY NEWID()", con);
-                SqlCommand aankomen = new SqlCommand("Select TOP 8 Product,Hoeveelheid,Eenheid,Kcal,Eiwit, Koolh, Vet from Voeding Where Kcal >= @Kcal and Kcal <= @Kcal + 10 ORDER BY NEWID()", con);
-                listB1Eerte.Items.Clear();
-                listBox2Eerste.Items.Clear();
-                listB3Eerste.Items.Clear();
-                listB4Eerste.Items.Clear();
-                listB5Eerste.Items.Clear();
-                listB6Eerste.Items.Clear();
-                if (ClassDieet.Getpersonsate() == true)
-                {
-                    GetItems(afvallen);
-                }
-                else if (ClassDieet.Getpersonsate() == false)
-                {
-                    GetItems(aankomen);
-                }
-                con.Close();
-
-            }
-            else if (plTweede.Visible == true)
-            {
-                con.ConnectionString = @"Data Source=192.168.172.77;Initial Catalog=proftaakproject;Persist Security Info=True;User ID=Omar;Password=&Wy%EN%EzvByVB26";
-                con.Open();
-
-                SqlCommand afvallen = new SqlCommand("Select TOP 8 Product,Hoeveelheid,Eenheid,Kcal,Eiwit, Koolh, Vet from Voeding Where Kcal <= @Kcal and Kcal>= @Kcal - 10  ORDER BY NEWID()", con);
-                SqlCommand aankomen = new SqlCommand("Select TOP 8 Product,Hoeveelheid,Eenheid,Kcal,Eiwit, Koolh, Vet from Voeding Where Kcal >= @Kcal and Kcal <= @Kcal + 10 ORDER BY NEWID()", con);
-                listB1Tweede.Items.Clear();
-                listB2Tweede.Items.Clear();
-                listB3Tweede.Items.Clear();
-                listB4Vierde.Items.Clear();
-                listB5Tweede.Items.Clear();
-                listB6tweede.Items.Clear();
-                if (ClassDieet.Getpersonsate() == true)
-                {
-                    GetItems(afvallen);
-                }
-                else if (ClassDieet.Getpersonsate() == false)
-                {
-                    GetItems(aankomen);
-                }
-                con.Close();
-            }
-        }
-
         private void btEerste_Click_1(object sender, EventArgs e)
         {
             plEerste.Visible = true;
@@ -332,15 +345,44 @@ namespace LMA_project
 
         }
 
-        private void pichelp_MouseHover(object sender, EventArgs e)
+        private void btverwerken_Click(object sender, EventArgs e)
         {
-            lblhelp.Visible = true;
-            lblhelp.Text = ("Hier krijgt u een lijst met voedsel en dranken en u kunt deze opslaan om later te bekijken");
-        }
 
-        private void pichelp_MouseLeave(object sender, EventArgs e)
-        {
-            lblhelp.Visible = false;
+            if (plEerste.Visible == true)
+            {
+                ListBox_Leegmaken();
+                Items();
+            }
+            if (plTweede.Visible == true)
+            {
+                ListBox_Leegmaken();
+                Items();
+            }
+            if (plDerde.Visible == true)
+            {
+                ListBox_Leegmaken();
+                Items();
+            }
+            if (plVierde.Visible == true)
+            {
+                ListBox_Leegmaken();
+                Items();
+            }
+            if (plVijfde.Visible == true)
+            {
+                ListBox_Leegmaken();
+                Items();
+            }
+            if (plZesde.Visible == true)
+            {
+                ListBox_Leegmaken();
+                Items();
+            }
+            if (plZevende.Visible == true)
+            {
+                ListBox_Leegmaken();
+                Items();
+            }
         }
     }
 }
