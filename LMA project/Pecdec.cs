@@ -15,6 +15,27 @@ namespace LMA_project
         public Pecdec()
         {
             InitializeComponent();
+            tbNotes.Hide();
+            btnNotes2.Hide();
+        }
+
+        private void btnNotes_Click(object sender, EventArgs e)
+        {
+            tbNotes.Show();
+            btnNotes2.Show();
+        }
+
+        private void btnNotes2_Click(object sender, EventArgs e)
+        {
+            tbNotes.Hide();
+            btnNotes2.Hide();
+        }
+
+        private void btnTerug_Click(object sender, EventArgs e)
+        {
+            Beginner formBeginner = new Beginner();
+            formBeginner.Show();
+            this.Hide();
         }
     }
 }

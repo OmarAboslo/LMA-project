@@ -44,11 +44,6 @@ namespace LMA_project
             btnNotes2.Show();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            DieetSport formDieetSport = new DieetSport();
-            formDieetSport.Show();
-            this.Hide();
-        }
+     
     }
 }

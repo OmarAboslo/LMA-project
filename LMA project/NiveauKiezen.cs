@@ -15,6 +15,7 @@ namespace LMA_project
         public NiveauKiezen()
         {
             InitializeComponent();
+            this.Size = new Size(600, 600);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -31,16 +32,18 @@ namespace LMA_project
             this.Hide();
         }
 
-        private void Home_Click(object sender, EventArgs e)
-        {
-            DieetSport formDieetSport = new DieetSport();
-            formDieetSport.Show();
-            this.Hide();
-        }
+      
 
         private void NiveauKiezen_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Intermediate formIntermediate = new Intermediate();
+            formIntermediate.Show();
+            this.Hide();
         }
     }
 }

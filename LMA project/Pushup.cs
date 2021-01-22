@@ -39,11 +39,6 @@ namespace LMA_project
             this.Hide();
         }
 
-        private void Home_Click(object sender, EventArgs e)
-        {
-            DieetSport formDieetSport = new DieetSport();
-            formDieetSport.Show();
-            this.Hide();
-        }
+   
     }
 }

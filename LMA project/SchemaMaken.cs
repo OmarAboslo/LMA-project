@@ -23,5 +23,12 @@ namespace LMA_project
             formBiceps.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            SchemaKiezen formSchemaKiezen = new SchemaKiezen();
+            formSchemaKiezen.Show();
+            this.Hide();
+        }
     }
 }

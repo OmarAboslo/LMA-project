@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BenchPress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BenchPress.Designer.cs">
+      <DependentUpon>BenchPress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cardio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cardio.Designer.cs">
+      <DependentUpon>Cardio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Curl.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Curl.Designer.cs">
       <DependentUpon>Curl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurlIntermediate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurlIntermediate.Designer.cs">
+      <DependentUpon>CurlIntermediate.cs</DependentUpon>
     </Compile>
     <Compile Include="Database.cs" />
     <Compile Include="Beginner.cs">
@@ -65,17 +83,41 @@
     <Compile Include="Biceps.Designer.cs">
       <DependentUpon>Biceps.cs</DependentUpon>
     </Compile>
+    <Compile Include="InclinePress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InclinePress.Designer.cs">
+      <DependentUpon>InclinePress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intermediate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intermediate.Designer.cs">
+      <DependentUpon>Intermediate.cs</DependentUpon>
+    </Compile>
     <Compile Include="LegPress.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LegPress.Designer.cs">
       <DependentUpon>LegPress.cs</DependentUpon>
     </Compile>
+    <Compile Include="LegPressIntermediate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LegPressIntermediate.Designer.cs">
+      <DependentUpon>LegPressIntermediate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pecdec.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Pecdec.Designer.cs">
       <DependentUpon>Pecdec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PosteriorFlies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PosteriorFlies.Designer.cs">
+      <DependentUpon>PosteriorFlies.cs</DependentUpon>
     </Compile>
     <Compile Include="SchemaMaken.cs">
       <SubType>Form</SubType>
@@ -109,6 +151,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Squats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Squats.Designer.cs">
+      <DependentUpon>Squats.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BenchPress.resx">
+      <DependentUpon>BenchPress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cardio.resx">
+      <DependentUpon>Cardio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Curl.resx">
       <DependentUpon>Curl.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,11 +172,26 @@
     <EmbeddedResource Include="Biceps.resx">
       <DependentUpon>Biceps.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CurlIntermediate.resx">
+      <DependentUpon>CurlIntermediate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InclinePress.resx">
+      <DependentUpon>InclinePress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intermediate.resx">
+      <DependentUpon>Intermediate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LegPress.resx">
       <DependentUpon>LegPress.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LegPressIntermediate.resx">
+      <DependentUpon>LegPressIntermediate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pecdec.resx">
       <DependentUpon>Pecdec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PosteriorFlies.resx">
+      <DependentUpon>PosteriorFlies.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SchemaMaken.resx">
       <DependentUpon>SchemaMaken.cs</DependentUpon>
@@ -143,6 +212,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Squats.resx">
+      <DependentUpon>Squats.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

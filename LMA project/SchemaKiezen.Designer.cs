@@ -38,6 +38,7 @@
             // 
             // btnVoorgesteld
             // 
+            this.btnVoorgesteld.Font = new System.Drawing.Font("Gill Sans MT", 10F);
             this.btnVoorgesteld.Location = new System.Drawing.Point(328, 395);
             this.btnVoorgesteld.Name = "btnVoorgesteld";
             this.btnVoorgesteld.Size = new System.Drawing.Size(242, 126);
@@ -48,6 +49,7 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Gill Sans MT", 10F);
             this.button2.Location = new System.Drawing.Point(862, 395);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(251, 126);
@@ -58,13 +60,13 @@
             // 
             // btnTerug
             // 
+            this.btnTerug.Font = new System.Drawing.Font("Gill Sans MT", 10F);
             this.btnTerug.Location = new System.Drawing.Point(631, 898);
             this.btnTerug.Name = "btnTerug";
             this.btnTerug.Size = new System.Drawing.Size(197, 86);
             this.btnTerug.TabIndex = 8;
             this.btnTerug.Text = "Terug";
             this.btnTerug.UseVisualStyleBackColor = true;
-            this.btnTerug.Click += new System.EventHandler(this.btnTerug_Click);
             // 
             // Home
             // 
@@ -75,7 +77,6 @@
             this.Home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Home.TabIndex = 19;
             this.Home.TabStop = false;
-            this.Home.Click += new System.EventHandler(this.Home_Click);
             // 
             // SchemaKiezen
             // 

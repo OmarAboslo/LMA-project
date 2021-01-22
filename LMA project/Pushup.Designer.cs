@@ -71,6 +71,7 @@
             // 
             // btnNotes
             // 
+            this.btnNotes.Font = new System.Drawing.Font("Gill Sans MT", 10F);
             this.btnNotes.Location = new System.Drawing.Point(128, 500);
             this.btnNotes.Name = "btnNotes";
             this.btnNotes.Size = new System.Drawing.Size(151, 66);
@@ -90,6 +91,7 @@
             // 
             // btnNotes2
             // 
+            this.btnNotes2.Font = new System.Drawing.Font("Gill Sans MT", 10F);
             this.btnNotes2.Location = new System.Drawing.Point(128, 500);
             this.btnNotes2.Name = "btnNotes2";
             this.btnNotes2.Size = new System.Drawing.Size(151, 66);
@@ -100,6 +102,7 @@
             // 
             // btnTerug
             // 
+            this.btnTerug.Font = new System.Drawing.Font("Gill Sans MT", 10F);
             this.btnTerug.Location = new System.Drawing.Point(657, 843);
             this.btnTerug.Name = "btnTerug";
             this.btnTerug.Size = new System.Drawing.Size(197, 86);
@@ -117,7 +120,6 @@
             this.Home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Home.TabIndex = 19;
             this.Home.TabStop = false;
-            this.Home.Click += new System.EventHandler(this.Home_Click);
             // 
             // pictureBox1
             // 
@@ -133,7 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1400, 816);
+            this.ClientSize = new System.Drawing.Size(1400, 979);
             this.Controls.Add(this.Home);
             this.Controls.Add(this.btnTerug);
             this.Controls.Add(this.btnNotes2);

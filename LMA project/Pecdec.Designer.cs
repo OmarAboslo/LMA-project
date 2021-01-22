@@ -37,31 +37,37 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.inputTextBox = new System.Windows.Forms.TextBox();
             this.Home = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Home)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnTerug
             // 
+            this.btnTerug.Font = new System.Drawing.Font("Gill Sans MT", 10F);
             this.btnTerug.Location = new System.Drawing.Point(666, 751);
             this.btnTerug.Name = "btnTerug";
             this.btnTerug.Size = new System.Drawing.Size(197, 86);
             this.btnTerug.TabIndex = 25;
             this.btnTerug.Text = "Terug";
             this.btnTerug.UseVisualStyleBackColor = true;
+            this.btnTerug.Click += new System.EventHandler(this.btnTerug_Click);
             // 
             // btnNotes2
             // 
-            this.btnNotes2.Location = new System.Drawing.Point(137, 408);
+            this.btnNotes2.Font = new System.Drawing.Font("Gill Sans MT", 10F);
+            this.btnNotes2.Location = new System.Drawing.Point(137, 498);
             this.btnNotes2.Name = "btnNotes2";
             this.btnNotes2.Size = new System.Drawing.Size(151, 66);
             this.btnNotes2.TabIndex = 24;
             this.btnNotes2.Text = "Notes";
             this.btnNotes2.UseVisualStyleBackColor = true;
+            this.btnNotes2.Click += new System.EventHandler(this.btnNotes2_Click);
             // 
             // tbNotes
             // 
             this.tbNotes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbNotes.Location = new System.Drawing.Point(374, 103);
+            this.tbNotes.Location = new System.Drawing.Point(386, 81);
             this.tbNotes.Multiline = true;
             this.tbNotes.Name = "tbNotes";
             this.tbNotes.Size = new System.Drawing.Size(764, 426);
@@ -69,12 +75,14 @@
             // 
             // btnNotes
             // 
-            this.btnNotes.Location = new System.Drawing.Point(137, 408);
+            this.btnNotes.Font = new System.Drawing.Font("Gill Sans MT", 10F);
+            this.btnNotes.Location = new System.Drawing.Point(137, 404);
             this.btnNotes.Name = "btnNotes";
             this.btnNotes.Size = new System.Drawing.Size(151, 66);
             this.btnNotes.TabIndex = 22;
             this.btnNotes.Text = "Notes";
             this.btnNotes.UseVisualStyleBackColor = true;
+            this.btnNotes.Click += new System.EventHandler(this.btnNotes_Click);
             // 
             // textBox2
             // 
@@ -113,6 +121,16 @@
             this.Home.TabIndex = 26;
             this.Home.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(409, 81);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(722, 433);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 27;
+            this.pictureBox1.TabStop = false;
+            // 
             // Pecdec
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
@@ -126,9 +144,11 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.inputTextBox);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Pecdec";
             this.Text = "Pec dec";
             ((System.ComponentModel.ISupportInitialize)(this.Home)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,5 +164,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox inputTextBox;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

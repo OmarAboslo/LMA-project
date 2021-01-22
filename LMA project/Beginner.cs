@@ -15,6 +15,7 @@ namespace LMA_project
         public Beginner()
         {
             InitializeComponent();
+            this.Size = new Size(800, 600);
         }
 
         private void btnPushup_Click(object sender, EventArgs e)
@@ -62,6 +63,18 @@ namespace LMA_project
             LegPress formLegPress = new LegPress();
             formLegPress.Show();
             this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Cardio formCardio = new Cardio();
+            formCardio.Show();
+            this.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
