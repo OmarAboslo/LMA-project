@@ -44,6 +44,7 @@ namespace LMA_project
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblhelp = new System.Windows.Forms.Label();
             this.pichelp = new System.Windows.Forms.PictureBox();
+            this.Checkboxwachtwoord = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -53,20 +54,20 @@ namespace LMA_project
             // LGebruikersnaam
             // 
             this.LGebruikersnaam.AutoSize = true;
-            this.LGebruikersnaam.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold);
-            this.LGebruikersnaam.Location = new System.Drawing.Point(249, 300);
+            this.LGebruikersnaam.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LGebruikersnaam.Location = new System.Drawing.Point(250, 335);
             this.LGebruikersnaam.Name = "LGebruikersnaam";
-            this.LGebruikersnaam.Size = new System.Drawing.Size(193, 54);
+            this.LGebruikersnaam.Size = new System.Drawing.Size(145, 19);
             this.LGebruikersnaam.TabIndex = 0;
             this.LGebruikersnaam.Text = "Gebruikersnaam:";
             // 
             // LWachtwoord
             // 
             this.LWachtwoord.AutoSize = true;
-            this.LWachtwoord.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold);
-            this.LWachtwoord.Location = new System.Drawing.Point(276, 354);
+            this.LWachtwoord.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LWachtwoord.Location = new System.Drawing.Point(272, 384);
             this.LWachtwoord.Name = "LWachtwoord";
-            this.LWachtwoord.Size = new System.Drawing.Size(151, 54);
+            this.LWachtwoord.Size = new System.Drawing.Size(110, 19);
             this.LWachtwoord.TabIndex = 1;
             this.LWachtwoord.Text = "Wachtwoord:";
             // 
@@ -82,7 +83,7 @@ namespace LMA_project
             // 
             // TGebruikersnaam
             // 
-            this.TGebruikersnaam.Location = new System.Drawing.Point(480, 311);
+            this.TGebruikersnaam.Location = new System.Drawing.Point(416, 321);
             this.TGebruikersnaam.Multiline = true;
             this.TGebruikersnaam.Name = "TGebruikersnaam";
             this.TGebruikersnaam.Size = new System.Drawing.Size(159, 33);
@@ -90,17 +91,18 @@ namespace LMA_project
             // 
             // TWachtwoord
             // 
-            this.TWachtwoord.Location = new System.Drawing.Point(480, 365);
+            this.TWachtwoord.Location = new System.Drawing.Point(416, 373);
             this.TWachtwoord.Multiline = true;
             this.TWachtwoord.Name = "TWachtwoord";
+            this.TWachtwoord.PasswordChar = '*';
             this.TWachtwoord.Size = new System.Drawing.Size(159, 33);
             this.TWachtwoord.TabIndex = 4;
             // 
             // BOk
             // 
             this.BOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
-            this.BOk.Font = new System.Drawing.Font("Gabriola", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BOk.Location = new System.Drawing.Point(502, 417);
+            this.BOk.Font = new System.Drawing.Font("Century Schoolbook", 11.25F);
+            this.BOk.Location = new System.Drawing.Point(436, 430);
             this.BOk.Name = "BOk";
             this.BOk.Size = new System.Drawing.Size(124, 43);
             this.BOk.TabIndex = 10;
@@ -111,8 +113,8 @@ namespace LMA_project
             // BAccoun_maken
             // 
             this.BAccoun_maken.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(215)))), ((int)(((byte)(199)))));
-            this.BAccoun_maken.Font = new System.Drawing.Font("Gabriola", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BAccoun_maken.Location = new System.Drawing.Point(654, 659);
+            this.BAccoun_maken.Font = new System.Drawing.Font("Century Schoolbook", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BAccoun_maken.Location = new System.Drawing.Point(635, 650);
             this.BAccoun_maken.Name = "BAccoun_maken";
             this.BAccoun_maken.Size = new System.Drawing.Size(133, 45);
             this.BAccoun_maken.TabIndex = 11;
@@ -123,10 +125,10 @@ namespace LMA_project
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Gabriola", 18F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(644, 611);
+            this.label1.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(631, 609);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(143, 45);
+            this.label1.Size = new System.Drawing.Size(124, 19);
             this.label1.TabIndex = 12;
             this.label1.Text = "Geen Account?";
             // 
@@ -191,11 +193,24 @@ namespace LMA_project
             this.pichelp.MouseLeave += new System.EventHandler(this.pichelp_MouseLeave);
             this.pichelp.MouseHover += new System.EventHandler(this.pichelp_MouseHover);
             // 
+            // Checkboxwachtwoord
+            // 
+            this.Checkboxwachtwoord.AutoSize = true;
+            this.Checkboxwachtwoord.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Checkboxwachtwoord.Location = new System.Drawing.Point(581, 381);
+            this.Checkboxwachtwoord.Name = "Checkboxwachtwoord";
+            this.Checkboxwachtwoord.Size = new System.Drawing.Size(196, 22);
+            this.Checkboxwachtwoord.TabIndex = 86;
+            this.Checkboxwachtwoord.Text = "Wachtwoord weergeven";
+            this.Checkboxwachtwoord.UseVisualStyleBackColor = true;
+            this.Checkboxwachtwoord.CheckedChanged += new System.EventHandler(this.Checkboxwachtwoord_CheckedChanged);
+            // 
             // Inloggen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(799, 716);
+            this.Controls.Add(this.Checkboxwachtwoord);
             this.Controls.Add(this.lblhelp);
             this.Controls.Add(this.pichelp);
             this.Controls.Add(this.pictureBox2);
@@ -235,5 +250,6 @@ namespace LMA_project
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblhelp;
         private System.Windows.Forms.PictureBox pichelp;
+        private System.Windows.Forms.CheckBox Checkboxwachtwoord;
     }
 }

@@ -221,7 +221,7 @@
             this.btZevende.Name = "btZevende";
             this.btZevende.Size = new System.Drawing.Size(182, 40);
             this.btZevende.TabIndex = 6;
-            this.btZevende.Text = "Zevende";
+            this.btZevende.Text = "Zondag";
             this.btZevende.UseVisualStyleBackColor = false;
             this.btZevende.Click += new System.EventHandler(this.btZevende_Click);
             // 
@@ -235,7 +235,7 @@
             this.btZesde.Name = "btZesde";
             this.btZesde.Size = new System.Drawing.Size(182, 40);
             this.btZesde.TabIndex = 5;
-            this.btZesde.Text = "Zesde";
+            this.btZesde.Text = "Zaterdag";
             this.btZesde.UseVisualStyleBackColor = false;
             this.btZesde.Click += new System.EventHandler(this.btZesde_Click);
             // 
@@ -249,7 +249,7 @@
             this.btVijfde.Name = "btVijfde";
             this.btVijfde.Size = new System.Drawing.Size(182, 40);
             this.btVijfde.TabIndex = 4;
-            this.btVijfde.Text = "Vijfde";
+            this.btVijfde.Text = "Vrijdag";
             this.btVijfde.UseVisualStyleBackColor = false;
             this.btVijfde.Click += new System.EventHandler(this.btVijfde_Click);
             // 
@@ -263,7 +263,7 @@
             this.btVierde.Name = "btVierde";
             this.btVierde.Size = new System.Drawing.Size(182, 40);
             this.btVierde.TabIndex = 3;
-            this.btVierde.Text = "Vierde";
+            this.btVierde.Text = "Donderdag";
             this.btVierde.UseVisualStyleBackColor = false;
             this.btVierde.Click += new System.EventHandler(this.btVierde_Click);
             // 
@@ -277,7 +277,7 @@
             this.btDerde.Name = "btDerde";
             this.btDerde.Size = new System.Drawing.Size(182, 40);
             this.btDerde.TabIndex = 2;
-            this.btDerde.Text = "Derde";
+            this.btDerde.Text = "woensdag";
             this.btDerde.UseVisualStyleBackColor = false;
             this.btDerde.Click += new System.EventHandler(this.btDerde_Click);
             // 
@@ -291,7 +291,7 @@
             this.btTweede.Name = "btTweede";
             this.btTweede.Size = new System.Drawing.Size(182, 40);
             this.btTweede.TabIndex = 1;
-            this.btTweede.Text = "Tweede";
+            this.btTweede.Text = "Dinsdag";
             this.btTweede.UseVisualStyleBackColor = false;
             this.btTweede.Click += new System.EventHandler(this.btTweede_Click);
             // 
@@ -305,7 +305,7 @@
             this.btEerste.Name = "btEerste";
             this.btEerste.Size = new System.Drawing.Size(182, 40);
             this.btEerste.TabIndex = 0;
-            this.btEerste.Text = "Eerste";
+            this.btEerste.Text = "Maandag";
             this.btEerste.UseVisualStyleBackColor = false;
             this.btEerste.Click += new System.EventHandler(this.btEerste_Click_1);
             // 
