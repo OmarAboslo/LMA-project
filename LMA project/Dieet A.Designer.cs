@@ -137,6 +137,8 @@
             this.label42 = new System.Windows.Forms.Label();
             this.listB5Zevende = new System.Windows.Forms.ListBox();
             this.label43 = new System.Windows.Forms.Label();
+            this.lblhelp = new System.Windows.Forms.Label();
+            this.pichelp = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -149,6 +151,7 @@
             this.plVijfde.SuspendLayout();
             this.plZesde.SuspendLayout();
             this.plZevende.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pichelp)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -1262,12 +1265,34 @@
             this.label43.TabIndex = 74;
             this.label43.Text = "Product";
             // 
+            // lblhelp
+            // 
+            this.lblhelp.AutoSize = true;
+            this.lblhelp.Location = new System.Drawing.Point(221, 126);
+            this.lblhelp.Name = "lblhelp";
+            this.lblhelp.Size = new System.Drawing.Size(0, 13);
+            this.lblhelp.TabIndex = 88;
+            // 
+            // pichelp
+            // 
+            this.pichelp.Image = global::LMA_project.Properties.Resources.blauw_vraagteken_107489943;
+            this.pichelp.Location = new System.Drawing.Point(192, 117);
+            this.pichelp.Name = "pichelp";
+            this.pichelp.Size = new System.Drawing.Size(23, 22);
+            this.pichelp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pichelp.TabIndex = 87;
+            this.pichelp.TabStop = false;
+            this.pichelp.MouseLeave += new System.EventHandler(this.pichelp_MouseLeave);
+            this.pichelp.MouseHover += new System.EventHandler(this.pichelp_MouseHover);
+            // 
             // Dieet_A
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(799, 716);
+            this.Controls.Add(this.lblhelp);
+            this.Controls.Add(this.pichelp);
             this.Controls.Add(this.plZevende);
             this.Controls.Add(this.plZesde);
             this.Controls.Add(this.plVierde);
@@ -1304,6 +1329,7 @@
             this.plZesde.PerformLayout();
             this.plZevende.ResumeLayout(false);
             this.plZevende.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pichelp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1419,5 +1445,7 @@
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.ListBox listB5Zevende;
         private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label lblhelp;
+        private System.Windows.Forms.PictureBox pichelp;
     }
 }

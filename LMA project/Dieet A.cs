@@ -373,5 +373,16 @@ namespace LMA_project
                 Items();
             }
         }
+
+        private void pichelp_MouseHover(object sender, EventArgs e)
+        {
+            lblhelp.Visible = true;
+            lblhelp.Text = ("U kunt hier per dag een willekeurige programma krijgen die past bij u wensen"); 
+        }
+
+        private void pichelp_MouseLeave(object sender, EventArgs e)
+        {
+            lblhelp.Visible = false;
+        }
     }
 }

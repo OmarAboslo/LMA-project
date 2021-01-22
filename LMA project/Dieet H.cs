@@ -314,5 +314,7 @@ namespace LMA_project
         {
             textBox1.Text = "";
         }
+
+ 
     }
 }

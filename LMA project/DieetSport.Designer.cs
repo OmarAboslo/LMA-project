@@ -65,8 +65,7 @@
             this.buttonDieet.Text = "Dieet samenstellen";
             this.buttonDieet.UseVisualStyleBackColor = true;
             this.buttonDieet.Click += new System.EventHandler(this.buttonDieet_Click);
-            this.buttonDieet.MouseLeave += new System.EventHandler(this.buttonDieet_MouseLeave);
-         
+
             // 
             // buttonTraining
             // 
@@ -78,7 +77,6 @@
             this.buttonTraining.TabIndex = 9;
             this.buttonTraining.Text = "Training samenstellen";
             this.buttonTraining.UseVisualStyleBackColor = true;
-          
             // 
             // panel1
             // 
@@ -94,13 +92,19 @@
             // tbResult
             // 
             this.tbResult.AutoSize = true;
+
+            this.tbResult.Font = new System.Drawing.Font("Gill Sans MT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbResult.ForeColor = System.Drawing.Color.Crimson;
+            this.tbResult.Location = new System.Drawing.Point(3, 134);
+            this.tbResult.Name = "tbResult";
+            this.tbResult.Size = new System.Drawing.Size(393, 18);
             this.tbResult.Font = new System.Drawing.Font("Gill Sans MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbResult.ForeColor = System.Drawing.Color.Crimson;
             this.tbResult.Location = new System.Drawing.Point(17, 134);
             this.tbResult.Name = "tbResult";
             this.tbResult.Size = new System.Drawing.Size(363, 16);
             this.tbResult.TabIndex = 13;
-            this.tbResult.Text = "Het aantal Kacl die jij per dag moet verkrijgen,om een Kilo per week ";
+            this.tbResult.Text = "Het aantal Kcal die jij per dag moet verkrijgen,om een Kilo per week ";
             // 
             // label1
             // 

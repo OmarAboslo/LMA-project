@@ -813,7 +813,6 @@ namespace LMA_project
             this.pichelp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pichelp.TabIndex = 84;
             this.pichelp.TabStop = false;
-            this.pichelp.MouseLeave += new System.EventHandler(this.pichelp_MouseLeave);
             this.pichelp.MouseHover += new System.EventHandler(this.pichelp_MouseHover);
             // 
             // Dieet_H
