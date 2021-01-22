@@ -59,6 +59,12 @@ namespace LMA_project
 
         }
 
+      
+
+        private void buttonDieet_MouseLeave(object sender, EventArgs e)
+        {
+            Helplabel.Visible = false;
+        }
 
         private void pichelp_MouseHover(object sender, EventArgs e)
         {

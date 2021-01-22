@@ -75,5 +75,18 @@ namespace LMA_project
         {
             lblhelp.Visible = false;
         }
+
+        private void Checkboxwachtwoord_CheckedChanged(object sender, EventArgs e)
+        {
+            if (Checkboxwachtwoord.Checked)
+            {
+                TWachtwoord.UseSystemPasswordChar = true;
+
+            }
+            else
+            {
+                TWachtwoord.UseSystemPasswordChar = false;
+            }
+        }
     }
 }

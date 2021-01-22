@@ -182,11 +182,6 @@ namespace LMA_project
                 listBox6Zevende.Items.Clear();
             }
         }
-
-
-
-
-
         bool eerste = true;
         bool tweede = true;
         bool derde = true;
@@ -215,6 +210,23 @@ namespace LMA_project
             HomePagina.Show();
 
         }
+        private void btEerste_Click_1(object sender, EventArgs e)
+        {
+            plEerste.Visible = true;
+            plTweede.Visible = false;
+            plDerde.Visible = false;
+            plVierde.Visible = false;
+            plVijfde.Visible = false;
+            plZesde.Visible = false;
+            plZevende.Visible = false;
+            if (eerste == true)
+            {
+                Items();
+            }
+            eerste = false;
+
+
+        }
         private void btTweede_Click(object sender, EventArgs e)
         {
             plEerste.Visible = false;
@@ -233,7 +245,6 @@ namespace LMA_project
 
        
         }
-
         private void btDerde_Click(object sender, EventArgs e)
         {
             plEerste.Visible = false;
@@ -252,7 +263,6 @@ namespace LMA_project
             derde = false;
    
         }
-
         private void btVierde_Click(object sender, EventArgs e)
         {
             plEerste.Visible = false;
@@ -289,7 +299,6 @@ namespace LMA_project
          
            
         }
-
         private void btZesde_Click(object sender, EventArgs e)
         {
             plEerste.Visible = false;
@@ -308,7 +317,6 @@ namespace LMA_project
           
 
         }
-
         private void btZevende_Click(object sender, EventArgs e)
         {
             plEerste.Visible = false;
@@ -326,25 +334,6 @@ namespace LMA_project
             zevende = false;
                
         }
-
-        private void btEerste_Click_1(object sender, EventArgs e)
-        {
-            plEerste.Visible = true;
-            plTweede.Visible = false;
-            plDerde.Visible = false;
-            plVierde.Visible = false;
-            plVijfde.Visible = false;
-            plZesde.Visible = false;
-            plZevende.Visible = false;
-            if (eerste == true)
-            {
-                Items();
-            }
-            eerste = false;
-
-
-        }
-
         private void btverwerken_Click(object sender, EventArgs e)
         {
 

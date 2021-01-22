@@ -65,6 +65,8 @@
             this.buttonDieet.Text = "Dieet samenstellen";
             this.buttonDieet.UseVisualStyleBackColor = true;
             this.buttonDieet.Click += new System.EventHandler(this.buttonDieet_Click);
+            this.buttonDieet.MouseLeave += new System.EventHandler(this.buttonDieet_MouseLeave);
+         
             // 
             // buttonTraining
             // 
@@ -76,6 +78,7 @@
             this.buttonTraining.TabIndex = 9;
             this.buttonTraining.Text = "Training samenstellen";
             this.buttonTraining.UseVisualStyleBackColor = true;
+          
             // 
             // panel1
             // 
@@ -91,13 +94,13 @@
             // tbResult
             // 
             this.tbResult.AutoSize = true;
-            this.tbResult.Font = new System.Drawing.Font("Gill Sans MT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbResult.Font = new System.Drawing.Font("Gill Sans MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbResult.ForeColor = System.Drawing.Color.Crimson;
-            this.tbResult.Location = new System.Drawing.Point(3, 134);
+            this.tbResult.Location = new System.Drawing.Point(17, 134);
             this.tbResult.Name = "tbResult";
-            this.tbResult.Size = new System.Drawing.Size(393, 18);
+            this.tbResult.Size = new System.Drawing.Size(363, 16);
             this.tbResult.TabIndex = 13;
-            this.tbResult.Text = "Het aantal Kcal die jij per dag moet verkrijgen,om een Kilo per week ";
+            this.tbResult.Text = "Het aantal Kacl die jij per dag moet verkrijgen,om een Kilo per week ";
             // 
             // label1
             // 
@@ -147,7 +150,7 @@
             this.Helplabel.Location = new System.Drawing.Point(393, 257);
             this.Helplabel.Name = "Helplabel";
             this.Helplabel.Size = new System.Drawing.Size(0, 13);
-            this.Helplabel.TabIndex = 68;
+            this.Helplabel.TabIndex = 68;       
             // 
             // panel3
             // 
@@ -161,7 +164,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(665, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(684, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(133, 113);
