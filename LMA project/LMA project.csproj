@@ -71,17 +71,26 @@
       <DependentUpon>CurlIntermediate.cs</DependentUpon>
     </Compile>
     <Compile Include="Database.cs" />
-    <Compile Include="Beginner.cs">
+    <Compile Include="Dieet A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dieet A.Designer.cs">
+      <DependentUpon>Dieet A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DieetSport.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Beginner.Designer.cs">
       <DependentUpon>Beginner.cs</DependentUpon>
     </Compile>
     <Compile Include="Biceps.cs">
+    <Compile Include="Accountmaken.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Biceps.Designer.cs">
       <DependentUpon>Biceps.cs</DependentUpon>
+    <Compile Include="Accountmaken.Designer.cs">
+      <DependentUpon>Accountmaken.cs</DependentUpon>
     </Compile>
     <Compile Include="InclinePress.cs">
       <SubType>Form</SubType>
@@ -142,8 +151,18 @@
     </Compile>
     <Compile Include="SchemaKiezen.Designer.cs">
       <DependentUpon>SchemaKiezen.cs</DependentUpon>
+    <Compile Include="Inloggen.Designer.cs">
+      <DependentUpon>Inloggen.cs</DependentUpon>
     </Compile>
-    <Compile Include="NiveauKiezen.cs">
+    <Compile Include="Dieet H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dieet H.Designer.cs">
+      <DependentUpon>Dieet H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Gezond lifestyle.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NiveauKiezen.Designer.cs">
@@ -201,10 +220,22 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pushup.resx">
       <DependentUpon>Pushup.cs</DependentUpon>
+    <EmbeddedResource Include="Dieet A.resx">
+      <DependentUpon>Dieet A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dieet H.resx">
+      <DependentUpon>Dieet H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DieetSport.resx">
+      <DependentUpon>DieetSport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SchemaKiezen.resx">
       <DependentUpon>SchemaKiezen.cs</DependentUpon>
+    <EmbeddedResource Include="Accountmaken.resx">
+      <DependentUpon>Accountmaken.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Inloggen.resx">
+      <DependentUpon>Inloggen.cs</DependentUpon>
     <EmbeddedResource Include="NiveauKiezen.resx">
       <DependentUpon>NiveauKiezen.cs</DependentUpon>
     </EmbeddedResource>
@@ -215,6 +246,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Squats.resx">
       <DependentUpon>Squats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gezond lifestyle.resx">
+      <DependentUpon>Gezond lifestyle.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -236,6 +270,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\soso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping-Cart-Food-Icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blauw-vraagteken-107489943.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\sport-1685978_1920.jpg" />

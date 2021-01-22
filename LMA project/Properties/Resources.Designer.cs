@@ -63,6 +63,26 @@ namespace LMA_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2__8_ {
+            get {
+                object obj = ResourceManager.GetObject("2 (8)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blauw_vraagteken_107489943 {
+            get {
+                object obj = ResourceManager.GetObject("blauw-vraagteken-107489943", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap e64bb39b1638bdfe7baea24844e1a574 {
             get {
                 object obj = ResourceManager.GetObject("e64bb39b1638bdfe7baea24844e1a574", resourceCulture);
@@ -87,6 +107,16 @@ namespace LMA_project.Properties {
         internal static System.Drawing.Bitmap istockphoto_934791642_1024x1024 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-934791642-1024x1024", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Shopping_Cart_Food_Icon {
+            get {
+                object obj = ResourceManager.GetObject("Shopping-Cart-Food-Icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

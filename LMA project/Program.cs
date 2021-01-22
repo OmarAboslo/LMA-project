@@ -16,7 +16,8 @@ namespace LMA_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SchemaKiezen());
+            Application.Run(new Inloggen());
+
         }
     }
 }
