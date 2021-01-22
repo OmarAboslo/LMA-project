@@ -59,26 +59,6 @@ namespace LMA_project
 
         }
 
-        private void Helplabel_HelpRequested(object sender, HelpEventArgs hlpevent)
-        {
-
-        }
-
-        private void buttonDieet_MouseHover(object sender, EventArgs e)
-        {
-            Helplabel.Text = "efefed";
-            Helplabel.Visible = true;
-        }
-
-        private void buttonTraining_MouseUp(object sender, MouseEventArgs e)
-        {
-            Helplabel.Text = "hahahahahahah";
-        }
-
-        private void buttonDieet_MouseLeave(object sender, EventArgs e)
-        {
-            Helplabel.Visible = false;
-        }
 
         private void pichelp_MouseHover(object sender, EventArgs e)
         {

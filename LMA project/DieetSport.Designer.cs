@@ -65,8 +65,6 @@
             this.buttonDieet.Text = "Dieet samenstellen";
             this.buttonDieet.UseVisualStyleBackColor = true;
             this.buttonDieet.Click += new System.EventHandler(this.buttonDieet_Click);
-            this.buttonDieet.MouseLeave += new System.EventHandler(this.buttonDieet_MouseLeave);
-            this.buttonDieet.MouseHover += new System.EventHandler(this.buttonDieet_MouseHover);
             // 
             // buttonTraining
             // 
@@ -78,7 +76,6 @@
             this.buttonTraining.TabIndex = 9;
             this.buttonTraining.Text = "Training samenstellen";
             this.buttonTraining.UseVisualStyleBackColor = true;
-            this.buttonTraining.MouseUp += new System.Windows.Forms.MouseEventHandler(this.buttonTraining_MouseUp);
             // 
             // panel1
             // 
@@ -94,13 +91,13 @@
             // tbResult
             // 
             this.tbResult.AutoSize = true;
-            this.tbResult.Font = new System.Drawing.Font("Gill Sans MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbResult.Font = new System.Drawing.Font("Gill Sans MT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbResult.ForeColor = System.Drawing.Color.Crimson;
-            this.tbResult.Location = new System.Drawing.Point(11, 138);
+            this.tbResult.Location = new System.Drawing.Point(3, 134);
             this.tbResult.Name = "tbResult";
-            this.tbResult.Size = new System.Drawing.Size(440, 18);
+            this.tbResult.Size = new System.Drawing.Size(393, 18);
             this.tbResult.TabIndex = 13;
-            this.tbResult.Text = "Het aantal Kacl die jij per dag moet verkrijgen,om een Kilo per week ";
+            this.tbResult.Text = "Het aantal Kcal die jij per dag moet verkrijgen,om een Kilo per week ";
             // 
             // label1
             // 
@@ -151,7 +148,6 @@
             this.Helplabel.Name = "Helplabel";
             this.Helplabel.Size = new System.Drawing.Size(0, 13);
             this.Helplabel.TabIndex = 68;
-            this.Helplabel.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.Helplabel_HelpRequested);
             // 
             // panel3
             // 
@@ -222,8 +218,8 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DieetSport";
             this.Text = "DieetSport";
